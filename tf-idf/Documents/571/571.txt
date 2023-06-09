@@ -1,0 +1,7 @@
+you are given a 2d integer array grid of size m x n, where each cell contains a positive integer.
+a cornered path is defined as a set of adjacent cells with at most one turn. more specifically, the path should exclusively move either horizontally or vertically up to the turn (if there is one), without returning to a previously visited cell. after the turn, the path will then move exclusively in the alternate direction: move vertically if it moved horizontally, and vice versa, also without returning to a previously visited cell.
+the product of a path is defined as the product of all the values in the path.
+return the maximum number of trailing zeros in the product of a cornered path found in grid.
+note:
+horizontal movement means moving in either the left or right direction.
+vertical movement means moving in either the up or down direction.

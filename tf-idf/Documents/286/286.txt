@@ -1,0 +1,4 @@
+given the root of a binary tree, return the maximum width of the given tree.
+the maximum width of a tree is the maximum width among all levels.
+the width of one level is defined as the length between the end-nodes (the leftmost and rightmost non-null nodes), where the null nodes between the end-nodes that would be present in a complete binary tree extending down to that level are also counted into the length calculation.
+it is guaranteed that the answer will in the range of a 32-bit signed integer.

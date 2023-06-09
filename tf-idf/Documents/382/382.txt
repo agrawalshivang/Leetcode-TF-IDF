@@ -1,0 +1,5 @@
+you are given a binary string s, and a 2d integer array queries where queries[i] = [firsti, secondi].
+for the ith query, find the shortest substring of s whose decimal value, val, yields secondi when bitwise xored with firsti. in other words, val ^ firsti == secondi.
+the answer to the ith query is the endpoints (0-indexed) of the substring [lefti, righti] or [-1, -1] if no such substring exists. if there are multiple answers, choose the one with the minimum lefti.
+return an array ans where ans[i] = [lefti, righti] is the answer to the ith query.
+a substring is a contiguous non-empty sequence of characters within a string.

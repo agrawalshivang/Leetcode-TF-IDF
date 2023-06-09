@@ -1,0 +1,3 @@
+an alphabetical continuous string is a string consisting of consecutive letters in the alphabet. in other words, it is any substring of the string "abcdefghijklmnopqrstuvwxyz".
+for example, "abc" is an alphabetical continuous string, while "acb" and "za" are not.
+given a string s consisting of lowercase letters only, return the length of the longest alphabetical continuous substring.

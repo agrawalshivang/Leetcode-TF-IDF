@@ -1,0 +1,7 @@
+in the world of dota2, there are two parties: the radiant and the dire.
+the dota2 senate consists of senators coming from two parties. now the senate wants to decide on a change in the dota2 game. the voting for this change is a round-based procedure. in each round, each senator can exercise one of the two rights:
+ban one senator's right: a senator can make another senator lose all his rights in this and all the following rounds.
+announce the victory: if this senator found the senators who still have rights to vote are all from the same party, he can announce the victory and decide on the change in the game.
+given a string senate representing each senator's party belonging. the character 'r' and 'd' represent the radiant party and the dire party. then if there are n senators, the size of the given string will be n.
+the round-based procedure starts from the first senator to the last senator in the given order. this procedure will last until the end of voting. all the senators who have lost their rights will be skipped during the procedure.
+suppose every senator is smart enough and will play the best strategy for his own party. predict which party will finally announce the victory and change the dota2 game. the output should be "radiant" or "dire".

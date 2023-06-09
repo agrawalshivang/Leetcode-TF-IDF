@@ -1,0 +1,4 @@
+given a string s which represents an expression, evaluate this expression and return its value.
+the integer division should truncate toward zero.
+you may assume that the given expression is always valid. all intermediate results will be in the range of [-231, 231 - 1].
+note: you are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().

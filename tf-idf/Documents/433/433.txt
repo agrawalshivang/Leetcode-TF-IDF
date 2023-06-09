@@ -1,0 +1,10 @@
+given two strings s and t, each of which represents a non-negative rational number, return true if and only if they represent the same number. the strings may use parentheses to denote the repeating part of the rational number.
+a rational number can be represented using up to three parts: <integerpart>, <nonrepeatingpart>, and a <repeatingpart>. the number will be represented in one of the following three ways:
+<integerpart>
+for example, 12, 0, and 123.
+<integerpart><.><nonrepeatingpart>
+for example, 0.5, 1., 2.12, and 123.0001.
+<integerpart><.><nonrepeatingpart><(><repeatingpart><)>
+for example, 0.1(6), 1.(9), 123.00(1212).
+the repeating portion of a decimal expansion is conventionally denoted within a pair of round brackets. for example:
+1/6 = 0.16666666... = 0.1(6) = 0.1666(6) = 0.166(66).

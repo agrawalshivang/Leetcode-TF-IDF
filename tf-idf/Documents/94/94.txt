@@ -1,0 +1,14 @@
+there are k workers who want to move n boxes from an old warehouse to a new one. you are given the two integers n and k, and a 2d integer array time of size k x 4 where time[i] = [lefttorighti, pickoldi, righttolefti, putnewi].
+the warehouses are separated by a river and connected by a bridge. the old warehouse is on the right bank of the river, and the new warehouse is on the left bank of the river. initially, all k workers are waiting on the left side of the bridge. to move the boxes, the ith worker (0-indexed) can :
+cross the bridge from the left bank (new warehouse) to the right bank (old warehouse) in lefttorighti minutes.
+pick a box from the old warehouse and return to the bridge in pickoldi minutes. different workers can pick up their boxes simultaneously.
+cross the bridge from the right bank (old warehouse) to the left bank (new warehouse) in righttolefti minutes.
+put the box in the new warehouse and return to the bridge in putnewi minutes. different workers can put their boxes simultaneously.
+a worker i is less efficient than a worker j if either condition is met:
+lefttorighti + righttolefti > lefttorightj + righttoleftj
+lefttorighti + righttolefti == lefttorightj + righttoleftj and i > j
+the following rules regulate the movement of the workers through the bridge :
+if a worker x reaches the bridge while another worker y is crossing the bridge, x waits at their side of the bridge.
+if the bridge is free, the worker waiting on the right side of the bridge gets to cross the bridge. if more than one worker is waiting on the right side, the one with the lowest efficiency crosses first.
+if the bridge is free and no worker is waiting on the right side, and at least one box remains at the old warehouse, the worker on the left side of the river gets to cross the bridge. if more than one worker is waiting on the left side, the one with the lowest efficiency crosses first.
+return the instance of time at which the last worker reaches the left bank of the river after all n boxes have been put in the new warehouse.

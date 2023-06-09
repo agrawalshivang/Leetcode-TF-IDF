@@ -1,0 +1,6 @@
+design a data structure that follows the constraints of a least recently used (lru) cache.
+implement the lrucache class:
+lrucache(int capacity) initialize the lru cache with positive size capacity.
+int get(int key) return the value of the key if the key exists, otherwise return -1.
+void put(int key, int value) update the value of the key if the key exists. otherwise, add the key-value pair to the cache. if the number of keys exceeds the capacity from this operation, evict the least recently used key.
+the functions get and put must each run in o(1) average time complexity.

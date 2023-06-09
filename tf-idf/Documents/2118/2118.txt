@@ -1,0 +1,4 @@
+you are given an m x n integer matrix grid.
+we define an hourglass as a part of the matrix with the following form:
+return the maximum sum of the elements of an hourglass.
+note that an hourglass cannot be rotated and must be entirely contained within the matrix.

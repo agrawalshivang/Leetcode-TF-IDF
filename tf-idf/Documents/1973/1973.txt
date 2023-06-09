@@ -1,0 +1,2 @@
+there is an undirected star graph consisting of n nodes labeled from 1 to n. a star graph is a graph where there is one center node and exactly n - 1 edges that connect the center node with every other node.
+you are given a 2d integer array edges where each edges[i] = [ui, vi] indicates that there is an edge between the nodes ui and vi. return the center of the given star graph.

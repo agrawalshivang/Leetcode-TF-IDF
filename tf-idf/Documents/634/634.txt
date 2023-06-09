@@ -1,0 +1,6 @@
+you are given an integer n, which indicates that there are n courses labeled from 1 to n. you are also given a 2d integer array relations where relations[j] = [prevcoursej, nextcoursej] denotes that course prevcoursej has to be completed before course nextcoursej (prerequisite relationship). furthermore, you are given a 0-indexed integer array time where time[i] denotes how many months it takes to complete the (i+1)th course.
+you must find the minimum number of months needed to complete all the courses following these rules:
+you may start taking a course at any time if the prerequisites are met.
+any number of courses can be taken at the same time.
+return the minimum number of months needed to complete all the courses.
+note: the test cases are generated such that it is possible to complete every course (i.e., the graph is a directed acyclic graph).

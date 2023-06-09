@@ -1,0 +1,5 @@
+you are given an array of n integers, nums, where there are at most 50 unique values in the array. you are also given an array of m customer order quantities, quantity, where quantity[i] is the amount of integers the ith customer ordered. determine if it is possible to distribute nums such that:
+the ith customer gets exactly quantity[i] integers,
+the integers the ith customer gets are all equal, and
+every customer is satisfied.
+return true if it is possible to distribute nums according to the above conditions.

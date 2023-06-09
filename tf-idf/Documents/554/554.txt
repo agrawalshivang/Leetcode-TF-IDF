@@ -1,0 +1,3 @@
+you are given a 0-indexed 2d integer array transactions, where transactions[i] = [costi, cashbacki].
+the array describes transactions, where each transaction must be completed exactly once in some order. at any given moment, you have a certain amount of money. in order to complete transaction i, money >= costi must hold true. after performing a transaction, money becomes money - costi + cashbacki.
+return the minimum amount of money required before any transaction so that all of the transactions can be completed regardless of the order of the transactions.

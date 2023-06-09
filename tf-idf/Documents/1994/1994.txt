@@ -1,0 +1,3 @@
+you are given a positive integer arrivaltime denoting the arrival time of a train in hours, and another positive integer delayedtime denoting the amount of delay in hours.
+return the time when the train will arrive at the station.
+note that the time in this problem is in 24-hours format.

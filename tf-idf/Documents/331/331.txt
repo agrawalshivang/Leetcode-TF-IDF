@@ -1,0 +1,4 @@
+you are given two 0-indexed integer arrays nums1 and nums2, each of size n, and an integer diff. find the number of pairs (i, j) such that:
+0 <= i < j <= n - 1 and
+nums1[i] - nums1[j] <= nums2[i] - nums2[j] + diff.
+return the number of pairs that satisfy the conditions.

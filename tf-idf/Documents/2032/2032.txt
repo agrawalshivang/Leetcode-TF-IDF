@@ -1,0 +1,4 @@
+given an array of positive integers arr (not necessarily distinct), return the
+lexicographically
+largest permutation that is smaller than arr, that can be made with exactly one swap. if it cannot be done, then return the same array.
+note that a swap exchanges the positions of two numbers arr[i] and arr[j]

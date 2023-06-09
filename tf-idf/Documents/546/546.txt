@@ -1,0 +1,3 @@
+you are given a 2d integer array tiles where tiles[i] = [li, ri] represents that every tile j in the range li <= j <= ri is colored white.
+you are also given an integer carpetlen, the length of a single carpet that can be placed anywhere.
+return the maximum number of white tiles that can be covered by the carpet.

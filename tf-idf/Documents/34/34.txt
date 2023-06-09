@@ -1,0 +1,2 @@
+you are given an integer array nums where the largest integer is unique.
+determine whether the largest element in the array is at least twice as much as every other number in the array. if it is, return the index of the largest element, or return -1 otherwise.

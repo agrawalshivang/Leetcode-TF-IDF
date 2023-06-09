@@ -1,0 +1,3 @@
+you are given an array of strings words (0-indexed).
+in one operation, pick two distinct indices i and j, where words[i] is a non-empty string, and move any character from words[i] to any position in words[j].
+return true if you can make every string in words equal using any number of operations, and false otherwise.

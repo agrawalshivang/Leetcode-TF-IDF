@@ -1,0 +1,5 @@
+you are given an n x n integer matrix grid.
+generate an integer matrix maxlocal of size (n - 2) x (n - 2) such that:
+maxlocal[i][j] is equal to the largest value of the 3 x 3 matrix in grid centered around row i + 1 and column j + 1.
+in other words, we want to find the largest value in every contiguous 3 x 3 matrix in grid.
+return the generated matrix.

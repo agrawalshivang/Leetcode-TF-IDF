@@ -1,0 +1,12 @@
+a generic microwave supports cooking times for:
+at least 1 second.
+at most 99 minutes and 99 seconds.
+to set the cooking time, you push at most four digits. the microwave normalizes what you push as four digits by prepending zeroes. it interprets the first two digits as the minutes and the last two digits as the seconds. it then adds them up as the cooking time. for example,
+you push 9 5 4 (three digits). it is normalized as 0954 and interpreted as 9 minutes and 54 seconds.
+you push 0 0 0 8 (four digits). it is interpreted as 0 minutes and 8 seconds.
+you push 8 0 9 0. it is interpreted as 80 minutes and 90 seconds.
+you push 8 1 3 0. it is interpreted as 81 minutes and 30 seconds.
+you are given integers startat, movecost, pushcost, and targetseconds. initially, your finger is on the digit startat. moving the finger above any specific digit costs movecost units of fatigue. pushing the digit below the finger once costs pushcost units of fatigue.
+there can be multiple ways to set the microwave to cook for targetseconds seconds but you are interested in the way with the minimum cost.
+return the minimum cost to set targetseconds seconds of cooking time.
+remember that one minute consists of 60 seconds.

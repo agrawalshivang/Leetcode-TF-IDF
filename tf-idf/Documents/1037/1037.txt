@@ -1,0 +1,9 @@
+you are given a positive integer k. you are also given:
+a 2d integer array rowconditions of size n where rowconditions[i] = [abovei, belowi], and
+a 2d integer array colconditions of size m where colconditions[i] = [lefti, righti].
+the two arrays contain integers from 1 to k.
+you have to build a k x k matrix that contains each of the numbers from 1 to k exactly once. the remaining cells should have the value 0.
+the matrix should also satisfy the following conditions:
+the number abovei should appear in a row that is strictly above the row at which the number belowi appears for all i from 0 to n - 1.
+the number lefti should appear in a column that is strictly left of the column at which the number righti appears for all i from 0 to m - 1.
+return any matrix that satisfies the conditions. if no answer exists, return an empty matrix.

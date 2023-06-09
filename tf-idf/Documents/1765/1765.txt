@@ -1,0 +1,7 @@
+you are given a 0-indexed string s of even length n. the string consists of exactly n / 2 opening brackets '[' and n / 2 closing brackets ']'.
+a string is called balanced if and only if:
+it is the empty string, or
+it can be written as ab, where both a and b are balanced strings, or
+it can be written as [c], where c is a balanced string.
+you may swap the brackets at any two indices any number of times.
+return the minimum number of swaps to make s balanced.

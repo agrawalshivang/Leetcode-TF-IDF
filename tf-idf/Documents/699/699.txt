@@ -1,0 +1,4 @@
+there is an undirected graph consisting of n nodes numbered from 1 to n. you are given the integer n and a 2d array edges where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi. the graph can be disconnected.
+you can add at most two additional edges (possibly none) to this graph so that there are no repeated edges and no self-loops.
+return true if it is possible to make the degree of each node in the graph even, otherwise return false.
+the degree of a node is the number of edges connected to it.

@@ -1,0 +1,3 @@
+the frequency of an element is the number of times it occurs in an array.
+you are given an integer array nums and an integer k. in one operation, you can choose an index of nums and increment the element at that index by 1.
+return the maximum possible frequency of an element after performing at most k operations.

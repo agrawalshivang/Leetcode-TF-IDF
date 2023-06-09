@@ -1,0 +1,4 @@
+you are given two 0-indexed integer arrays nums and removequeries, both of length n. for the ith query, the element in nums at the index removequeries[i] is removed, splitting nums into different segments.
+a segment is a contiguous sequence of positive integers in nums. a segment sum is the sum of every element in a segment.
+return an integer array answer, of length n, where answer[i] is the maximum segment sum after applying the ith removal.
+note: the same index will not be removed more than once.

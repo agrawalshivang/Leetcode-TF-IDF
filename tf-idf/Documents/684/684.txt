@@ -1,0 +1,9 @@
+given a binary tree
+struct node {
+int val;
+node *left;
+node *right;
+node *next;
+}
+populate each next pointer to point to its next right node. if there is no next right node, the next pointer should be set to null.
+initially, all next pointers are set to null.

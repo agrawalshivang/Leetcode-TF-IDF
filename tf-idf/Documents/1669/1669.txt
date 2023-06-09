@@ -1,0 +1,15 @@
+sql schema
+table: department
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| revenue     | int     |
+| month       | varchar |
++-------------+---------+
+(id, month) is the primary key of this table.
+the table has information about the revenue of each department per month.
+the month has values in ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"].
+write an sql query to reformat the table such that there is a department id column and a revenue column for each month.
+return the result table in any order.
+the query result format is in the following example.

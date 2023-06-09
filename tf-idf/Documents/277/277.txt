@@ -1,0 +1,18 @@
+sql schema
+table: tree
++-------------+------+
+| column name | type |
++-------------+------+
+| id          | int  |
+| p_id        | int  |
++-------------+------+
+id is the primary key column for this table.
+each row of this table contains information about the id of a node and the id of its parent node in a tree.
+the given structure is always a valid tree.
+each node in the tree can be one of three types:
+"leaf": if the node is a leaf node.
+"root": if the node is the root of the tree.
+"inner": if the node is neither a leaf node nor a root node.
+write an sql query to report the type of each node in the tree.
+return the result table in any order.
+the query result format is in the following example.

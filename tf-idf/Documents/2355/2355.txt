@@ -1,0 +1,13 @@
+you are given a tree with n nodes numbered from 0 to n - 1 in the form of a parent array parent where parent[i] is the parent of the ith node. the root of the tree is node 0, so parent[0] = -1 since it has no parent. you want to design a data structure that allows users to lock, unlock, and upgrade nodes in the tree.
+the data structure should support the following functions:
+lock: locks the given node for the given user and prevents other users from locking the same node. you may only lock a node using this function if the node is unlocked.
+unlock: unlocks the given node for the given user. you may only unlock a node using this function if it is currently locked by the same user.
+upgrade: locks the given node for the given user and unlocks all of its descendants regardless of who locked it. you may only upgrade a node if all 3 conditions are true:
+the node is unlocked,
+it has at least one locked descendant (by any user), and
+it does not have any locked ancestors.
+implement the lockingtree class:
+lockingtree(int[] parent) initializes the data structure with the parent array.
+lock(int num, int user) returns true if it is possible for the user with id user to lock the node num, or false otherwise. if it is possible, the node num will become locked by the user with id user.
+unlock(int num, int user) returns true if it is possible for the user with id user to unlock the node num, or false otherwise. if it is possible, the node num will become unlocked.
+upgrade(int num, int user) returns true if it is possible for the user with id user to upgrade the node num, or false otherwise. if it is possible, the node num will be upgraded.

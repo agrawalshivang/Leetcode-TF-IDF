@@ -1,0 +1,6 @@
+you are given two strings a and b that consist of lowercase letters. in one operation, you can change any character in a or b to any lowercase letter.
+your goal is to satisfy one of the following three conditions:
+every letter in a is strictly less than every letter in b in the alphabet.
+every letter in b is strictly less than every letter in a in the alphabet.
+both a and b consist of only one distinct letter.
+return the minimum number of operations needed to achieve your goal.

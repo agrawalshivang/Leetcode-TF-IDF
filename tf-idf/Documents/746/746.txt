@@ -1,0 +1,5 @@
+you are given a 0-indexed 2d integer array grid of size m x n. each cell has one of two values:
+0 represents an empty cell,
+1 represents an obstacle that may be removed.
+you can move up, down, left, or right from and to an empty cell.
+return the minimum number of obstacles to remove so you can move from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1).

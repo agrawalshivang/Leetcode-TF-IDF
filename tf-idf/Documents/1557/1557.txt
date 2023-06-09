@@ -1,0 +1,2 @@
+given an integer n, return a binary string representing its representation in base -2.
+note that the returned string should not have leading zeros unless the string is "0".

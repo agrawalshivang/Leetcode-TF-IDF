@@ -1,0 +1,3 @@
+given an integer array arr, return the number of distinct bitwise ors of all the non-empty subarrays of arr.
+the bitwise or of a subarray is the bitwise or of each integer in the subarray. the bitwise or of a subarray of one integer is that integer.
+a subarray is a contiguous non-empty sequence of elements within an array.

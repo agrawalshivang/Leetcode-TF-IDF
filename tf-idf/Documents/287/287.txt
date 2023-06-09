@@ -1,0 +1,7 @@
+design a simplified version of twitter where users can post tweets, follow/unfollow another user, and is able to see the 10 most recent tweets in the user's news feed.
+implement the twitter class:
+twitter() initializes your twitter object.
+void posttweet(int userid, int tweetid) composes a new tweet with id tweetid by the user userid. each call to this function will be made with a unique tweetid.
+list<integer> getnewsfeed(int userid) retrieves the 10 most recent tweet ids in the user's news feed. each item in the news feed must be posted by users who the user followed or by the user themself. tweets must be ordered from most recent to least recent.
+void follow(int followerid, int followeeid) the user with id followerid started following the user with id followeeid.
+void unfollow(int followerid, int followeeid) the user with id followerid started unfollowing the user with id followeeid.

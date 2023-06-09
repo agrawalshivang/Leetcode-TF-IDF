@@ -1,0 +1,8 @@
+you are given two strings s and t.
+you are allowed to remove any number of characters from the string t.
+the score of the string is 0 if no characters are removed from the string t, otherwise:
+let left be the minimum index among all removed characters.
+let right be the maximum index among all removed characters.
+then the score of the string is right - left + 1.
+return the minimum possible score to make t a subsequence of s.
+a subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).

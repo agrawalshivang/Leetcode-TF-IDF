@@ -1,0 +1,3 @@
+you are given a string s that consists of lower case english letters and brackets.
+reverse the strings in each pair of matching parentheses, starting from the innermost one.
+your result should not contain any brackets.

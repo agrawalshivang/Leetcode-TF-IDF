@@ -1,0 +1,4 @@
+you are given an integer array bloomday, an integer m and an integer k.
+you want to make m bouquets. to make a bouquet, you need to use k adjacent flowers from the garden.
+the garden consists of n flowers, the ith flower will bloom in the bloomday[i] and then can be used in exactly one bouquet.
+return the minimum number of days you need to wait to be able to make m bouquets from the garden. if it is impossible to make m bouquets return -1.

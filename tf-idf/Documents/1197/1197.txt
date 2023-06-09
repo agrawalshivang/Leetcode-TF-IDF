@@ -1,0 +1,18 @@
+suppose you are given the following code:
+class foobar {
+public void foo() {
+for (int i = 0; i < n; i++) {
+print("foo");
+}
+}
+
+public void bar() {
+for (int i = 0; i < n; i++) {
+print("bar");
+}
+}
+}
+the same instance of foobar will be passed to two different threads:
+thread a will call foo(), while
+thread b will call bar().
+modify the given program to output "foobar" n times.

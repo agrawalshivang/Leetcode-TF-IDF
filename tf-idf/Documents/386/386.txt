@@ -1,0 +1,20 @@
+sql schema
+table: customer
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| customer_id | int     |
+| product_key | int     |
++-------------+---------+
+there is no primary key for this table. it may contain duplicates. customer_id is not null.
+product_key is a foreign key to product table.
+table: product
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| product_key | int     |
++-------------+---------+
+product_key is the primary key column for this table.
+write an sql query to report the customer ids from the customer table that bought all the products in the product table.
+return the result table in any order.
+the query result format is in the following example.

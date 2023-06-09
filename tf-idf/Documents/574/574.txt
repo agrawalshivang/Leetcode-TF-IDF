@@ -1,0 +1,1 @@
+given an integer array arr, return true if there are three consecutive odd numbers in the array. otherwise, return false.

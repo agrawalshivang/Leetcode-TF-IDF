@@ -1,0 +1,4 @@
+the dna sequence is composed of a series of nucleotides abbreviated as 'a', 'c', 'g', and 't'.
+for example, "acgaattccg" is a dna sequence.
+when studying dna, it is useful to identify repeated sequences within the dna.
+given a string s that represents a dna sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a dna molecule. you may return the answer in any order.

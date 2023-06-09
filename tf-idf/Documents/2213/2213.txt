@@ -1,0 +1,7 @@
+there is an undirected connected tree with n nodes labeled from 0 to n - 1 and n - 1 edges.
+you are given a 0-indexed integer array nums of length n where nums[i] represents the value of the ith node. you are also given a 2d integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
+remove two distinct edges of the tree to form three connected components. for a pair of removed edges, the following steps are defined:
+get the xor of all the values of the nodes for each of the three components respectively.
+the difference between the largest xor value and the smallest xor value is the score of the pair.
+for example, say the three components have the node values: [4,5,7], [1,9], and [3,3,3]. the three xor values are 4 ^ 5 ^ 7 = 6, 1 ^ 9 = 8, and 3 ^ 3 ^ 3 = 3. the largest xor value is 8 and the smallest xor value is 3. the score is then 8 - 3 = 5.
+return the minimum score of any possible pair of edge removals on the given tree.

@@ -1,0 +1,7 @@
+a range module is a module that tracks ranges of numbers. design a data structure to track the ranges represented as half-open intervals and query about them.
+a half-open interval [left, right) denotes all the real numbers x where left <= x < right.
+implement the rangemodule class:
+rangemodule() initializes the object of the data structure.
+void addrange(int left, int right) adds the half-open interval [left, right), tracking every real number in that interval. adding an interval that partially overlaps with currently tracked numbers should add any numbers in the interval [left, right) that are not already tracked.
+boolean queryrange(int left, int right) returns true if every real number in the interval [left, right) is currently being tracked, and false otherwise.
+void removerange(int left, int right) stops tracking every real number currently being tracked in the half-open interval [left, right).

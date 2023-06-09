@@ -1,0 +1,5 @@
+design a hashset without using any built-in hash table libraries.
+implement myhashset class:
+void add(key) inserts the value key into the hashset.
+bool contains(key) returns whether the value key exists in the hashset or not.
+void remove(key) removes the value key in the hashset. if key does not exist in the hashset, do nothing.

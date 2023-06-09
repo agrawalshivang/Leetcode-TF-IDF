@@ -1,0 +1,3 @@
+a distinct string is a string that is present only once in an array.
+given an array of strings arr, and an integer k, return the kth distinct string present in arr. if there are fewer than k distinct strings, return an empty string "".
+note that the strings are considered in the order in which they appear in the array.

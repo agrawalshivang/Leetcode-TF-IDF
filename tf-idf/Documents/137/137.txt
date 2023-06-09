@@ -1,0 +1,3 @@
+you have a set of integers s, which originally contains all the numbers from 1 to n. unfortunately, due to some error, one of the numbers in s got duplicated to another number in the set, which results in repetition of one number and loss of another number.
+you are given an integer array nums representing the data status of this set after the error.
+find the number that occurs twice and the number that is missing and return them in the form of an array.

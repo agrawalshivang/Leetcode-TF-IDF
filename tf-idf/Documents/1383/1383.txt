@@ -1,0 +1,2 @@
+given an array of integers nums and an integer k. a continuous subarray is called nice if there are k odd numbers on it.
+return the number of nice sub-arrays.

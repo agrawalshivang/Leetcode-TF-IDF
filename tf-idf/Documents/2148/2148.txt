@@ -1,0 +1,3 @@
+given the root of a binary tree and an integer limit, delete all insufficient nodes in the tree simultaneously, and return the root of the resulting binary tree.
+a node is insufficient if every root to leaf path intersecting this node has a sum strictly less than limit.
+a leaf is a node with no children.

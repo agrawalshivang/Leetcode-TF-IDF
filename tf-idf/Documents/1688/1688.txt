@@ -1,0 +1,11 @@
+given a reference of a node in a connected undirected graph.
+return a deep copy (clone) of the graph.
+each node in the graph contains a value (int) and a list (list[node]) of its neighbors.
+class node {
+public int val;
+public list<node> neighbors;
+}
+test case format:
+for simplicity, each node's value is the same as the node's index (1-indexed). for example, the first node with val == 1, the second node with val == 2, and so on. the graph is represented in the test case using an adjacency list.
+an adjacency list is a collection of unordered lists used to represent a finite graph. each list describes the set of neighbors of a node in the graph.
+the given node will always be the first node with val = 1. you must return the copy of the given node as a reference to the cloned graph.

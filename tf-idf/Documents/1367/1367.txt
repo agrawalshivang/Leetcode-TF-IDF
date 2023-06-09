@@ -1,0 +1,3 @@
+a conveyor belt has packages that must be shipped from one port to another within days days.
+the ith package on the conveyor belt has a weight of weights[i]. each day, we load the ship with packages on the conveyor belt (in the order given by weights). we may not load more weight than the maximum weight capacity of the ship.
+return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within days days.

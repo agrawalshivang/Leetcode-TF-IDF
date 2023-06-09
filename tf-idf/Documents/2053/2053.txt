@@ -1,0 +1,4 @@
+you have n boxes. you are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.
+in one operation, you can move one ball from a box to an adjacent box. box i is adjacent to box j if abs(i - j) == 1. note that after doing so, there may be more than one ball in some boxes.
+return an array answer of size n, where answer[i] is the minimum number of operations needed to move all the balls to the ith box.
+each answer[i] is calculated considering the initial state of the boxes.

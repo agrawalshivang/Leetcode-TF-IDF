@@ -1,0 +1,3 @@
+the tribonacci sequence tn is defined as follows:
+t0 = 0, t1 = 1, t2 = 1, and tn+3 = tn + tn+1 + tn+2 for n >= 0.
+given n, return the value of tn.

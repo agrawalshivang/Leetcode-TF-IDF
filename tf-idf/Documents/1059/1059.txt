@@ -1,0 +1,12 @@
+a string is a valid parentheses string (denoted vps) if and only if it consists of "(" and ")" characters only, and:
+it is the empty string, or
+it can be written as ab (a concatenated with b), where a and b are vps's, or
+it can be written as (a), where a is a vps.
+we can similarly define the nesting depth depth(s) of any vps s as follows:
+depth("") = 0
+depth(a + b) = max(depth(a), depth(b)), where a and b are vps's
+depth("(" + a + ")") = 1 + depth(a), where a is a vps.
+for example,  "", "()()", and "()(()())" are vps's (with nesting depths 0, 1, and 2), and ")(" and "(()" are not vps's.
+given a vps seq, split it into two disjoint subsequences a and b, such that a and b are vps's (and a.length + b.length = seq.length).
+now choose any such a and b such that max(depth(a), depth(b)) is the minimum possible value.
+return an answer array (of length seq.length) that encodes such a choice of a and b:  answer[i] = 0 if seq[i] is part of a, else answer[i] = 1.  note that even though multiple answers may exist, you may return any of them.

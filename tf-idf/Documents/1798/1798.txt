@@ -1,0 +1,3 @@
+you are given an array of strings words and a string chars.
+a string is good if it can be formed by characters from chars (each character can only be used once).
+return the sum of lengths of all good strings in words.

@@ -1,0 +1,4 @@
+a teacher is writing a test with n true/false questions, with 't' denoting true and 'f' denoting false. he wants to confuse the students by maximizing the number of consecutive questions with the same answer (multiple trues or multiple falses in a row).
+you are given a string answerkey, where answerkey[i] is the original answer to the ith question. in addition, you are given an integer k, the maximum number of times you may perform the following operation:
+change the answer key for any question to 't' or 'f' (i.e., set answerkey[i] to 't' or 'f').
+return the maximum number of consecutive 't's or 'f's in the answer key after performing the operation at most k times.

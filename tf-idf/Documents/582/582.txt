@@ -1,0 +1,11 @@
+design your implementation of the circular queue. the circular queue is a linear data structure in which the operations are performed based on fifo (first in first out) principle, and the last position is connected back to the first position to make a circle. it is also called "ring buffer".
+one of the benefits of the circular queue is that we can make use of the spaces in front of the queue. in a normal queue, once the queue becomes full, we cannot insert the next element even if there is a space in front of the queue. but using the circular queue, we can use the space to store new values.
+implement the mycircularqueue class:
+mycircularqueue(k) initializes the object with the size of the queue to be k.
+int front() gets the front item from the queue. if the queue is empty, return -1.
+int rear() gets the last item from the queue. if the queue is empty, return -1.
+boolean enqueue(int value) inserts an element into the circular queue. return true if the operation is successful.
+boolean dequeue() deletes an element from the circular queue. return true if the operation is successful.
+boolean isempty() checks whether the circular queue is empty or not.
+boolean isfull() checks whether the circular queue is full or not.
+you must solve the problem without using the built-in queue data structure in your programming language.

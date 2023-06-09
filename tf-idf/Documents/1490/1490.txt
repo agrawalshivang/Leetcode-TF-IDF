@@ -1,0 +1,5 @@
+you are given an integer array nums of length n.
+assume arrk to be an array obtained by rotating nums by k positions clock-wise. we define the rotation function f on nums as follow:
+f(k) = 0 * arrk[0] + 1 * arrk[1] + ... + (n - 1) * arrk[n - 1].
+return the maximum value of f(0), f(1), ..., f(n-1).
+the test cases are generated so that the answer fits in a 32-bit integer.

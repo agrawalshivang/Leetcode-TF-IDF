@@ -1,0 +1,2 @@
+given the array favoritecompanies where favoritecompanies[i] is the list of favorites companies for the ith person (indexed from 0).
+return the indices of people whose list of favorite companies is not a subset of any other list of favorites companies. you must return the indices in increasing order.

@@ -1,0 +1,3 @@
+you are given an integer mass, which represents the original mass of a planet. you are further given an integer array asteroids, where asteroids[i] is the mass of the ith asteroid.
+you can arrange for the planet to collide with the asteroids in any arbitrary order. if the mass of the planet is greater than or equal to the mass of the asteroid, the asteroid is destroyed and the planet gains the mass of the asteroid. otherwise, the planet is destroyed.
+return true if all asteroids can be destroyed. otherwise, return false.

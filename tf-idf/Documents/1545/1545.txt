@@ -1,0 +1,2 @@
+in an alien language, surprisingly, they also use english lowercase letters, but possibly in a different order. the order of the alphabet is some permutation of lowercase letters.
+given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographically in this alien language.

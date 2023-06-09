@@ -1,0 +1,3 @@
+given a string s. return all the words vertically in the same order in which they appear in s.
+words are returned as a list of strings, complete with spaces when is necessary. (trailing spaces are not allowed).
+each word would be put on only one column and that in one column there will be only one word.

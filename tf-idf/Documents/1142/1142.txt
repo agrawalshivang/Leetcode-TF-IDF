@@ -1,0 +1,2 @@
+given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. if there is no such subarray, return -1.
+a subarray is a contiguous part of an array.

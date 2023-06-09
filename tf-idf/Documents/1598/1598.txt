@@ -1,0 +1,6 @@
+implement the randomizedset class:
+randomizedset() initializes the randomizedset object.
+bool insert(int val) inserts an item val into the set if not present. returns true if the item was not present, false otherwise.
+bool remove(int val) removes an item val from the set if present. returns true if the item was present, false otherwise.
+int getrandom() returns a random element from the current set of elements (it's guaranteed that at least one element exists when this method is called). each element must have the same probability of being returned.
+you must implement the functions of the class such that each function works in average o(1) time complexity.

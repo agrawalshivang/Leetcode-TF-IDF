@@ -1,0 +1,3 @@
+you are given the head of a linked list.
+remove every node which has a node with a strictly greater value anywhere to the right side of it.
+return the head of the modified linked list.

@@ -1,0 +1,4 @@
+there is a 1 million by 1 million grid on an xy-plane, and the coordinates of each grid square are (x, y).
+we start at the source = [sx, sy] square and want to reach the target = [tx, ty] square. there is also an array of blocked squares, where each blocked[i] = [xi, yi] represents a blocked square with coordinates (xi, yi).
+each move, we can walk one square north, east, south, or west if the square is not in the array of blocked squares. we are also not allowed to walk outside of the grid.
+return true if and only if it is possible to reach the target square from the source square through a sequence of valid moves.

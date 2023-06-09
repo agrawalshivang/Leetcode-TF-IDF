@@ -1,0 +1,21 @@
+you have the four functions:
+printfizz that prints the word "fizz" to the console,
+printbuzz that prints the word "buzz" to the console,
+printfizzbuzz that prints the word "fizzbuzz" to the console, and
+printnumber that prints a given integer to the console.
+you are given an instance of the class fizzbuzz that has four functions: fizz, buzz, fizzbuzz and number. the same instance of fizzbuzz will be passed to four different threads:
+thread a: calls fizz() that should output the word "fizz".
+thread b: calls buzz() that should output the word "buzz".
+thread c: calls fizzbuzz() that should output the word "fizzbuzz".
+thread d: calls number() that should only output the integers.
+modify the given class to output the series [1, 2, "fizz", 4, "buzz", ...] where the ith token (1-indexed) of the series is:
+"fizzbuzz" if i is divisible by 3 and 5,
+"fizz" if i is divisible by 3 and not 5,
+"buzz" if i is divisible by 5 and not 3, or
+i if i is not divisible by 3 or 5.
+implement the fizzbuzz class:
+fizzbuzz(int n) initializes the object with the number n that represents the length of the sequence that should be printed.
+void fizz(printfizz) calls printfizz to output "fizz".
+void buzz(printbuzz) calls printbuzz to output "buzz".
+void fizzbuzz(printfizzbuzz) calls printfizzbuzz to output "fizzbuzz".
+void number(printnumber) calls printnumber to output the numbers.

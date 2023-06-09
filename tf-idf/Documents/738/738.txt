@@ -1,0 +1,6 @@
+there exists an undirected and unrooted tree with n nodes indexed from 0 to n - 1. you are given the integer n and a 2d integer array edges of length n - 1, where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
+each node has an associated price. you are given an integer array price, where price[i] is the price of the ith node.
+the price sum of a given path is the sum of the prices of all nodes lying on that path.
+additionally, you are given a 2d integer array trips, where trips[i] = [starti, endi] indicates that you start the ith trip from the node starti and travel to the node endi by any path you like.
+before performing your first trip, you can choose some non-adjacent nodes and halve the prices.
+return the minimum total price sum to perform all the given trips.

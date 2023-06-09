@@ -1,0 +1,3 @@
+a frog is crossing a river. the river is divided into some number of units, and at each unit, there may or may not exist a stone. the frog can jump on a stone, but it must not jump into the water.
+given a list of stones' positions (in units) in sorted ascending order, determine if the frog can cross the river by landing on the last stone. initially, the frog is on the first stone and assumes the first jump must be 1 unit.
+if the frog's last jump was k units, its next jump must be either k - 1, k, or k + 1 units. the frog can only jump in the forward direction.

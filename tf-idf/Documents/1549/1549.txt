@@ -1,0 +1,6 @@
+given the root of a binary search tree (bst) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.
+if the tree has more than one mode, return them in any order.
+assume a bst is defined as follows:
+the left subtree of a node contains only nodes with keys less than or equal to the node's key.
+the right subtree of a node contains only nodes with keys greater than or equal to the node's key.
+both the left and right subtrees must also be binary search trees.

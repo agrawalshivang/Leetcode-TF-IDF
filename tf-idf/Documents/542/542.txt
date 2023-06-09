@@ -1,0 +1,7 @@
+you are given a string s of length n where s[i] is either:
+'d' means decreasing, or
+'i' means increasing.
+a permutation perm of n + 1 integers of all the integers in the range [0, n] is called a valid permutation if for all valid i:
+if s[i] == 'd', then perm[i] > perm[i + 1], and
+if s[i] == 'i', then perm[i] < perm[i + 1].
+return the number of valid permutations perm. since the answer may be large, return it modulo 109 + 7.

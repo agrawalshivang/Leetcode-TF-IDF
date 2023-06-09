@@ -1,0 +1,15 @@
+sql schema
+table: employees
++-------------+----------+
+| column name | type     |
++-------------+----------+
+| employee_id | int      |
+| name        | varchar  |
+| manager_id  | int      |
+| salary      | int      |
++-------------+----------+
+employee_id is the primary key for this table.
+this table contains information about the employees, their salary, and the id of their manager. some employees do not have a manager (manager_id is null).
+write an sql query to report the ids of the employees whose salary is strictly less than $30000 and whose manager left the company. when a manager leaves the company, their information is deleted from the employees table, but the reports still have their manager_id set to the manager that left.
+return the result table ordered by employee_id.
+the query result format is in the following example.

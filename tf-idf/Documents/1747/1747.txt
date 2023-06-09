@@ -1,0 +1,4 @@
+there are several stones arranged in a row, and each stone has an associated value which is an integer given in the array stonevalue.
+in each round of the game, alice divides the row into two non-empty rows (i.e. left row and right row), then bob calculates the value of each row which is the sum of the values of all the stones in this row. bob throws away the row which has the maximum value, and alice's score increases by the value of the remaining row. if the value of the two rows are equal, bob lets alice decide which row will be thrown away. the next round starts with the remaining row.
+the game ends when there is only one stone remaining. alice's is initially zero.
+return the maximum score that alice can obtain.

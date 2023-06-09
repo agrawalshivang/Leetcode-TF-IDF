@@ -1,0 +1,4 @@
+you are given a binary array nums (0-indexed).
+we define xi as the number whose binary representation is the subarray nums[0..i] (from most-significant-bit to least-significant-bit).
+for example, if nums = [1,0,1], then x0 = 1, x1 = 2, and x2 = 5.
+return an array of booleans answer where answer[i] is true if xi is divisible by 5.

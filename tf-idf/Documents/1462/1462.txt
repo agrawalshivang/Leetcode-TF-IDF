@@ -1,0 +1,11 @@
+you have the task of delivering some boxes from storage to their ports using only one ship. however, this ship has a limit on the number of boxes and the total weight that it can carry.
+you are given an array boxes, where boxes[i] = [portsi, weighti], and three integers portscount, maxboxes, and maxweight.
+portsi is the port where you need to deliver the ith box and weightsi is the weight of the ith box.
+portscount is the number of ports.
+maxboxes and maxweight are the respective box and weight limits of the ship.
+the boxes need to be delivered in the order they are given. the ship will follow these steps:
+the ship will take some number of boxes from the boxes queue, not violating the maxboxes and maxweight constraints.
+for each loaded box in order, the ship will make a trip to the port the box needs to be delivered to and deliver it. if the ship is already at the correct port, no trip is needed, and the box can immediately be delivered.
+the ship then makes a return trip to storage to take more boxes from the queue.
+the ship must end at storage after all the boxes have been delivered.
+return the minimum number of trips the ship needs to make to deliver all boxes to their respective ports.

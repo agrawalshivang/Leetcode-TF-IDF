@@ -1,0 +1,40 @@
+sql schema
+table: salesperson
++-----------------+---------+
+| column name     | type    |
++-----------------+---------+
+| sales_id        | int     |
+| name            | varchar |
+| salary          | int     |
+| commission_rate | int     |
+| hire_date       | date    |
++-----------------+---------+
+sales_id is the primary key column for this table.
+each row of this table indicates the name and the id of a salesperson alongside their salary, commission rate, and hire date.
+table: company
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| com_id      | int     |
+| name        | varchar |
+| city        | varchar |
++-------------+---------+
+com_id is the primary key column for this table.
+each row of this table indicates the name and the id of a company and the city in which the company is located.
+table: orders
++-------------+------+
+| column name | type |
++-------------+------+
+| order_id    | int  |
+| order_date  | date |
+| com_id      | int  |
+| sales_id    | int  |
+| amount      | int  |
++-------------+------+
+order_id is the primary key column for this table.
+com_id is a foreign key to com_id from the company table.
+sales_id is a foreign key to sales_id from the salesperson table.
+each row of this table contains information about one order. this includes the id of the company, the id of the salesperson, the date of the order, and the amount paid.
+write an sql query to report the names of all the salespersons who did not have any orders related to the company with the name "red".
+return the result table in any order.
+the query result format is in the following example.

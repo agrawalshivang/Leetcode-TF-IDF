@@ -1,0 +1,3 @@
+on a 0-indexed 8 x 8 chessboard, there can be multiple black queens ad one white king.
+you are given a 2d integer array queens where queens[i] = [xqueeni, yqueeni] represents the position of the ith black queen on the chessboard. you are also given an integer array king of length 2 where king = [xking, yking] represents the position of the white king.
+return the coordinates of the black queens that can directly attack the king. you may return the answer in any order.

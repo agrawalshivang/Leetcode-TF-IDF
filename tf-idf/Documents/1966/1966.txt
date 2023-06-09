@@ -1,0 +1,5 @@
+design a data structure that is initialized with a list of different words. provided a string, you should determine if you can change exactly one character in this string to match any word in the data structure.
+implement the magicdictionary class:
+magicdictionary() initializes the object.
+void builddict(string[] dictionary) sets the data structure with an array of distinct strings dictionary.
+bool search(string searchword) returns true if you can change exactly one character in searchword to match any string in the data structure, otherwise returns false.

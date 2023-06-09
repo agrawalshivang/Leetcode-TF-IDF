@@ -1,0 +1,3 @@
+there is a bi-directional graph with n vertices, where each vertex is labeled from 0 to n - 1. the edges in the graph are represented by a given 2d integer array edges, where edges[i] = [ui, vi] denotes an edge between vertex ui and vertex vi. every vertex pair is connected by at most one edge, and no vertex has an edge to itself.
+return the length of the shortest cycle in the graph. if no cycle exists, return -1.
+a cycle is a path that starts and ends at the same node, and each edge in the path is used only once.

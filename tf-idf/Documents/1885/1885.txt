@@ -1,0 +1,2 @@
+you are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
+merge all the linked-lists into one sorted linked-list and return it.

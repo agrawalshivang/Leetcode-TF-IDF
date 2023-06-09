@@ -1,0 +1,3 @@
+our hero teemo is attacking an enemy ashe with poison attacks! when teemo attacks ashe, ashe gets poisoned for a exactly duration seconds. more formally, an attack at second t will mean ashe is poisoned during the inclusive time interval [t, t + duration - 1]. if teemo attacks again before the poison effect ends, the timer for it is reset, and the poison effect will end duration seconds after the new attack.
+you are given a non-decreasing integer array timeseries, where timeseries[i] denotes that teemo attacks ashe at second timeseries[i], and an integer duration.
+return the total number of seconds that ashe is poisoned.

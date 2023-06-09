@@ -1,0 +1,11 @@
+design a food rating system that can do the following:
+modify the rating of a food item listed in the system.
+return the highest-rated food item for a type of cuisine in the system.
+implement the foodratings class:
+foodratings(string[] foods, string[] cuisines, int[] ratings) initializes the system. the food items are described by foods, cuisines and ratings, all of which have a length of n.
+foods[i] is the name of the ith food,
+cuisines[i] is the type of cuisine of the ith food, and
+ratings[i] is the initial rating of the ith food.
+void changerating(string food, int newrating) changes the rating of the food item with the name food.
+string highestrated(string cuisine) returns the name of the food item that has the highest rating for the given type of cuisine. if there is a tie, return the item with the lexicographically smaller name.
+note that a string x is lexicographically smaller than string y if x comes before y in dictionary order, that is, either x is a prefix of y, or if i is the first position such that x[i] != y[i], then x[i] comes before y[i] in alphabetic order.

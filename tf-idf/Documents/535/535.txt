@@ -1,0 +1,2 @@
+given an integer rowindex, return the rowindexth (0-indexed) row of the pascal's triangle.
+in pascal's triangle, each number is the sum of the two numbers directly above it as shown:

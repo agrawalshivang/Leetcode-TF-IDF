@@ -1,0 +1,14 @@
+you are given an array pairs, where pairs[i] = [xi, yi], and:
+there are no duplicates.
+xi < yi
+let ways be the number of rooted trees that satisfy the following conditions:
+the tree consists of nodes whose values appeared in pairs.
+a pair [xi, yi] exists in pairs if and only if xi is an ancestor of yi or yi is an ancestor of xi.
+note: the tree does not have to be a binary tree.
+two ways are considered to be different if there is at least one node that has different parents in both ways.
+return:
+0 if ways == 0
+1 if ways == 1
+2 if ways > 1
+a rooted tree is a tree that has a single root node, and all edges are oriented to be outgoing from the root.
+an ancestor of a node is any node on the path from the root to that node (excluding the node itself). the root has no ancestors.

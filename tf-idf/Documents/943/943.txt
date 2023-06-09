@@ -1,0 +1,5 @@
+you are given a 0-indexed m x n integer matrix grid. your initial position is at the top-left cell (0, 0).
+starting from the cell (i, j), you can move to one of the following cells:
+cells (i, k) with j < k <= grid[i][j] + j (rightward movement), or
+cells (k, j) with i < k <= grid[i][j] + i (downward movement).
+return the minimum number of cells you need to visit to reach the bottom-right cell (m - 1, n - 1). if there is no valid path, return -1.

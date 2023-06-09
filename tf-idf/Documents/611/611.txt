@@ -1,0 +1,5 @@
+you are given a positive integer 0-indexed array nums.
+a subset of the array nums is square-free if the product of its elements is a square-free integer.
+a square-free integer is an integer that is divisible by no square number other than 1.
+return the number of square-free non-empty subsets of the array nums. since the answer may be too large, return it modulo 109 + 7.
+a non-empty subset of nums is an array that can be obtained by deleting some (possibly none but not all) elements from nums. two subsets are different if and only if the chosen indices to delete are different.

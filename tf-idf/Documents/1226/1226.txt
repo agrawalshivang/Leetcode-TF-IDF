@@ -1,0 +1,6 @@
+given a string s of '(' , ')' and lowercase english characters.
+your task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string.
+formally, a parentheses string is valid if and only if:
+it is the empty string, contains only lowercase characters, or
+it can be written as ab (a concatenated with b), where a and b are valid strings, or
+it can be written as (a), where a is a valid string.

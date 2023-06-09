@@ -1,0 +1,3 @@
+you are given several boxes with different colors represented by different positive numbers.
+you may experience several rounds to remove boxes until there is no box left. each time you can choose some continuous boxes with the same color (i.e., composed of k boxes, k >= 1), remove them and get k * k points.
+return the maximum points you can get.

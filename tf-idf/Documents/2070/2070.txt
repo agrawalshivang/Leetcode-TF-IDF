@@ -1,0 +1,4 @@
+you are building a string s of length n one character at a time, prepending each new character to the front of the string. the strings are labeled from 1 to n, where the string with length i is labeled si.
+for example, for s = "abaca", s1 == "a", s2 == "ca", s3 == "aca", etc.
+the score of si is the length of the longest common prefix between si and sn (note that s == sn).
+given the final string s, return the sum of the score of every si.

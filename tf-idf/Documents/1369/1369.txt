@@ -1,0 +1,5 @@
+you are given two integers n and maxvalue, which are used to describe an ideal array.
+a 0-indexed integer array arr of length n is considered ideal if the following conditions hold:
+every arr[i] is a value from 1 to maxvalue, for 0 <= i < n.
+every arr[i] is divisible by arr[i - 1], for 0 < i < n.
+return the number of distinct ideal arrays of length n. since the answer may be very large, return it modulo 109 + 7.

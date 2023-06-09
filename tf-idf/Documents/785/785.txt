@@ -1,0 +1,16 @@
+under the grammar given below, strings can represent a set of lowercase words. let r(expr) denote the set of words the expression represents.
+the grammar can best be understood through simple examples:
+single letters represent a singleton set containing that word.
+r("a") = {"a"}
+r("w") = {"w"}
+when we take a comma-delimited list of two or more expressions, we take the union of possibilities.
+r("{a,b,c}") = {"a","b","c"}
+r("{{a,b},{b,c}}") = {"a","b","c"} (notice the final set only contains each word at most once)
+when we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
+r("{a,b}{c,d}") = {"ac","ad","bc","bd"}
+r("a{b,c}{d,e}f{g,h}") = {"abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh", "acefg", "acefh"}
+formally, the three rules for our grammar:
+for every lowercase letter x, we have r(x) = {x}.
+for expressions e1, e2, ... , ek with k >= 2, we have r({e1, e2, ...}) = r(e1) ∪ r(e2) ∪ ...
+for expressions e1 and e2, we have r(e1 + e2) = {a + b for (a, b) in r(e1) × r(e2)}, where + denotes concatenation, and × denotes the cartesian product.
+given an expression representing a set of words under the given grammar, return the sorted list of words that the expression represents.

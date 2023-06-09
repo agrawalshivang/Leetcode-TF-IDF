@@ -1,0 +1,4 @@
+you are given an array of variable pairs equations and an array of real numbers values, where equations[i] = [ai, bi] and values[i] represent the equation ai / bi = values[i]. each ai or bi is a string that represents a single variable.
+you are also given some queries, where queries[j] = [cj, dj] represents the jth query where you must find the answer for cj / dj = ?.
+return the answers to all queries. if a single answer cannot be determined, return -1.0.
+note: the input is always valid. you may assume that evaluating the queries will not result in division by zero and that there is no contradiction.

@@ -1,0 +1,7 @@
+you are given an integer num. you will apply the following steps exactly two times:
+pick a digit x (0 <= x <= 9).
+pick another digit y (0 <= y <= 9). the digit y can be equal to x.
+replace all the occurrences of x in the decimal representation of num by y.
+the new integer cannot have any leading zeros, also the new integer cannot be 0.
+let a and b be the results of applying the operations to num the first and second times, respectively.
+return the max difference between a and b.

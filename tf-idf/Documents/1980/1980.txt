@@ -1,0 +1,7 @@
+you are given an undirected graph defined by an integer n, the number of nodes, and a 2d integer array edges, the edges in the graph, where edges[i] = [ui, vi] indicates that there is an undirected edge between ui and vi. you are also given an integer array queries.
+let incident(a, b) be defined as the number of edges that are connected to either node a or b.
+the answer to the jth query is the number of pairs of nodes (a, b) that satisfy both of the following conditions:
+a < b
+incident(a, b) > queries[j]
+return an array answers such that answers.length == queries.length and answers[j] is the answer of the jth query.
+note that there can be multiple edges between the same two nodes.

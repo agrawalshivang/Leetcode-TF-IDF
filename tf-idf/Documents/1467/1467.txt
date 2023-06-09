@@ -1,0 +1,24 @@
+sql schema
+table: employees
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| employee_id | int     |
+| name        | varchar |
++-------------+---------+
+employee_id is the primary key for this table.
+each row of this table indicates the name of the employee whose id is employee_id.
+table: salaries
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| employee_id | int     |
+| salary      | int     |
++-------------+---------+
+employee_id is the primary key for this table.
+each row of this table indicates the salary of the employee whose id is employee_id.
+write an sql query to report the ids of all the employees with missing information. the information of an employee is missing if:
+the employee's name is missing, or
+the employee's salary is missing.
+return the result table ordered by employee_id in ascending order.
+the query result format is in the following example.

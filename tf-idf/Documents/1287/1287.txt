@@ -1,0 +1,5 @@
+you are given an integer array deck where deck[i] represents the number written on the ith card.
+partition the cards into one or more groups such that:
+each group has exactly x cards where x > 1, and
+all the cards in one group have the same integer written on them.
+return true if such partition is possible, or false otherwise.

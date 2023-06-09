@@ -1,0 +1,5 @@
+you are given two 0-indexed arrays nums1 and nums2 and a 2d array queries of queries. there are three types of queries:
+for a query of type 1, queries[i] = [1, l, r]. flip the values from 0 to 1 and from 1 to 0 in nums1 from index l to index r. both l and r are 0-indexed.
+for a query of type 2, queries[i] = [2, p, 0]. for every index 0 <= i < n, set nums2[i] = nums2[i] + nums1[i] * p.
+for a query of type 3, queries[i] = [3, 0, 0]. find the sum of the elements in nums2.
+return an array containing all the answers to the third type queries.

@@ -1,0 +1,6 @@
+implement the bstiterator class that represents an iterator over the in-order traversal of a binary search tree (bst):
+bstiterator(treenode root) initializes an object of the bstiterator class. the root of the bst is given as part of the constructor. the pointer should be initialized to a non-existent number smaller than any element in the bst.
+boolean hasnext() returns true if there exists a number in the traversal to the right of the pointer, otherwise returns false.
+int next() moves the pointer to the right, then returns the number at the pointer.
+notice that by initializing the pointer to a non-existent smallest number, the first call to next() will return the smallest element in the bst.
+you may assume that next() calls will always be valid. that is, there will be at least a next number in the in-order traversal when next() is called.

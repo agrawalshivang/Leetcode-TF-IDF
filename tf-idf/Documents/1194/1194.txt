@@ -1,0 +1,3 @@
+you are given an integer finalsum. split it into a sum of a maximum number of unique positive even integers.
+for example, given finalsum = 12, the following splits are valid (unique positive even integers summing up to finalsum): (12), (2 + 10), (2 + 4 + 6), and (4 + 8). among them, (2 + 4 + 6) contains the maximum number of integers. note that finalsum cannot be split into (2 + 2 + 4 + 4) as all the numbers should be unique.
+return a list of integers that represent a valid split containing a maximum number of integers. if no valid split exists for finalsum, return an empty list. you may return the integers in any order.

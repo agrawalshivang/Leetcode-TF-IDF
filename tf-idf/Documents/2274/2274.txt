@@ -1,0 +1,1 @@
+given a string array words, return an array of all characters that show up in all strings within the words (including duplicates). you may return the answer in any order.

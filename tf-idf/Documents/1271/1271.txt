@@ -1,0 +1,14 @@
+sql schema
+table: customer
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| referee_id  | int     |
++-------------+---------+
+id is the primary key column for this table.
+each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+write an sql query to report the names of the customer that are not referred by the customer with id = 2.
+return the result table in any order.
+the query result format is in the following example.

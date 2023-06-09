@@ -1,0 +1,10 @@
+you are given a 0-indexed string s that you must perform k replacement operations on. the replacement operations are given as three 0-indexed parallel arrays, indices, sources, and targets, all of length k.
+to complete the ith replacement operation:
+check if the substring sources[i] occurs at index indices[i] in the original string s.
+if it does not occur, do nothing.
+otherwise if it does occur, replace that substring with targets[i].
+for example, if s = "abcd", indices[i] = 0, sources[i] = "ab", and targets[i] = "eee", then the result of this replacement will be "eeecd".
+all replacement operations must occur simultaneously, meaning the replacement operations should not affect the indexing of each other. the testcases will be generated such that the replacements will not overlap.
+for example, a testcase with s = "abc", indices = [0, 1], and sources = ["ab","bc"] will not be generated because the "ab" and "bc" replacements overlap.
+return the resulting string after performing all replacement operations on s.
+a substring is a contiguous sequence of characters in a string.

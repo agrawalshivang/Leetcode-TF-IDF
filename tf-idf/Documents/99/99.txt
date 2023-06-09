@@ -1,0 +1,3 @@
+you are given an array of positive integers price where price[i] denotes the price of the ith candy and a positive integer k.
+the store sells baskets of k distinct candies. the tastiness of a candy basket is the smallest absolute difference of the prices of any two candies in the basket.
+return the maximum tastiness of a candy basket.

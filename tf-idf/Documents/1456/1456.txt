@@ -1,0 +1,7 @@
+you are given a phone number as a string number. number consists of digits, spaces ' ', and/or dashes '-'.
+you would like to reformat the phone number in a certain manner. firstly, remove all spaces and dashes. then, group the digits from left to right into blocks of length 3 until there are 4 or fewer digits. the final digits are then grouped as follows:
+2 digits: a single block of length 2.
+3 digits: a single block of length 3.
+4 digits: two blocks of length 2 each.
+the blocks are then joined by dashes. notice that the reformatting process should never produce any blocks of length 1 and produce at most two blocks of length 2.
+return the phone number after formatting.

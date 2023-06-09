@@ -1,0 +1,6 @@
+a gene string can be represented by an 8-character long string, with choices from 'a', 'c', 'g', and 't'.
+suppose we need to investigate a mutation from a gene string startgene to a gene string endgene where one mutation is defined as one single character changed in the gene string.
+for example, "aaccggtt" --> "aaccggta" is one mutation.
+there is also a gene bank bank that records all the valid gene mutations. a gene must be in bank to make it a valid gene string.
+given the two gene strings startgene and endgene and the gene bank bank, return the minimum number of mutations needed to mutate from startgene to endgene. if there is no such a mutation, return -1.
+note that the starting point is assumed to be valid, so it might not be included in the bank.

@@ -1,0 +1,9 @@
+you are given two 0-indexed arrays of strings startwords and targetwords. each string consists of lowercase english letters only.
+for each string in targetwords, check if it is possible to choose a string from startwords and perform a conversion operation on it to be equal to that from targetwords.
+the conversion operation is described in the following two steps:
+append any lowercase letter that is not present in the string to its end.
+for example, if the string is "abc", the letters 'd', 'e', or 'y' can be added to it, but not 'a'. if 'd' is added, the resulting string will be "abcd".
+rearrange the letters of the new string in any arbitrary order.
+for example, "abcd" can be rearranged to "acbd", "bacd", "cbda", and so on. note that it can also be rearranged to "abcd" itself.
+return the number of strings in targetwords that can be obtained by performing the operations on any string of startwords.
+note that you will only be verifying if the string in targetwords can be obtained from a string in startwords by performing the operations. the strings in startwords do not actually change during this process.

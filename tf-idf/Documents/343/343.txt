@@ -1,0 +1,8 @@
+you are given an array of integers nums. perform the following steps:
+find any two adjacent numbers in nums that are non-coprime.
+if no such numbers are found, stop the process.
+otherwise, delete the two numbers and replace them with their lcm (least common multiple).
+repeat this process as long as you keep finding two adjacent non-coprime numbers.
+return the final modified array. it can be shown that replacing adjacent non-coprime numbers in any arbitrary order will lead to the same result.
+the test cases are generated such that the values in the final array are less than or equal to 108.
+two values x and y are non-coprime if gcd(x, y) > 1 where gcd(x, y) is the greatest common divisor of x and y.

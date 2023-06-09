@@ -1,0 +1,11 @@
+implement the myatoi(string s) function, which converts a string to a 32-bit signed integer (similar to c/c++'s atoi function).
+the algorithm for myatoi(string s) is as follows:
+read in and ignore any leading whitespace.
+check if the next character (if not already at the end of the string) is '-' or '+'. read this character in if it is either. this determines if the final result is negative or positive respectively. assume the result is positive if neither is present.
+read in next the characters until the next non-digit character or the end of the input is reached. the rest of the string is ignored.
+convert these digits into an integer (i.e. "123" -> 123, "0032" -> 32). if no digits were read, then the integer is 0. change the sign as necessary (from step 2).
+if the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
+return the integer as the final result.
+note:
+only the space character ' ' is considered a whitespace character.
+do not ignore any characters other than the leading whitespace or the rest of the string after the digits.

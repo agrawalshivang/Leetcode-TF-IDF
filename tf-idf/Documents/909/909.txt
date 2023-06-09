@@ -1,0 +1,7 @@
+you are given an array of positive integers arr. perform some operations (possibly none) on arr so that it satisfies these conditions:
+the value of the first element in arr must be 1.
+the absolute difference between any 2 adjacent elements must be less than or equal to 1. in other words, abs(arr[i] - arr[i - 1]) <= 1 for each i where 1 <= i < arr.length (0-indexed). abs(x) is the absolute value of x.
+there are 2 types of operations that you can perform any number of times:
+decrease the value of any element of arr to a smaller positive integer.
+rearrange the elements of arr to be in any order.
+return the maximum possible value of an element in arr after performing the operations to satisfy the conditions.

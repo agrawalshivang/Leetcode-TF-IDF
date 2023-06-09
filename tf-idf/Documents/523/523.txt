@@ -1,0 +1,2 @@
+you are given an array nums and an integer k. the xor of a segment [left, right] where left <= right is the xor of all the elements with indices between left and right, inclusive: nums[left] xor nums[left+1] xor ... xor nums[right].
+return the minimum number of elements to change in the array such that the xor of all segments of size k is equal to zero.

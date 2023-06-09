@@ -1,0 +1,3 @@
+there are n different online courses numbered from 1 to n. you are given an array courses where courses[i] = [durationi, lastdayi] indicate that the ith course should be taken continuously for durationi days and must be finished before or on lastdayi.
+you will start on the 1st day and you cannot take two or more courses simultaneously.
+return the maximum number of courses that you can take.

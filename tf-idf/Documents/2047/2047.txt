@@ -1,0 +1,2 @@
+there is an m x n grid with a ball. the ball is initially at the position [startrow, startcolumn]. you are allowed to move the ball to one of the four adjacent cells in the grid (possibly out of the grid crossing the grid boundary). you can apply at most maxmove moves to the ball.
+given the five integers m, n, maxmove, startrow, startcolumn, return the number of paths to move the ball out of the grid boundary. since the answer can be very large, return it modulo 109 + 7.

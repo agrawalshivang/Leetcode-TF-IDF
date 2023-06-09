@@ -1,0 +1,4 @@
+given an integer array nums and an integer k, modify the array in the following way:
+choose an index i and replace nums[i] with -nums[i].
+you should apply this process exactly k times. you may choose the same index i multiple times.
+return the largest possible sum of the array after modifying it in this way.

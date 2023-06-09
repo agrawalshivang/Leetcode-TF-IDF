@@ -1,0 +1,2 @@
+given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+you must write an algorithm that runs in o(n) time.

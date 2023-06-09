@@ -1,0 +1,13 @@
+design a skiplist without using any built-in libraries.
+a skiplist is a data structure that takes o(log(n)) time to add, erase and search. comparing with treap and red-black tree which has the same function and performance, the code length of skiplist can be comparatively short and the idea behind skiplists is just simple linked lists.
+for example, we have a skiplist containing [30,40,50,60,70,90] and we want to add 80 and 45 into it. the skiplist works this way:
+
+artyom kalinin [cc by-sa 3.0], via wikimedia commons
+you can see there are many layers in the skiplist. each layer is a sorted linked list. with the help of the top layers, add, erase and search can be faster than o(n). it can be proven that the average time complexity for each operation is o(log(n)) and space complexity is o(n).
+see more about skiplist: https://en.wikipedia.org/wiki/skip_list
+implement the skiplist class:
+skiplist() initializes the object of the skiplist.
+bool search(int target) returns true if the integer target exists in the skiplist or false otherwise.
+void add(int num) inserts the value num into the skiplist.
+bool erase(int num) removes the value num from the skiplist and returns true. if num does not exist in the skiplist, do nothing and return false. if there exist multiple num values, removing any one of them is fine.
+note that duplicates may exist in the skiplist, your code needs to handle this situation.

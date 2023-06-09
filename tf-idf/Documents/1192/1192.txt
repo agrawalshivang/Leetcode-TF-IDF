@@ -1,0 +1,2 @@
+we call a positive integer special if all of its digits are distinct.
+given a positive integer n, return the number of special integers that belong to the interval [1, n].

@@ -1,0 +1,5 @@
+you are given two string arrays creators and ids, and an integer array views, all of length n. the ith video on a platform was created by creator[i], has an id of ids[i], and has views[i] views.
+the popularity of a creator is the sum of the number of views on all of the creator's videos. find the creator with the highest popularity and the id of their most viewed video.
+if multiple creators have the highest popularity, find all of them.
+if multiple videos have the highest view count for a creator, find the lexicographically smallest id.
+return a 2d array of strings answer where answer[i] = [creatori, idi] means that creatori has the highest popularity and idi is the id of their most popular video. the answer can be returned in any order.

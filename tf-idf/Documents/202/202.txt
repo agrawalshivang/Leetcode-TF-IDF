@@ -1,0 +1,4 @@
+a wonderful string is a string where at most one letter appears an odd number of times.
+for example, "ccjjc" and "abab" are wonderful, but "ab" is not.
+given a string word that consists of the first ten lowercase english letters ('a' through 'j'), return the number of wonderful non-empty substrings in word. if the same substring appears multiple times in word, then count each occurrence separately.
+a substring is a contiguous sequence of characters in a string.

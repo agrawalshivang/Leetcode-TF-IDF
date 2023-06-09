@@ -1,0 +1,8 @@
+you are given a 0-indexed integer array buses of length n, where buses[i] represents the departure time of the ith bus. you are also given a 0-indexed integer array passengers of length m, where passengers[j] represents the arrival time of the jth passenger. all bus departure times are unique. all passenger arrival times are unique.
+you are given an integer capacity, which represents the maximum number of passengers that can get on each bus.
+when a passenger arrives, they will wait in line for the next available bus. you can get on a bus that departs at x minutes if you arrive at y minutes where y <= x, and the bus is not full. passengers with the earliest arrival times get on the bus first.
+more formally when a bus arrives, either:
+if capacity or fewer passengers are waiting for a bus, they will all get on the bus, or
+the capacity passengers with the earliest arrival times will get on the bus.
+return the latest time you may arrive at the bus station to catch a bus. you cannot arrive at the same time as another passenger.
+note: the arrays buses and passengers are not necessarily sorted.

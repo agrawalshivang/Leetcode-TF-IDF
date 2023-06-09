@@ -1,0 +1,3 @@
+given an array of positive integers arr, find a pattern of length m that is repeated k or more times.
+a pattern is a subarray (consecutive sub-sequence) that consists of one or more values, repeated multiple times consecutively without overlapping. a pattern is defined by its length and the number of repetitions.
+return true if there exists a pattern of length m that is repeated k or more times, otherwise return false.

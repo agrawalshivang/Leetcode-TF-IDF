@@ -1,0 +1,4 @@
+given an array nums that represents a permutation of integers from 1 to n. we are going to construct a binary search tree (bst) by inserting the elements of nums in order into an initially empty bst. find the number of different ways to reorder nums so that the constructed bst is identical to that formed from the original array nums.
+for example, given nums = [2,1,3], we will have 2 as the root, 1 as a left child, and 3 as a right child. the array [2,3,1] also yields the same bst but [3,2,1] yields a different bst.
+return the number of ways to reorder nums such that the bst formed is identical to the original bst formed from nums.
+since the answer may be very large, return it modulo 109 + 7.

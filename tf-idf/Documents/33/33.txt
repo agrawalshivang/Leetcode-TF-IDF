@@ -1,0 +1,25 @@
+sql schema
+table: person
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| personid    | int     |
+| lastname    | varchar |
+| firstname   | varchar |
++-------------+---------+
+personid is the primary key column for this table.
+this table contains information about the id of some persons and their first and last names.
+table: address
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| addressid   | int     |
+| personid    | int     |
+| city        | varchar |
+| state       | varchar |
++-------------+---------+
+addressid is the primary key column for this table.
+each row of this table contains information about the city and state of one person with id = personid.
+write an sql query to report the first name, last name, city, and state of each person in the person table. if the address of a personid is not present in the address table, report null instead.
+return the result table in any order.
+the query result format is in the following example.

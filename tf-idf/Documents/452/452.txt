@@ -1,0 +1,3 @@
+given a string s, partition the string into one or more substrings such that the characters in each substring are unique. that is, no letter appears in a single substring more than once.
+return the minimum number of substrings in such a partition.
+note that each character should belong to exactly one substring in a partition.

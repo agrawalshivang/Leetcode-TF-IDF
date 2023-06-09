@@ -1,0 +1,5 @@
+you are given a 0-indexed integer array piles, where piles[i] represents the number of stones in the ith pile, and an integer k. you should apply the following operation exactly k times:
+choose any piles[i] and remove floor(piles[i] / 2) stones from it.
+notice that you can apply the operation on the same pile more than once.
+return the minimum possible total number of stones remaining after applying the k operations.
+floor(x) is the greatest integer that is smaller than or equal to x (i.e., rounds x down).

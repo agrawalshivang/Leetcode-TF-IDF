@@ -1,0 +1,22 @@
+sql schema
+table: users
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| user_id     | int     |
+| user_name   | varchar |
++-------------+---------+
+user_id is the primary key for this table.
+each row of this table contains the name and the id of a user.
+table: register
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| contest_id  | int     |
+| user_id     | int     |
++-------------+---------+
+(contest_id, user_id) is the primary key for this table.
+each row of this table contains the id of a user and the contest they registered into.
+write an sql query to find the percentage of the users registered in each contest rounded to two decimals.
+return the result table ordered by percentage in descending order. in case of a tie, order it by contest_id in ascending order.
+the query result format is in the following example.

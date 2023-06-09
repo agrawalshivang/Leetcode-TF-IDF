@@ -1,0 +1,4 @@
+given two strings s and part, perform the following operation on s until all occurrences of the substring part are removed:
+find the leftmost occurrence of the substring part and remove it from s.
+return s after removing all occurrences of part.
+a substring is a contiguous sequence of characters in a string.

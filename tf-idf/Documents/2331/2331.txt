@@ -1,0 +1,3 @@
+you are given four integers row, cols, rcenter, and ccenter. there is a rows x cols matrix and you are on the cell with the coordinates (rcenter, ccenter).
+return the coordinates of all cells in the matrix, sorted by their distance from (rcenter, ccenter) from the smallest distance to the largest distance. you may return the answer in any order that satisfies this condition.
+the distance between two cells (r1, c1) and (r2, c2) is |r1 - r2| + |c1 - c2|.

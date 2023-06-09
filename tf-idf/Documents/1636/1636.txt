@@ -1,0 +1,4 @@
+given two integers tomatoslices and cheeseslices. the ingredients of different burgers are as follows:
+jumbo burger: 4 tomato slices and 1 cheese slice.
+small burger: 2 tomato slices and 1 cheese slice.
+return [total_jumbo, total_small] so that the number of remaining tomatoslices equal to 0 and the number of remaining cheeseslices equal to 0. if it is not possible to make the remaining tomatoslices and cheeseslices equal to 0 return [].

@@ -1,0 +1,4 @@
+there are some prizes on the x-axis. you are given an integer array prizepositions that is sorted in non-decreasing order, where prizepositions[i] is the position of the ith prize. there could be different prizes at the same position on the line. you are also given an integer k.
+you are allowed to select two segments with integer endpoints. the length of each segment must be k. you will collect all prizes whose position falls within at least one of the two selected segments (including the endpoints of the segments). the two selected segments may intersect.
+for example if k = 2, you can choose segments [1, 3] and [2, 4], and you will win any prize i that satisfies 1 <= prizepositions[i] <= 3 or 2 <= prizepositions[i] <= 4.
+return the maximum number of prizes you can win if you choose the two segments optimally.

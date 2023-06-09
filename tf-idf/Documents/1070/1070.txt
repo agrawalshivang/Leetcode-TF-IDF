@@ -1,0 +1,2 @@
+you are given the root node of a binary search tree (bst) and a value to insert into the tree. return the root node of the bst after the insertion. it is guaranteed that the new value does not exist in the original bst.
+notice that there may exist multiple valid ways for the insertion, as long as the tree remains a bst after insertion. you can return any of them.

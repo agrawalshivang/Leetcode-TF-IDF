@@ -1,0 +1,6 @@
+the pair sum of a pair (a,b) is equal to a + b. the maximum pair sum is the largest pair sum in a list of pairs.
+for example, if we have pairs (1,5), (2,3), and (4,4), the maximum pair sum would be max(1+5, 2+3, 4+4) = max(6, 5, 8) = 8.
+given an array nums of even length n, pair up the elements of nums into n / 2 pairs such that:
+each element of nums is in exactly one pair, and
+the maximum pair sum is minimized.
+return the minimized maximum pair sum after optimally pairing up the elements.

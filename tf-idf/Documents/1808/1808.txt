@@ -1,0 +1,4 @@
+you are given an array of integers nums represents the numbers written on a chalkboard.
+alice and bob take turns erasing exactly one number from the chalkboard, with alice starting first. if erasing a number causes the bitwise xor of all the elements of the chalkboard to become 0, then that player loses. the bitwise xor of one element is that element itself, and the bitwise xor of no elements is 0.
+also, if any player starts their turn with the bitwise xor of all the elements of the chalkboard equal to 0, then that player wins.
+return true if and only if alice wins the game, assuming both players play optimally.

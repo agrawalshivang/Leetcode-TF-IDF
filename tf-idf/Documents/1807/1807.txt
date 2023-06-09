@@ -1,0 +1,4 @@
+you are given an array nums consisting of positive integers and an integer k.
+partition the array into two ordered groups such that each element is in exactly one group. a partition is called great if the sum of elements of each group is greater than or equal to k.
+return the number of distinct great partitions. since the answer may be too large, return it modulo 109 + 7.
+two partitions are considered distinct if some element nums[i] is in different groups in the two partitions.

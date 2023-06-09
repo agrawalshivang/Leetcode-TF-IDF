@@ -1,0 +1,6 @@
+you are given an integer array banned and two integers n and maxsum. you are choosing some number of integers following the below rules:
+the chosen integers have to be in the range [1, n].
+each integer can be chosen at most once.
+the chosen integers should not be in the array banned.
+the sum of the chosen integers should not exceed maxsum.
+return the maximum number of integers you can choose following the mentioned rules.

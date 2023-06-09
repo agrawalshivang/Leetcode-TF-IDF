@@ -1,0 +1,5 @@
+you are given a 0-indexed binary string floor, which represents the colors of tiles on a floor:
+floor[i] = '0' denotes that the ith tile of the floor is colored black.
+on the other hand, floor[i] = '1' denotes that the ith tile of the floor is colored white.
+you are also given numcarpets and carpetlen. you have numcarpets black carpets, each of length carpetlen tiles. cover the tiles with the given carpets such that the number of white tiles still visible is minimum. carpets may overlap one another.
+return the minimum number of white tiles still visible.

@@ -1,0 +1,3 @@
+there are some spherical balloons taped onto a flat wall that represents the xy-plane. the balloons are represented as a 2d integer array points where points[i] = [xstart, xend] denotes a balloon whose horizontal diameter stretches between xstart and xend. you do not know the exact y-coordinates of the balloons.
+arrows can be shot up directly vertically (in the positive y-direction) from different points along the x-axis. a balloon with xstart and xend is burst by an arrow shot at x if xstart <= x <= xend. there is no limit to the number of arrows that can be shot. a shot arrow keeps traveling up infinitely, bursting any balloons in its path.
+given the array points, return the minimum number of arrows that must be shot to burst all balloons.

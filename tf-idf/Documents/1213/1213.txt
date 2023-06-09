@@ -1,0 +1,7 @@
+there is a tree (i.e. a connected, undirected graph with no cycles) consisting of n nodes numbered from 0 to n - 1 and exactly n - 1 edges.
+you are given a 0-indexed integer array vals of length n where vals[i] denotes the value of the ith node. you are also given a 2d integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting nodes ai and bi.
+a good path is a simple path that satisfies the following conditions:
+the starting node and the ending node have the same value.
+all nodes between the starting node and the ending node have values less than or equal to the starting node (i.e. the starting node's value should be the maximum value along the path).
+return the number of distinct good paths.
+note that a path and its reverse are counted as the same path. for example, 0 -> 1 is considered to be the same as 1 -> 0. a single node is also considered as a valid path.

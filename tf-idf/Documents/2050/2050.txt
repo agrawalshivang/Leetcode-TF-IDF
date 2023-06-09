@@ -1,0 +1,13 @@
+sql schema
+table: tweets
++----------------+---------+
+| column name    | type    |
++----------------+---------+
+| tweet_id       | int     |
+| content        | varchar |
++----------------+---------+
+tweet_id is the primary key for this table.
+this table contains all the tweets in a social media app.
+write an sql query to find the ids of the invalid tweets. the tweet is invalid if the number of characters used in the content of the tweet is strictly greater than 15.
+return the result table in any order.
+the query result format is in the following example.

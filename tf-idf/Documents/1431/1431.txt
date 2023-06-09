@@ -1,0 +1,26 @@
+sql schema
+table: signups
++----------------+----------+
+| column name    | type     |
++----------------+----------+
+| user_id        | int      |
+| time_stamp     | datetime |
++----------------+----------+
+user_id is the primary key for this table.
+each row contains information about the signup time for the user with id user_id.
+table: confirmations
++----------------+----------+
+| column name    | type     |
++----------------+----------+
+| user_id        | int      |
+| time_stamp     | datetime |
+| action         | enum     |
++----------------+----------+
+(user_id, time_stamp) is the primary key for this table.
+user_id is a foreign key with a reference to the signups table.
+action is an enum of the type ('confirmed', 'timeout')
+each row of this table indicates that the user with id user_id requested a confirmation message at time_stamp and that confirmation message was either confirmed ('confirmed') or expired without confirming ('timeout').
+the confirmation rate of a user is the number of 'confirmed' messages divided by the total number of requested confirmation messages. the confirmation rate of a user that did not request any confirmation messages is 0. round the confirmation rate to two decimal places.
+write an sql query to find the confirmation rate of each user.
+return the result table in any order.
+the query result format is in the following example.

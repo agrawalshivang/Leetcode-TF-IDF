@@ -1,0 +1,2 @@
+given a valid (ipv4) ip address, return a defanged version of that ip address.
+a defanged ip address replaces every period "." with "[.]".

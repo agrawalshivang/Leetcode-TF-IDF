@@ -1,0 +1,4 @@
+design a class to find the kth largest element in a stream. note that it is the kth largest element in the sorted order, not the kth distinct element.
+implement kthlargest class:
+kthlargest(int k, int[] nums) initializes the object with the integer k and the stream of integers nums.
+int add(int val) appends the integer val to the stream and returns the element representing the kth largest element in the stream.

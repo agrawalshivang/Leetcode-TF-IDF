@@ -1,0 +1,6 @@
+design a stack that supports increment operations on its elements.
+implement the customstack class:
+customstack(int maxsize) initializes the object with maxsize which is the maximum number of elements in the stack.
+void push(int x) adds x to the top of the stack if the stack has not reached the maxsize.
+int pop() pops and returns the top of the stack or -1 if the stack is empty.
+void inc(int k, int val) increments the bottom k elements of the stack by val. if there are less than k elements in the stack, increment all the elements in the stack.

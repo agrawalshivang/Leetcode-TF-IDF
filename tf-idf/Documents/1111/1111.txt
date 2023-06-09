@@ -1,0 +1,3 @@
+you are given two 0-indexed integer arrays nums and divisors.
+the divisibility score of divisors[i] is the number of indices j such that nums[j] is divisible by divisors[i].
+return the integer divisors[i] with the maximum divisibility score. if there is more than one integer with the maximum score, return the minimum of them.

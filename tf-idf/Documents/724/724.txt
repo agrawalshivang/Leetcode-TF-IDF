@@ -1,0 +1,2 @@
+you own a goal parser that can interpret a string command. the command consists of an alphabet of "g", "()" and/or "(al)" in some order. the goal parser will interpret "g" as the string "g", "()" as the string "o", and "(al)" as the string "al". the interpreted strings are then concatenated in the original order.
+given the string command, return the goal parser's interpretation of command.

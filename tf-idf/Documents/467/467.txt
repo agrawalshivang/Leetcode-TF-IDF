@@ -1,0 +1,7 @@
+you are given n tasks labeled from 0 to n - 1 represented by a 2d integer array tasks, where tasks[i] = [enqueuetimei, processingtimei] means that the ith task will be available to process at enqueuetimei and will take processingtimei to finish processing.
+you have a single-threaded cpu that can process at most one task at a time and will act in the following way:
+if the cpu is idle and there are no available tasks to process, the cpu remains idle.
+if the cpu is idle and there are available tasks, the cpu will choose the one with the shortest processing time. if multiple tasks have the same shortest processing time, it will choose the task with the smallest index.
+once a task is started, the cpu will process the entire task without stopping.
+the cpu can finish a task then start a new one instantly.
+return the order in which the cpu will process the tasks.

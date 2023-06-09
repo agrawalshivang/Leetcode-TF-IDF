@@ -1,0 +1,4 @@
+given a string of digits s, return the number of palindromic subsequences of s having length 5. since the answer may be very large, return it modulo 109 + 7.
+note:
+a string is palindromic if it reads the same forward and backward.
+a subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.

@@ -1,0 +1,7 @@
+there are n tasks assigned to you. the task times are represented as an integer array tasks of length n, where the ith task takes tasks[i] hours to finish. a work session is when you work for at most sessiontime consecutive hours and then take a break.
+you should finish the given tasks in a way that satisfies the following conditions:
+if you start a task in a work session, you must complete it in the same work session.
+you can start a new task immediately after finishing the previous one.
+you may complete the tasks in any order.
+given tasks and sessiontime, return the minimum number of work sessions needed to finish all the tasks following the conditions above.
+the tests are generated such that sessiontime is greater than or equal to the maximum element in tasks[i].

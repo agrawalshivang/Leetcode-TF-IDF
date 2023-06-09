@@ -1,0 +1,4 @@
+given an array of positive integers nums, return the number of distinct prime factors in the product of the elements of nums.
+note that:
+a number greater than 1 is called prime if it is divisible by only 1 and itself.
+an integer val1 is a factor of another integer val2 if val2 / val1 is an integer.

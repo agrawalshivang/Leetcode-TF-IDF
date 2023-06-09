@@ -1,0 +1,7 @@
+given a string queryip, return "ipv4" if ip is a valid ipv4 address, "ipv6" if ip is a valid ipv6 address or "neither" if ip is not a correct ip of any type.
+a valid ipv4 address is an ip in the form "x1.x2.x3.x4" where 0 <= xi <= 255 and xi cannot contain leading zeros. for example, "192.168.1.1" and "192.168.1.0" are valid ipv4 addresses while "192.168.01.1", "192.168.1.00", and "192.168@1.1" are invalid ipv4 addresses.
+a valid ipv6 address is an ip in the form "x1:x2:x3:x4:x5:x6:x7:x8" where:
+1 <= xi.length <= 4
+xi is a hexadecimal string which may contain digits, lowercase english letter ('a' to 'f') and upper-case english letters ('a' to 'f').
+leading zeros are allowed in xi.
+for example, "2001:0db8:85a3:0000:0000:8a2e:0370:7334" and "2001:db8:85a3:0:0:8a2e:0370:7334" are valid ipv6 addresses, while "2001:0db8:85a3::8a2e:037j:7334" and "02001:0db8:85a3:0000:0000:8a2e:0370:7334" are invalid ipv6 addresses.

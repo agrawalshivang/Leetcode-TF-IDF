@@ -1,0 +1,4 @@
+you are given an array start where start = [startx, starty] represents your initial position (startx, starty) in a 2d space. you are also given the array target where target = [targetx, targety] represents your target position (targetx, targety).
+the cost of going from a position (x1, y1) to any other position in the space (x2, y2) is |x2 - x1| + |y2 - y1|.
+there are also some special roads. you are given a 2d array specialroads where specialroads[i] = [x1i, y1i, x2i, y2i, costi] indicates that the ith special road can take you from (x1i, y1i) to (x2i, y2i) with a cost equal to costi. you can use each special road any number of times.
+return the minimum cost required to go from (startx, starty) to (targetx, targety).

@@ -1,0 +1,2 @@
+given an array of strings words, return the first palindromic string in the array. if there is no such string, return an empty string "".
+a string is palindromic if it reads the same forward and backward.

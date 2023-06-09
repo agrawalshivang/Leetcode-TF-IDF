@@ -1,0 +1,5 @@
+you are given a 0-indexed integer array nums of length n.
+nums contains a valid split at index i if the following are true:
+the sum of the first i + 1 elements is greater than or equal to the sum of the last n - i - 1 elements.
+there is at least one element to the right of i. that is, 0 <= i < n - 1.
+return the number of valid splits in nums.

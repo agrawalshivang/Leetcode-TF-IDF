@@ -1,0 +1,8 @@
+a certain bug's home is on the x-axis at position x. help them get there from position 0.
+the bug jumps according to the following rules:
+it can jump exactly a positions forward (to the right).
+it can jump exactly b positions backward (to the left).
+it cannot jump backward twice in a row.
+it cannot jump to any forbidden positions.
+the bug may jump forward beyond its home, but it cannot jump to positions numbered with negative integers.
+given an array of integers forbidden, where forbidden[i] means that the bug cannot jump to the position forbidden[i], and integers a, b, and x, return the minimum number of jumps needed for the bug to reach its home. if there is no possible sequence of jumps that lands the bug on position x, return -1.

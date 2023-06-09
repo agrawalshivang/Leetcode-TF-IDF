@@ -1,0 +1,8 @@
+given a binary tree with the following rules:
+root.val == 0
+if treenode.val == x and treenode.left != null, then treenode.left.val == 2 * x + 1
+if treenode.val == x and treenode.right != null, then treenode.right.val == 2 * x + 2
+now the binary tree is contaminated, which means all treenode.val have been changed to -1.
+implement the findelements class:
+findelements(treenode* root) initializes the object with a contaminated binary tree and recovers it.
+bool find(int target) returns true if the target value exists in the recovered binary tree.

@@ -1,0 +1,9 @@
+you are given a string num, representing a large integer, and an integer k.
+we call some integer wonderful if it is a permutation of the digits in num and is greater in value than num. there can be many wonderful integers. however, we only care about the smallest-valued ones.
+for example, when num = "5489355142":
+the 1st smallest wonderful integer is "5489355214".
+the 2nd smallest wonderful integer is "5489355241".
+the 3rd smallest wonderful integer is "5489355412".
+the 4th smallest wonderful integer is "5489355421".
+return the minimum number of adjacent digit swaps that needs to be applied to num to reach the kth smallest wonderful integer.
+the tests are generated in such a way that kth smallest wonderful integer exists.

@@ -1,0 +1,4 @@
+a peak element is an element that is strictly greater than its neighbors.
+given a 0-indexed integer array nums, find a peak element, and return its index. if the array contains multiple peaks, return the index to any of the peaks.
+you may imagine that nums[-1] = nums[n] = -∞. in other words, an element is always considered to be strictly greater than a neighbor that is outside the array.
+you must write an algorithm that runs in o(log n) time.

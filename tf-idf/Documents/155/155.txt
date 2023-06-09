@@ -1,0 +1,11 @@
+design a text editor with a cursor that can do the following:
+add text to where the cursor is.
+delete text from where the cursor is (simulating the backspace key).
+move the cursor either left or right.
+when deleting text, only characters to the left of the cursor will be deleted. the cursor will also remain within the actual text and cannot be moved beyond it. more formally, we have that 0 <= cursor.position <= currenttext.length always holds.
+implement the texteditor class:
+texteditor() initializes the object with empty text.
+void addtext(string text) appends text to where the cursor is. the cursor ends to the right of text.
+int deletetext(int k) deletes k characters to the left of the cursor. returns the number of characters actually deleted.
+string cursorleft(int k) moves the cursor to the left k times. returns the last min(10, len) characters to the left of the cursor, where len is the number of characters to the left of the cursor.
+string cursorright(int k) moves the cursor to the right k times. returns the last min(10, len) characters to the left of the cursor, where len is the number of characters to the left of the cursor.

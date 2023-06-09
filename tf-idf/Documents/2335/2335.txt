@@ -1,0 +1,6 @@
+you are given a sorted unique integer array nums.
+a range [a,b] is the set of all integers from a to b (inclusive).
+return the smallest sorted list of ranges that cover all the numbers in the array exactly. that is, each element of nums is covered by exactly one of the ranges, and there is no integer x such that x is in one of the ranges but not in nums.
+each range [a,b] in the list should be output as:
+"a->b" if a != b
+"a" if a == b

@@ -1,0 +1,6 @@
+alice and bob continue their games with piles of stones. there are several stones arranged in a row, and each stone has an associated value which is an integer given in the array stonevalue.
+alice and bob take turns, with alice starting first. on each player's turn, that player can take 1, 2, or 3 stones from the first remaining stones in the row.
+the score of each player is the sum of the values of the stones taken. the score of each player is 0 initially.
+the objective of the game is to end with the highest score, and the winner is the player with the highest score and there could be a tie. the game continues until all the stones have been taken.
+assume alice and bob play optimally.
+return "alice" if alice will win, "bob" if bob will win, or "tie" if they will end the game with the same score.

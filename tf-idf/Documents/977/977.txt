@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array nums. in one operation, select any non-negative integer x and an index i, then update nums[i] to be equal to nums[i] and (nums[i] xor x).
+note that and is the bitwise and operation and xor is the bitwise xor operation.
+return the maximum possible bitwise xor of all elements of nums after applying the operation any number of times.

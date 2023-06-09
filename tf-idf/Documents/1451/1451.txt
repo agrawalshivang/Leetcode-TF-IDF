@@ -1,0 +1,5 @@
+you are given two string arrays words1 and words2.
+a string b is a subset of string a if every letter in b occurs in a including multiplicity.
+for example, "wrr" is a subset of "warrior" but is not a subset of "world".
+a string a from words1 is universal if for every string b in words2, b is a subset of a.
+return an array of all the universal strings in words1. you may return the answer in any order.

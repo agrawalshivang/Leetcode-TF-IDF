@@ -1,0 +1,10 @@
+a bitset is a data structure that compactly stores bits.
+implement the bitset class:
+bitset(int size) initializes the bitset with size bits, all of which are 0.
+void fix(int idx) updates the value of the bit at the index idx to 1. if the value was already 1, no change occurs.
+void unfix(int idx) updates the value of the bit at the index idx to 0. if the value was already 0, no change occurs.
+void flip() flips the values of each bit in the bitset. in other words, all bits with value 0 will now have value 1 and vice versa.
+boolean all() checks if the value of each bit in the bitset is 1. returns true if it satisfies the condition, false otherwise.
+boolean one() checks if there is at least one bit in the bitset with value 1. returns true if it satisfies the condition, false otherwise.
+int count() returns the total number of bits in the bitset which have value 1.
+string tostring() returns the current composition of the bitset. note that in the resultant string, the character at the ith index should coincide with the value at the ith bit of the bitset.

@@ -1,0 +1,17 @@
+sql schema
+table: accounts
++-------------+------+
+| column name | type |
++-------------+------+
+| account_id  | int  |
+| income      | int  |
++-------------+------+
+account_id is the primary key for this table.
+each row contains information about the monthly income for one bank account.
+write an sql query to report the number of bank accounts of each salary category. the salary categories are:
+"low salary": all the salaries strictly less than $20000.
+"average salary": all the salaries in the inclusive range [$20000, $50000].
+"high salary": all the salaries strictly greater than $50000.
+the result table must contain all three categories. if there are no accounts in a category, then report 0.
+return the result table in any order.
+the query result format is in the following example.

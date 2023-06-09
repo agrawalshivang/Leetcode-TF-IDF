@@ -1,0 +1,12 @@
+design a queue that supports push and pop operations in the front, middle, and back.
+implement the frontmiddleback class:
+frontmiddleback() initializes the queue.
+void pushfront(int val) adds val to the front of the queue.
+void pushmiddle(int val) adds val to the middle of the queue.
+void pushback(int val) adds val to the back of the queue.
+int popfront() removes the front element of the queue and returns it. if the queue is empty, return -1.
+int popmiddle() removes the middle element of the queue and returns it. if the queue is empty, return -1.
+int popback() removes the back element of the queue and returns it. if the queue is empty, return -1.
+notice that when there are two middle position choices, the operation is performed on the frontmost middle position choice. for example:
+pushing 6 into the middle of [1, 2, 3, 4, 5] results in [1, 2, 6, 3, 4, 5].
+popping the middle from [1, 2, 3, 4, 5, 6] returns 3 and results in [1, 2, 4, 5, 6].

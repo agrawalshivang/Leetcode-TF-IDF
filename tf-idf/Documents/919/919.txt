@@ -1,0 +1,14 @@
+sql schema
+table: seat
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| student     | varchar |
++-------------+---------+
+id is the primary key column for this table.
+each row of this table indicates the name and the id of a student.
+id is a continuous increment.
+write an sql query to swap the seat id of every two consecutive students. if the number of students is odd, the id of the last student is not swapped.
+return the result table ordered by id in ascending order.
+the query result format is in the following example.

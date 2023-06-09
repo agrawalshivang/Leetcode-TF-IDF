@@ -1,0 +1,7 @@
+write an api that generates fancy sequences using the append, addall, and multall operations.
+implement the fancy class:
+fancy() initializes the object with an empty sequence.
+void append(val) appends an integer val to the end of the sequence.
+void addall(inc) increments all existing values in the sequence by an integer inc.
+void multall(m) multiplies all existing values in the sequence by an integer m.
+int getindex(idx) gets the current value at index idx (0-indexed) of the sequence modulo 109 + 7. if the index is greater or equal than the length of the sequence, return -1.

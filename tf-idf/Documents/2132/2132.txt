@@ -1,0 +1,6 @@
+given two arrays of integers nums and index. your task is to create target array under the following rules:
+initially target array is empty.
+from left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array.
+repeat the previous step until there are no elements to read in nums and index.
+return the target array.
+it is guaranteed that the insertion operations will be valid.

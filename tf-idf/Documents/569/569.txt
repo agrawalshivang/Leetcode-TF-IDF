@@ -1,0 +1,2 @@
+given an m x n matrix board containing 'x' and 'o', capture all regions that are 4-directionally surrounded by 'x'.
+a region is captured by flipping all 'o's into 'x's in that surrounded region.

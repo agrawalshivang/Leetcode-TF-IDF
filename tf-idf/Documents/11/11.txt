@@ -1,0 +1,4 @@
+given two strings text1 and text2, return the length of their longest common subsequence. if there is no common subsequence, return 0.
+a subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+for example, "ace" is a subsequence of "abcde".
+a common subsequence of two strings is a subsequence that is common to both strings.

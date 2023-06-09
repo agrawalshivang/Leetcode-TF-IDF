@@ -1,0 +1,4 @@
+you are given two integers m and n that represent the height and width of a rectangular piece of wood. you are also given a 2d integer array prices, where prices[i] = [hi, wi, pricei] indicates you can sell a rectangular piece of wood of height hi and width wi for pricei dollars.
+to cut a piece of wood, you must make a vertical or horizontal cut across the entire height or width of the piece to split it into two smaller pieces. after cutting a piece of wood into some number of smaller pieces, you can sell pieces according to prices. you may sell multiple pieces of the same shape, and you do not have to sell all the shapes. the grain of the wood makes a difference, so you cannot rotate a piece to swap its height and width.
+return the maximum money you can earn after cutting an m x n piece of wood.
+note that you can cut the piece of wood as many times as you want.

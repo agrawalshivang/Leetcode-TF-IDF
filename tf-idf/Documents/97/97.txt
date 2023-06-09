@@ -1,0 +1,6 @@
+you are given a 0-indexed integer array nums and an integer k. your task is to perform the following operation exactly k times in order to maximize your score:
+select an element m from nums.
+remove the selected element m from the array.
+add a new element with a value of m + 1 to the array.
+increase your score by m.
+return the maximum score you can achieve after performing the operation exactly k times.

@@ -1,0 +1,4 @@
+given two objects o1 and o2, check if they are deeply equal.
+for two objects to be deeply equal, they must contain the same keys, and the associated values must also be deeply equal. two objects are also considered deeply equal if they pass the === equality check.
+you may assume both objects are the output of json.parse. in other words, they are valid json.
+please solve it without using lodash's _.isequal() function.

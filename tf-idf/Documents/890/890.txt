@@ -1,0 +1,2 @@
+you are given an integer array nums and an integer k. append k unique positive integers that do not appear in nums to nums such that the resulting total sum is minimum.
+return the sum of the k integers appended to nums.

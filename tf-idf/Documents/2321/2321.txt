@@ -1,0 +1,6 @@
+design an eventemitter class. this interface is similar (but with some differences) to the one found in node.js or the event target interface of the dom. the eventemitter should allow for subscribing to events and emitting them.
+your eventemitter class should have the following two methods:
+subscribe - this method takes in two arguments: the name of an event as a string and a callback function. this callback function will later be called when the event is emitted.
+an event should be able to have multiple listeners for the same event. when emitting an event with multiple callbacks, each should be called in the order in which they were subscribed. an array of results should be returned. you can assume no callbacks passed to subscribe are referentially identical.
+the subscribe method should also return an object with an unsubscribe method that enables the user to unsubscribe. when it is called, the callback should be removed from the list of subscriptions and undefined should be returned.
+emit - this method takes in two arguments: the name of an event as a string and an optional array of arguments that will be passed to the callback(s). if there are no callbacks subscribed to the given event, return an empty array. otherwise, return an array of the results of all callback calls in the order they were subscribed.

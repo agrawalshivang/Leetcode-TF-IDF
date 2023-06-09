@@ -1,0 +1,3 @@
+you are given an array arr of positive integers. you are also given the array queries where queries[i] = [lefti, righti].
+for each query i compute the xor of elements from lefti to righti (that is, arr[lefti] xor arr[lefti + 1] xor ... xor arr[righti] ).
+return an array answer where answer[i] is the answer to the ith query.

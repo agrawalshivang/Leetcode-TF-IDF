@@ -1,0 +1,2 @@
+given a string s and a dictionary of strings worddict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.
+note that the same word in the dictionary may be reused multiple times in the segmentation.

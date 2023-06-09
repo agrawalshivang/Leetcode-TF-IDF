@@ -1,0 +1,8 @@
+there are two types of soup: type a and type b. initially, we have n ml of each type of soup. there are four kinds of operations:
+serve 100 ml of soup a and 0 ml of soup b,
+serve 75 ml of soup a and 25 ml of soup b,
+serve 50 ml of soup a and 50 ml of soup b, and
+serve 25 ml of soup a and 75 ml of soup b.
+when we serve some soup, we give it to someone, and we no longer have it. each turn, we will choose from the four operations with an equal probability 0.25. if the remaining volume of soup is not enough to complete the operation, we will serve as much as possible. we stop once we no longer have some quantity of both types of soup.
+note that we do not have an operation where all 100 ml's of soup b are used first.
+return the probability that soup a will be empty first, plus half the probability that a and b become empty at the same time. answers within 10-5 of the actual answer will be accepted.

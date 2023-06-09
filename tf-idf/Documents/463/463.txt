@@ -1,0 +1,4 @@
+you are given an integer array nums.
+you should move each element of nums into one of the two arrays a and b such that a and b are non-empty, and average(a) == average(b).
+return true if it is possible to achieve that and false otherwise.
+note that for an array arr, average(arr) is the sum of all the elements of arr over the length of arr.

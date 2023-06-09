@@ -1,0 +1,3 @@
+given a characters array tasks, representing the tasks a cpu needs to do, where each letter represents a different task. tasks could be done in any order. each task is done in one unit of time. for each unit of time, the cpu could complete either one task or just be idle.
+however, there is a non-negative integer n that represents the cooldown period between two same tasks (the same letter in the array), that is that there must be at least n units of time between any two same tasks.
+return the least number of units of times that the cpu will take to finish all the given tasks.

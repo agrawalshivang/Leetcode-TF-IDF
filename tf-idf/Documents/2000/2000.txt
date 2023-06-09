@@ -1,0 +1,4 @@
+you are given two images, img1 and img2, represented as binary, square matrices of size n x n. a binary matrix has only 0s and 1s as values.
+we translate one image however we choose by sliding all the 1 bits left, right, up, and/or down any number of units. we then place it on top of the other image. we can then calculate the overlap by counting the number of positions that have a 1 in both images.
+note also that a translation does not include any kind of rotation. any 1 bits that are translated outside of the matrix borders are erased.
+return the largest possible overlap.

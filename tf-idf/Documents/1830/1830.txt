@@ -1,0 +1,22 @@
+sql schema
+table: employees
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| id            | int     |
+| name          | varchar |
++---------------+---------+
+id is the primary key for this table.
+each row of this table contains the id and the name of an employee in a company.
+table: employeeuni
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| id            | int     |
+| unique_id     | int     |
++---------------+---------+
+(id, unique_id) is the primary key for this table.
+each row of this table contains the id and the corresponding unique id of an employee in the company.
+write an sql query to show the unique id of each user, if a user does not have a unique id replace just show null.
+return the result table in any order.
+the query result format is in the following example.

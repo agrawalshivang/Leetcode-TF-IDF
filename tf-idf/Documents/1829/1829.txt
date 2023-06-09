@@ -1,0 +1,19 @@
+given an integer array nums and an integer val, remove all occurrences of val in nums in-place. the order of the elements may be changed. then return the number of elements in nums which are not equal to val.
+consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
+change the array nums such that the first k elements of nums contain the elements which are not equal to val. the remaining elements of nums are not important as well as the size of nums.
+return k.
+custom judge:
+the judge will test your solution with the following code:
+int[] nums = [...]; // input array
+int val = ...; // value to remove
+int[] expectednums = [...]; // the expected answer with correct length.
+// it is sorted with no values equaling val.
+
+int k = removeelement(nums, val); // calls your implementation
+
+assert k == expectednums.length;
+sort(nums, 0, k); // sort the first k elements of nums
+for (int i = 0; i < actuallength; i++) {
+assert nums[i] == expectednums[i];
+}
+if all assertions pass, then your solution will be accepted.

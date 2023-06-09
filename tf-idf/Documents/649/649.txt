@@ -1,0 +1,10 @@
+given an integer columnnumber, return its corresponding column title as it appears in an excel sheet.
+for example:
+a -> 1
+b -> 2
+c -> 3
+...
+z -> 26
+aa -> 27
+ab -> 28
+...

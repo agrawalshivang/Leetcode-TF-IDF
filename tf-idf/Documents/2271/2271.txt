@@ -1,0 +1,14 @@
+sometimes you have a long running task, and you may wish to cancel it before it completes. to help with this goal, write a function cancellable that accepts a generator object and returns an array of two values: a cancel function and a promise.
+you may assume the generator function will only yield promises. it is your function's responsibility to pass the values resolved by the promise back to the generator. if the promise rejects, your function should throw that error back to the generator.
+if the cancel callback is called before the generator is done, your function should throw an error back to the generator. that error should be the string "cancelled" (not an error object). if the error was caught, the returned promise should resolve with the next value that was yielded or returned. otherwise, the promise should reject with the thrown error. no more code should be executed.
+when the generator is done, the promise your function returned should resolve the value the generator returned. if, however, the generator throws an error, the returned promise should reject with the error.
+an example of how your code would be used:
+function* tasks() {
+const val = yield new promise(resolve => resolve(2 + 2));
+yield new promise(resolve => settimeout(resolve, 100));
+return val + 1; // calculation shouldn't be done.
+}
+const [cancel, promise] = cancellable(tasks());
+settimeout(cancel, 50);
+promise.catch(console.log); // logs "cancelled" at t=50ms
+if instead cancel() was not called or was called after t=100ms, the promise would have resolved 5.

@@ -1,0 +1,5 @@
+you are given a 0-indexed string array words.
+two strings are similar if they consist of the same characters.
+for example, "abca" and "cba" are similar since both consist of characters 'a', 'b', and 'c'.
+however, "abacba" and "bcfd" are not similar since they do not consist of the same characters.
+return the number of pairs (i, j) such that 0 <= i < j <= word.length - 1 and the two strings words[i] and words[j] are similar.

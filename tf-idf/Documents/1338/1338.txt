@@ -1,0 +1,3 @@
+you are given a 2d integer array ranges and two integers left and right. each ranges[i] = [starti, endi] represents an inclusive interval between starti and endi.
+return true if each integer in the inclusive range [left, right] is covered by at least one interval in ranges. return false otherwise.
+an integer x is covered by an interval ranges[i] = [starti, endi] if starti <= x <= endi.

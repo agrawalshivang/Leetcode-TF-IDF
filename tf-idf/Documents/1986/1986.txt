@@ -1,0 +1,4 @@
+the value of an alphanumeric string can be defined as:
+the numeric representation of the string in base 10, if it comprises of digits only.
+the length of the string, otherwise.
+given an array strs of alphanumeric strings, return the maximum value of any string in strs.

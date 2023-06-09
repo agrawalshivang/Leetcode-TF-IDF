@@ -1,0 +1,4 @@
+given two integers a and b, return any string s such that:
+s has length a + b and contains exactly a 'a' letters, and exactly b 'b' letters,
+the substring 'aaa' does not occur in s, and
+the substring 'bbb' does not occur in s.

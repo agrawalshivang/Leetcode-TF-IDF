@@ -1,0 +1,4 @@
+given a 2d integer array circles where circles[i] = [xi, yi, ri] represents the center (xi, yi) and radius ri of the ith circle drawn on a grid, return the number of lattice points that are present inside at least one circle.
+note:
+a lattice point is a point with integer coordinates.
+points that lie on the circumference of a circle are also considered to be inside it.

@@ -1,0 +1,1 @@
+given an integer array nums, return the third distinct maximum number in this array. if the third maximum does not exist, return the maximum number.

@@ -1,0 +1,4 @@
+alice and bob are traveling to rome for separate business meetings.
+you are given 4 strings arrivealice, leavealice, arrivebob, and leavebob. alice will be in the city from the dates arrivealice to leavealice (inclusive), while bob will be in the city from the dates arrivebob to leavebob (inclusive). each will be a 5-character string in the format "mm-dd", corresponding to the month and day of the date.
+return the total number of days that alice and bob are in rome together.
+you can assume that all dates occur in the same calendar year, which is not a leap year. note that the number of days per month can be represented as: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31].

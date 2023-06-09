@@ -1,0 +1,5 @@
+you are given two 2d integer arrays, items1 and items2, representing two sets of items. each array items has the following properties:
+items[i] = [valuei, weighti] where valuei represents the value and weighti represents the weight of the ith item.
+the value of each item in items is unique.
+return a 2d integer array ret where ret[i] = [valuei, weighti], with weighti being the sum of weights of all items with value valuei.
+note: ret should be returned in ascending order by value.

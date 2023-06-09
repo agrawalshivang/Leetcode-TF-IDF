@@ -1,0 +1,5 @@
+you are given an integer array nums consisting of 2 * n integers.
+you need to divide nums into n pairs such that:
+each element belongs to exactly one pair.
+the elements present in a pair are equal.
+return true if nums can be divided into n pairs, otherwise return false.

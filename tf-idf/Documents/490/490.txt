@@ -1,0 +1,1 @@
+given two integers left and right that represent the range [left, right], return the bitwise and of all numbers in this range, inclusive.

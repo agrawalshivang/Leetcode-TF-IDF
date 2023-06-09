@@ -1,0 +1,3 @@
+you are given a string s of length n containing only four kinds of characters: 'q', 'w', 'e', and 'r'.
+a string is said to be balanced if each of its characters appears n / 4 times where n is the length of the string.
+return the minimum length of the substring that can be replaced with any other string of the same length to make s balanced. if s is already balanced, return 0.

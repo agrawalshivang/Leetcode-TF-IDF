@@ -1,0 +1,7 @@
+you are given four integers, m, n, introvertscount, and extrovertscount. you have an m x n grid, and there are two types of people: introverts and extroverts. there are introvertscount introverts and extrovertscount extroverts.
+you should decide how many people you want to live in the grid and assign each of them one grid cell. note that you do not have to have all the people living in the grid.
+the happiness of each person is calculated as follows:
+introverts start with 120 happiness and lose 30 happiness for each neighbor (introvert or extrovert).
+extroverts start with 40 happiness and gain 20 happiness for each neighbor (introvert or extrovert).
+neighbors live in the directly adjacent cells north, east, south, and west of a person's cell.
+the grid happiness is the sum of each person's happiness. return the maximum possible grid happiness.

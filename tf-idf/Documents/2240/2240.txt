@@ -1,0 +1,4 @@
+you are given an m x n integer matrix mat and an integer target.
+choose one integer from each row in the matrix such that the absolute difference between target and the sum of the chosen elements is minimized.
+return the minimum absolute difference.
+the absolute difference between two numbers a and b is the absolute value of a - b.

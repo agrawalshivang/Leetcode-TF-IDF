@@ -1,0 +1,5 @@
+you are given a string num consisting of digits only.
+return the largest palindromic integer (in the form of a string) that can be formed using digits taken from num. it should not contain leading zeroes.
+notes:
+you do not need to use all the digits of num, but you must use at least one digit.
+the digits can be reordered.

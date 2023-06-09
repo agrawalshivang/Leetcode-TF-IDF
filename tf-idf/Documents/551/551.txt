@@ -1,0 +1,9 @@
+a password is considered strong if the below conditions are all met:
+it has at least 6 characters and at most 20 characters.
+it contains at least one lowercase letter, at least one uppercase letter, and at least one digit.
+it does not contain three repeating characters in a row (i.e., "baaabb0" is weak, but "baaba0" is strong).
+given a string password, return the minimum number of steps required to make password strong. if password is already strong, return 0.
+in one step, you can:
+insert one character to password,
+delete one character from password, or
+replace one character of password with another character.

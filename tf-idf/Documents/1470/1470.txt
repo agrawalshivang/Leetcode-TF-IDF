@@ -1,0 +1,11 @@
+a maximum tree is a tree where every node has a value greater than any other value in its subtree.
+you are given the root of a maximum binary tree and an integer val.
+just as in the previous problem, the given tree was constructed from a list a (root = construct(a)) recursively with the following construct(a) routine:
+if a is empty, return null.
+otherwise, let a[i] be the largest element of a. create a root node with the value a[i].
+the left child of root will be construct([a[0], a[1], ..., a[i - 1]]).
+the right child of root will be construct([a[i + 1], a[i + 2], ..., a[a.length - 1]]).
+return root.
+note that we were not given a directly, only a root node root = construct(a).
+suppose b is a copy of a with the value val appended to it. it is guaranteed that b has unique values.
+return construct(b).

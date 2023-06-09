@@ -1,0 +1,5 @@
+given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "fizzbuzz" if i is divisible by 3 and 5.
+answer[i] == "fizz" if i is divisible by 3.
+answer[i] == "buzz" if i is divisible by 5.
+answer[i] == i (as a string) if none of the above conditions are true.

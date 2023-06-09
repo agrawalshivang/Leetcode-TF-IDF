@@ -1,0 +1,3 @@
+there are n bulbs that are initially off. you first turn on all the bulbs, then you turn off every second bulb.
+on the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). for the ith round, you toggle every i bulb. for the nth round, you only toggle the last bulb.
+return the number of bulbs that are on after n rounds.

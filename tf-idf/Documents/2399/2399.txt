@@ -1,0 +1,19 @@
+a game is played by a cat and a mouse named cat and mouse.
+the environment is represented by a grid of size rows x cols, where each element is a wall, floor, player (cat, mouse), or food.
+players are represented by the characters 'c'(cat),'m'(mouse).
+floors are represented by the character '.' and can be walked on.
+walls are represented by the character '#' and cannot be walked on.
+food is represented by the character 'f' and can be walked on.
+there is only one of each character 'c', 'm', and 'f' in grid.
+mouse and cat play according to the following rules:
+mouse moves first, then they take turns to move.
+during each turn, cat and mouse can jump in one of the four directions (left, right, up, down). they cannot jump over the wall nor outside of the grid.
+catjump, mousejump are the maximum lengths cat and mouse can jump at a time, respectively. cat and mouse can jump less than the maximum length.
+staying in the same position is allowed.
+mouse can jump over cat.
+the game can end in 4 ways:
+if cat occupies the same position as mouse, cat wins.
+if cat reaches the food first, cat wins.
+if mouse reaches the food first, mouse wins.
+if mouse cannot get to the food within 1000 turns, cat wins.
+given a rows x cols matrix grid and two integers catjump and mousejump, return true if mouse can win the game if both cat and mouse play optimally, otherwise return false.

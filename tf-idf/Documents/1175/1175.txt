@@ -1,0 +1,3 @@
+write a generator function that returns a generator object which yields the fibonacci sequence.
+the fibonacci sequence is defined by the relation xn = xn-1 + xn-2.
+the first few numbers of the series are 0, 1, 1, 2, 3, 5, 8, 13.

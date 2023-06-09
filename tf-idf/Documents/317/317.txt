@@ -1,0 +1,7 @@
+in a town, there are n people labeled from 1 to n. there is a rumor that one of these people is secretly the town judge.
+if the town judge exists, then:
+the town judge trusts nobody.
+everybody (except for the town judge) trusts the town judge.
+there is exactly one person that satisfies properties 1 and 2.
+you are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. if a trust relationship does not exist in trust array, then such a trust relationship does not exist.
+return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.

@@ -1,0 +1,5 @@
+there is a programming language with only four operations and one variable x:
+++x and x++ increments the value of the variable x by 1.
+--x and x-- decrements the value of the variable x by 1.
+initially, the value of x is 0.
+given an array of strings operations containing a list of operations, return the final value of x after performing all the operations.

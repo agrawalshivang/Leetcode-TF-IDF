@@ -1,0 +1,8 @@
+we are playing the guess game. the game is as follows:
+i pick a number from 1 to n. you have to guess which number i picked.
+every time you guess wrong, i will tell you whether the number i picked is higher or lower than your guess.
+you call a pre-defined api int guess(int num), which returns three possible results:
+-1: your guess is higher than the number i picked (i.e. num > pick).
+1: your guess is lower than the number i picked (i.e. num < pick).
+0: your guess is equal to the number i picked (i.e. num == pick).
+return the number that i picked.

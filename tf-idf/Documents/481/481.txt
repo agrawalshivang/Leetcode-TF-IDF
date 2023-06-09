@@ -1,0 +1,5 @@
+there is a special typewriter with lowercase english letters 'a' to 'z' arranged in a circle with a pointer. a character can only be typed if the pointer is pointing to that character. the pointer is initially pointing to the character 'a'.
+each second, you may perform one of the following operations:
+move the pointer one character counterclockwise or clockwise.
+type the character the pointer is currently on.
+given a string word, return the minimum number of seconds to type out the characters in word.

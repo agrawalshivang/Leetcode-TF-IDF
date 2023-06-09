@@ -1,0 +1,13 @@
+let's play the minesweeper game (wikipedia, online game)!
+you are given an m x n char matrix board representing the game board where:
+'m' represents an unrevealed mine,
+'e' represents an unrevealed empty square,
+'b' represents a revealed blank square that has no adjacent mines (i.e., above, below, left, right, and all 4 diagonals),
+digit ('1' to '8') represents how many mines are adjacent to this revealed square, and
+'x' represents a revealed mine.
+you are also given an integer array click where click = [clickr, clickc] represents the next click position among all the unrevealed squares ('m' or 'e').
+return the board after revealing this position according to the following rules:
+if a mine 'm' is revealed, then the game is over. you should change it to 'x'.
+if an empty square 'e' with no adjacent mines is revealed, then change it to a revealed blank 'b' and all of its adjacent unrevealed squares should be revealed recursively.
+if an empty square 'e' with at least one adjacent mine is revealed, then change it to a digit ('1' to '8') representing the number of adjacent mines.
+return the board when no more squares will be revealed.

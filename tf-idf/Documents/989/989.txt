@@ -1,0 +1,8 @@
+there are n persons on a social media website. you are given an integer array ages where ages[i] is the age of the ith person.
+a person x will not send a friend request to a person y (x != y) if any of the following conditions is true:
+age[y] <= 0.5 * age[x] + 7
+age[y] > age[x]
+age[y] > 100 && age[x] < 100
+otherwise, x will send a friend request to y.
+note that if x sends a request to y, y will not necessarily send a request to x. also, a person will not send a friend request to themself.
+return the total number of friend requests made.

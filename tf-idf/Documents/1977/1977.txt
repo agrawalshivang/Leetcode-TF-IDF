@@ -1,0 +1,4 @@
+you are given an array of strings words. each element of words consists of two lowercase english letters.
+create the longest possible palindrome by selecting some elements from words and concatenating them in any order. each element can be selected at most once.
+return the length of the longest palindrome that you can create. if it is impossible to create any palindrome, return 0.
+a palindrome is a string that reads the same forward and backward.

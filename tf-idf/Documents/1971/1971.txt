@@ -1,0 +1,2 @@
+in a warehouse, there is a row of barcodes, where the ith barcode is barcodes[i].
+rearrange the barcodes so that no two adjacent barcodes are equal. you may return any answer, and it is guaranteed an answer exists.

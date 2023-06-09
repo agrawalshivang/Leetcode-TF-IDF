@@ -1,0 +1,3 @@
+you are given a 2d integer grid of size m x n and an integer x. in one operation, you can add x to or subtract x from any element in the grid.
+a uni-value grid is a grid where all the elements of it are equal.
+return the minimum number of operations to make the grid uni-value. if it is not possible, return -1.

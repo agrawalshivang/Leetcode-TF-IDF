@@ -1,0 +1,9 @@
+you are given two integers, m and k, and a stream of integers. you are tasked to implement a data structure that calculates the mkaverage for the stream.
+the mkaverage can be calculated using these steps:
+if the number of the elements in the stream is less than m you should consider the mkaverage to be -1. otherwise, copy the last m elements of the stream to a separate container.
+remove the smallest k elements and the largest k elements from the container.
+calculate the average value for the rest of the elements rounded down to the nearest integer.
+implement the mkaverage class:
+mkaverage(int m, int k) initializes the mkaverage object with an empty stream and the two integers m and k.
+void addelement(int num) inserts a new element num into the stream.
+int calculatemkaverage() calculates and returns the mkaverage for the current stream rounded down to the nearest integer.

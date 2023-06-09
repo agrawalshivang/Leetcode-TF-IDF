@@ -1,0 +1,11 @@
+there are some robots and factories on the x-axis. you are given an integer array robot where robot[i] is the position of the ith robot. you are also given a 2d integer array factory where factory[j] = [positionj, limitj] indicates that positionj is the position of the jth factory and that the jth factory can repair at most limitj robots.
+the positions of each robot are unique. the positions of each factory are also unique. note that a robot can be in the same position as a factory initially.
+all the robots are initially broken; they keep moving in one direction. the direction could be the negative or the positive direction of the x-axis. when a robot reaches a factory that did not reach its limit, the factory repairs the robot, and it stops moving.
+at any moment, you can set the initial direction of moving for some robot. your target is to minimize the total distance traveled by all the robots.
+return the minimum total distance traveled by all the robots. the test cases are generated such that all the robots can be repaired.
+note that
+all robots move at the same speed.
+if two robots move in the same direction, they will never collide.
+if two robots move in opposite directions and they meet at some point, they do not collide. they cross each other.
+if a robot passes by a factory that reached its limits, it crosses it as if it does not exist.
+if the robot moved from a position x to a position y, the distance it moved is |y - x|.

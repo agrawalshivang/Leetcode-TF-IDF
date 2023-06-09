@@ -1,0 +1,8 @@
+you are given a 0-indexed integer array nums whose length is a power of 2.
+apply the following algorithm on nums:
+let n be the length of nums. if n == 1, end the process. otherwise, create a new 0-indexed integer array newnums of length n / 2.
+for every even index i where 0 <= i < n / 2, assign the value of newnums[i] as min(nums[2 * i], nums[2 * i + 1]).
+for every odd index i where 0 <= i < n / 2, assign the value of newnums[i] as max(nums[2 * i], nums[2 * i + 1]).
+replace the array nums with newnums.
+repeat the entire process starting from step 1.
+return the last number that remains in nums after applying the algorithm.

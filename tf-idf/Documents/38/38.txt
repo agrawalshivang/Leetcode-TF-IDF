@@ -1,0 +1,13 @@
+sql schema
+table: courses
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| student     | varchar |
+| class       | varchar |
++-------------+---------+
+(student, class) is the primary key column for this table.
+each row of this table indicates the name of a student and the class in which they are enrolled.
+write an sql query to report all the classes that have at least five students.
+return the result table in any order.
+the query result format is in the following example.

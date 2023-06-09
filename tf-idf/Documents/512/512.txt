@@ -1,0 +1,2 @@
+you are given the root of a binary search tree (bst) and an integer val.
+find the node in the bst that the node's value equals val and return the subtree rooted with that node. if such a node does not exist, return null.

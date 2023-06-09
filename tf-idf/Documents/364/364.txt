@@ -1,0 +1,5 @@
+you are given two 0-indexed binary strings s and target of the same length n. you can do the following operation on s any number of times:
+choose two different indices i and j where 0 <= i, j < n.
+simultaneously, replace s[i] with (s[i] or s[j]) and s[j] with (s[i] xor s[j]).
+for example, if s = "0110", you can choose i = 0 and j = 2, then simultaneously replace s[0] with (s[0] or s[2] = 0 or 1 = 1), and s[2] with (s[0] xor s[2] = 0 xor 1 = 1), so we will have s = "1110".
+return true if you can make the string s equal to target, or false otherwise.

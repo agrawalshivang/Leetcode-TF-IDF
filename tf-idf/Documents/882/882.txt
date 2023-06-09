@@ -1,0 +1,4 @@
+you are given a 0-indexed string text and another 0-indexed string pattern of length 2, both of which consist of only lowercase english letters.
+you can add either pattern[0] or pattern[1] anywhere in text exactly once. note that the character can be added even at the beginning or at the end of text.
+return the maximum number of times pattern can occur as a subsequence of the modified text.
+a subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.

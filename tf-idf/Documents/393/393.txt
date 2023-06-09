@@ -1,0 +1,5 @@
+you have a keyboard layout as shown above in the x-y plane, where each english uppercase letter is located at some coordinate.
+for example, the letter 'a' is located at coordinate (0, 0), the letter 'b' is located at coordinate (0, 1), the letter 'p' is located at coordinate (2, 3) and the letter 'z' is located at coordinate (4, 1).
+given the string word, return the minimum total distance to type such string using only two fingers.
+the distance between coordinates (x1, y1) and (x2, y2) is |x1 - x2| + |y1 - y2|.
+note that the initial positions of your two fingers are considered free so do not count towards your total distance, also your two fingers do not have to start at the first letter or the first two letters.

@@ -1,0 +1,3 @@
+write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits it has (also known as the hamming weight).
+note:
+note that in some languages, such as java, there is no unsigned integer type. in this case, the input will be given as a signed integer type. it should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.

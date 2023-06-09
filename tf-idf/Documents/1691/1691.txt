@@ -1,0 +1,9 @@
+enhance all functions to have the callpolyfill method. the method accepts an object obj as it's first parameter and any number of additional arguments. the obj becomes the this context for the function. the additional arguments are passed to the function (that the callpolyfill method belongs on).
+for example if you had the function:
+function tax(price, taxrate) {
+const totalcost = price * (1 + taxrate);
+console.log(`the cost of ${this.item} is ${totalcost}`);
+}
+calling this function like tax(10, 0.1) will log "the cost of undefined is 11". this is because the this context was not defined.
+however, calling the function like tax.callpolyfill({item: "salad"}, 10, 0.1) will log "the cost of salad is 11". the this context was appropriately set, and the function logged an appropriate output.
+please solve this without using the built-in function.call method.

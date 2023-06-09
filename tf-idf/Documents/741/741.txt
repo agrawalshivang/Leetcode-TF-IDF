@@ -1,0 +1,2 @@
+you are given a 0-indexed integer array nums. a pair of indices (i, j) is a bad pair if i < j and j - i != nums[j] - nums[i].
+return the total number of bad pairs in nums.

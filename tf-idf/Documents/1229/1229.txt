@@ -1,0 +1,7 @@
+alice has an undirected tree with n nodes labeled from 0 to n - 1. the tree is represented as a 2d integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
+alice wants bob to find the root of the tree. she allows bob to make several guesses about her tree. in one guess, he does the following:
+chooses two distinct integers u and v such that there exists an edge [u, v] in the tree.
+he tells alice that u is the parent of v in the tree.
+bob's guesses are represented by a 2d integer array guesses where guesses[j] = [uj, vj] indicates bob guessed uj to be the parent of vj.
+alice being lazy, does not reply to each of bob's guesses, but just says that at least k of his guesses are true.
+given the 2d integer arrays edges, guesses and the integer k, return the number of possible nodes that can be the root of alice's tree. if there is no such tree, return 0.

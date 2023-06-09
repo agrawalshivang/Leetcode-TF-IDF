@@ -1,0 +1,2 @@
+write a program to count the number of days between two dates.
+the two dates are given as strings, their format is yyyy-mm-dd as shown in the examples.

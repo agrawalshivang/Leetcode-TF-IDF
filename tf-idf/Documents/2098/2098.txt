@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array nums representing the strength of some heroes. the power of a group of heroes is defined as follows:
+let i0, i1, ... ,ik be the indices of the heroes in a group. then, the power of this group is max(nums[i0], nums[i1], ... ,nums[ik])2 * min(nums[i0], nums[i1], ... ,nums[ik]).
+return the sum of the power of all non-empty groups of heroes possible. since the sum could be very large, return it modulo 109 + 7.

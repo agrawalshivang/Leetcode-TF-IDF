@@ -1,0 +1,2 @@
+given an integer array nums and an integer k, find three non-overlapping subarrays of length k with maximum sum and return them.
+return the result as a list of indices representing the starting position of each interval (0-indexed). if there are multiple answers, return the lexicographically smallest one.

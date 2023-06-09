@@ -1,0 +1,3 @@
+given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). if the character ch does not exist in word, do nothing.
+for example, if word = "abcdefd" and ch = "d", then you should reverse the segment that starts at 0 and ends at 3 (inclusive). the resulting string will be "dcbaefd".
+return the resulting string.

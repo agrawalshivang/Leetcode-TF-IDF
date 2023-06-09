@@ -1,0 +1,14 @@
+given a c++ program, remove comments from it. the program source is an array of strings source where source[i] is the ith line of the source code. this represents the result of splitting the original source code string by the newline character '\n'.
+in c++, there are two types of comments, line comments, and block comments.
+the string "//" denotes a line comment, which represents that it and the rest of the characters to the right of it in the same line should be ignored.
+the string "/*" denotes a block comment, which represents that all characters until the next (non-overlapping) occurrence of "*/" should be ignored. (here, occurrences happen in reading order: line by line from left to right.) to be clear, the string "/*/" does not yet end the block comment, as the ending would be overlapping the beginning.
+the first effective comment takes precedence over others.
+for example, if the string "//" occurs in a block comment, it is ignored.
+similarly, if the string "/*" occurs in a line or block comment, it is also ignored.
+if a certain line of code is empty after removing comments, you must not output that line: each string in the answer list will be non-empty.
+there will be no control characters, single quote, or double quote characters.
+for example, source = "string s = "/* not a comment. */";" will not be a test case.
+also, nothing else such as defines or macros will interfere with the comments.
+it is guaranteed that every open block comment will eventually be closed, so "/*" outside of a line or block comment always starts a new comment.
+finally, implicit newline characters can be deleted by block comments. please see the examples below for details.
+after removing the comments from the source code, return the source code in the same format.

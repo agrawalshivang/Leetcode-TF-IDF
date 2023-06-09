@@ -1,0 +1,4 @@
+given a string s, reverse the string according to the following rules:
+all the characters that are not english letters remain in the same position.
+all the english letters (lowercase or uppercase) should be reversed.
+return s after reversing it.

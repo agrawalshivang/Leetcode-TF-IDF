@@ -1,0 +1,8 @@
+there are 3n piles of coins of varying size, you and your friends will take piles of coins as follows:
+in each step, you will choose any 3 piles of coins (not necessarily consecutive).
+of your choice, alice will pick the pile with the maximum number of coins.
+you will pick the next pile with the maximum number of coins.
+your friend bob will pick the last pile.
+repeat until there are no more piles of coins.
+given an array of integers piles where piles[i] is the number of coins in the ith pile.
+return the maximum number of coins that you can have.

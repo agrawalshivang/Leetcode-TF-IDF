@@ -1,0 +1,9 @@
+a string originaltext is encoded using a slanted transposition cipher to a string encodedtext with the help of a matrix having a fixed number of rows rows.
+originaltext is placed first in a top-left to bottom-right manner.
+the blue cells are filled first, followed by the red cells, then the yellow cells, and so on, until we reach the end of originaltext. the arrow indicates the order in which the cells are filled. all empty cells are filled with ' '. the number of columns is chosen such that the rightmost column will not be empty after filling in originaltext.
+encodedtext is then formed by appending all characters of the matrix in a row-wise fashion.
+the characters in the blue cells are appended first to encodedtext, then the red cells, and so on, and finally the yellow cells. the arrow indicates the order in which the cells are accessed.
+for example, if originaltext = "cipher" and rows = 3, then we encode it in the following manner:
+the blue arrows depict how originaltext is placed in the matrix, and the red arrows denote the order in which encodedtext is formed. in the above example, encodedtext = "ch ie pr".
+given the encoded string encodedtext and number of rows rows, return the original string originaltext.
+note: originaltext does not have any trailing spaces ' '. the test cases are generated such that there is only one possible originaltext.

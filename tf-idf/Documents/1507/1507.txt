@@ -1,0 +1,3 @@
+given the array restaurants where  restaurants[i] = [idi, ratingi, veganfriendlyi, pricei, distancei]. you have to filter the restaurants using three filters.
+the veganfriendly filter will be either true (meaning you should only include restaurants with veganfriendlyi set to true) or false (meaning you can include any restaurant). in addition, you have the filters maxprice and maxdistance which are the maximum value for price and distance of restaurants you should consider respectively.
+return the array of restaurant ids after filtering, ordered by rating from highest to lowest. for restaurants with the same rating, order them by id from highest to lowest. for simplicity veganfriendlyi and veganfriendly take value 1 when it is true, and 0 when it is false.

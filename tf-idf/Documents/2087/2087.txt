@@ -1,0 +1,8 @@
+you are given an integer array deck. there is a deck of cards where every card has a unique integer. the integer on the ith card is deck[i].
+you can order the deck in any order you want. initially, all the cards start face down (unrevealed) in one deck.
+you will do the following steps repeatedly until all cards are revealed:
+take the top card of the deck, reveal it, and take it out of the deck.
+if there are still cards in the deck then put the next top card of the deck at the bottom of the deck.
+if there are still unrevealed cards, go back to step 1. otherwise, stop.
+return an ordering of the deck that would reveal the cards in increasing order.
+note that the first entry in the answer is considered to be the top of the deck.

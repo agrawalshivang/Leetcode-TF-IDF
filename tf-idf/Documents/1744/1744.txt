@@ -1,0 +1,7 @@
+design a map that allows you to do the following:
+maps a string key to a given value.
+returns the sum of the values that have a key with a prefix equal to a given string.
+implement the mapsum class:
+mapsum() initializes the mapsum object.
+void insert(string key, int val) inserts the key-val pair into the map. if the key already existed, the original key-value pair will be overridden to the new one.
+int sum(string prefix) returns the sum of all the pairs' value whose key starts with the prefix.

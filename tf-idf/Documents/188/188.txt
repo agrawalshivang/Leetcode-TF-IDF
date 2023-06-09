@@ -1,0 +1,9 @@
+a farmer has a rectangular grid of land with m rows and n columns that can be divided into unit cells. each cell is either fertile (represented by a 1) or barren (represented by a 0). all cells outside the grid are considered barren.
+a pyramidal plot of land can be defined as a set of cells with the following criteria:
+the number of cells in the set has to be greater than 1 and all cells must be fertile.
+the apex of a pyramid is the topmost cell of the pyramid. the height of a pyramid is the number of rows it covers. let (r, c) be the apex of the pyramid, and its height be h. then, the plot comprises of cells (i, j) where r <= i <= r + h - 1 and c - (i - r) <= j <= c + (i - r).
+an inverse pyramidal plot of land can be defined as a set of cells with similar criteria:
+the number of cells in the set has to be greater than 1 and all cells must be fertile.
+the apex of an inverse pyramid is the bottommost cell of the inverse pyramid. the height of an inverse pyramid is the number of rows it covers. let (r, c) be the apex of the pyramid, and its height be h. then, the plot comprises of cells (i, j) where r - h + 1 <= i <= r and c - (r - i) <= j <= c + (r - i).
+some examples of valid and invalid pyramidal (and inverse pyramidal) plots are shown below. black cells indicate fertile cells.
+given a 0-indexed m x n binary matrix grid representing the farmland, return the total number of pyramidal and inverse pyramidal plots that can be found in grid.

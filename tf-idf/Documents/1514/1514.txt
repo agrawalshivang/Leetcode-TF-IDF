@@ -1,0 +1,5 @@
+a company has n employees with a unique id for each employee from 0 to n - 1. the head of the company is the one with headid.
+each employee has one direct manager given in the manager array where manager[i] is the direct manager of the i-th employee, manager[headid] = -1. also, it is guaranteed that the subordination relationships have a tree structure.
+the head of the company wants to inform all the company employees of an urgent piece of news. he will inform his direct subordinates, and they will inform their subordinates, and so on until all employees know about the urgent news.
+the i-th employee needs informtime[i] minutes to inform all of his direct subordinates (i.e., after informtime[i] minutes, all his direct subordinates can start spreading the news).
+return the number of minutes needed to inform all the employees about the urgent news.

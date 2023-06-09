@@ -1,0 +1,4 @@
+given a 0-indexed integer array nums, find the leftmost middleindex (i.e., the smallest amongst all the possible ones).
+a middleindex is an index where nums[0] + nums[1] + ... + nums[middleindex-1] == nums[middleindex+1] + nums[middleindex+2] + ... + nums[nums.length-1].
+if middleindex == 0, the left side sum is considered to be 0. similarly, if middleindex == nums.length - 1, the right side sum is considered to be 0.
+return the leftmost middleindex that satisfies the condition, or -1 if there is no such index.

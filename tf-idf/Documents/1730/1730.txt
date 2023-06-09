@@ -1,0 +1,17 @@
+sql schema
+table: transactions
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| id            | int     |
+| country       | varchar |
+| state         | enum    |
+| amount        | int     |
+| trans_date    | date    |
++---------------+---------+
+id is the primary key of this table.
+the table has information about incoming transactions.
+the state column is an enum of type ["approved", "declined"].
+write an sql query to find for each month and country, the number of transactions and their total amount, the number of approved transactions and their total amount.
+return the result table in any order.
+the query result format is in the following example.

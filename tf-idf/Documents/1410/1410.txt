@@ -1,0 +1,3 @@
+you are given an array nums consisting of non-negative integers. you are also given a queries array, where queries[i] = [xi, mi].
+the answer to the ith query is the maximum bitwise xor value of xi and any element of nums that does not exceed mi. in other words, the answer is max(nums[j] xor xi) for all j such that nums[j] <= mi. if all elements in nums are larger than mi, then the answer is -1.
+return an integer array answer where answer.length == queries.length and answer[i] is the answer to the ith query.

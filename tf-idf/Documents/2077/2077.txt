@@ -1,0 +1,4 @@
+you have information about n different recipes. you are given a string array recipes and a 2d string array ingredients. the ith recipe has the name recipes[i], and you can create it if you have all the needed ingredients from ingredients[i]. ingredients to a recipe may need to be created from other recipes, i.e., ingredients[i] may contain a string that is in recipes.
+you are also given a string array supplies containing all the ingredients that you initially have, and you have an infinite supply of all of them.
+return a list of all the recipes that you can create. you may return the answer in any order.
+note that two recipes may contain each other in their ingredients.

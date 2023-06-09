@@ -1,0 +1,4 @@
+there is a broken calculator that has the integer startvalue on its display initially. in one operation, you can:
+multiply the number on display by 2, or
+subtract 1 from the number on display.
+given two integers startvalue and target, return the minimum number of operations needed to display target on the calculator.

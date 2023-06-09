@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array candies. each element in the array denotes a pile of candies of size candies[i]. you can divide each pile into any number of sub piles, but you cannot merge two piles together.
+you are also given an integer k. you should allocate piles of candies to k children such that each child gets the same number of candies. each child can take at most one pile of candies and some piles of candies may go unused.
+return the maximum number of candies each child can get.

@@ -1,0 +1,3 @@
+given an array arr and a chunk size size, return a chunked array. a chunked array contains the original elements in arr, but consists of subarrays each of length size. the length of the last subarray may be less than size if arr.length is not evenly divisible by size.
+you may assume the array is the output of json.parse. in other words, it is valid json.
+please solve it without using lodash's _.chunk function.

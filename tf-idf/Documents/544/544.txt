@@ -1,0 +1,10 @@
+a concert hall has n rows numbered from 0 to n - 1, each with m seats, numbered from 0 to m - 1. you need to design a ticketing system that can allocate seats in the following cases:
+if a group of k spectators can sit together in a row.
+if every member of a group of k spectators can get a seat. they may or may not sit together.
+note that the spectators are very picky. hence:
+they will book seats only if each member of their group can get a seat with row number less than or equal to maxrow. maxrow can vary from group to group.
+in case there are multiple rows to choose from, the row with the smallest number is chosen. if there are multiple seats to choose in the same row, the seat with the smallest number is chosen.
+implement the bookmyshow class:
+bookmyshow(int n, int m) initializes the object with n as number of rows and m as number of seats per row.
+int[] gather(int k, int maxrow) returns an array of length 2 denoting the row and seat number (respectively) of the first seat being allocated to the k members of the group, who must sit together. in other words, it returns the smallest possible r and c such that all [c, c + k - 1] seats are valid and empty in row r, and r <= maxrow. returns [] in case it is not possible to allocate seats to the group.
+boolean scatter(int k, int maxrow) returns true if all k members of the group can be allocated seats in rows 0 to maxrow, who may or may not sit together. if the seats can be allocated, it allocates k seats to the group with the smallest row numbers, and the smallest possible seat numbers in each row. otherwise, returns false.

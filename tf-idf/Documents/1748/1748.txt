@@ -1,0 +1,25 @@
+sql schema
+table: products
++------------------+---------+
+| column name      | type    |
++------------------+---------+
+| product_id       | int     |
+| product_name     | varchar |
+| product_category | varchar |
++------------------+---------+
+product_id is the primary key for this table.
+this table contains data about the company's products.
+table: orders
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| product_id    | int     |
+| order_date    | date    |
+| unit          | int     |
++---------------+---------+
+there is no primary key for this table. it may have duplicate rows.
+product_id is a foreign key to the products table.
+unit is the number of products ordered in order_date.
+write an sql query to get the names of products that have at least 100 units ordered in february 2020 and their amount.
+return result table in any order.
+the query result format is in the following example.

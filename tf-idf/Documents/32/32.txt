@@ -1,0 +1,6 @@
+there is a hotel with n rooms. the rooms are represented by a 2d integer array rooms where rooms[i] = [roomidi, sizei] denotes that there is a room with room number roomidi and size equal to sizei. each roomidi is guaranteed to be unique.
+you are also given k queries in a 2d array queries where queries[j] = [preferredj, minsizej]. the answer to the jth query is the room number id of a room such that:
+the room has a size of at least minsizej, and
+abs(id - preferredj) is minimized, where abs(x) is the absolute value of x.
+if there is a tie in the absolute difference, then use the room with the smallest such id. if there is no such room, the answer is -1.
+return an array answer of length k where answer[j] contains the answer to the jth query.

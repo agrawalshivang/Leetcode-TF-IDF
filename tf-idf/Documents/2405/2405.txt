@@ -1,0 +1,4 @@
+you are given a list of airline tickets where tickets[i] = [fromi, toi] represent the departure and the arrival airports of one flight. reconstruct the itinerary in order and return it.
+all of the tickets belong to a man who departs from "jfk", thus, the itinerary must begin with "jfk". if there are multiple valid itineraries, you should return the itinerary that has the smallest lexical order when read as a single string.
+for example, the itinerary ["jfk", "lga"] has a smaller lexical order than ["jfk", "lgb"].
+you may assume all tickets form at least one valid itinerary. you must use all the tickets once and only once.

@@ -1,0 +1,6 @@
+you are given a binary string binary consisting of only 0's or 1's. you can apply each of the following operations any number of times:
+operation 1: if the number contains the substring "00", you can replace it with "10".
+for example, "00010" -> "10010"
+operation 2: if the number contains the substring "10", you can replace it with "01".
+for example, "00010" -> "00001"
+return the maximum binary string you can obtain after any number of operations. binary string x is greater than binary string y if x's decimal representation is greater than y's decimal representation.

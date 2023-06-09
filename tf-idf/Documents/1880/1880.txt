@@ -1,0 +1,3 @@
+you are given an array of strings names, and an array heights that consists of distinct positive integers. both arrays are of length n.
+for each index i, names[i] and heights[i] denote the name and height of the ith person.
+return names sorted in descending order by the people's heights.

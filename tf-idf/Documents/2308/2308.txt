@@ -1,0 +1,7 @@
+given a parentheses string s containing only the characters '(' and ')'. a parentheses string is balanced if:
+any left parenthesis '(' must have a corresponding two consecutive right parenthesis '))'.
+left parenthesis '(' must go before the corresponding two consecutive right parenthesis '))'.
+in other words, we treat '(' as an opening parenthesis and '))' as a closing parenthesis.
+for example, "())", "())(())))" and "(())())))" are balanced, ")()", "()))" and "(()))" are not balanced.
+you can insert the characters '(' and ')' at any position of the string to balance it if needed.
+return the minimum number of insertions needed to make s balanced.

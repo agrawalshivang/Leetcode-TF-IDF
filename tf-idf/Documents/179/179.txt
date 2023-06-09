@@ -1,0 +1,10 @@
+a storekeeper is a game in which the player pushes boxes around in a warehouse trying to get them to target locations.
+the game is represented by an m x n grid of characters grid where each element is a wall, floor, or box.
+your task is to move the box 'b' to the target position 't' under the following rules:
+the character 's' represents the player. the player can move up, down, left, right in grid if it is a floor (empty cell).
+the character '.' represents the floor which means a free cell to walk.
+the character '#' represents the wall which means an obstacle (impossible to walk there).
+there is only one box 'b' and one target cell 't' in the grid.
+the box can be moved to an adjacent free cell by standing next to the box and then moving in the direction of the box. this is a push.
+the player cannot walk through the box.
+return the minimum number of pushes to move the box to the target. if there is no way to reach the target, return -1.

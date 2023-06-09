@@ -1,0 +1,7 @@
+given a 0-indexed integer array nums, find a 0-indexed integer array answer where:
+answer.length == nums.length.
+answer[i] = |leftsum[i] - rightsum[i]|.
+where:
+leftsum[i] is the sum of elements to the left of the index i in the array nums. if there is no such element, leftsum[i] = 0.
+rightsum[i] is the sum of elements to the right of the index i in the array nums. if there is no such element, rightsum[i] = 0.
+return the array answer.

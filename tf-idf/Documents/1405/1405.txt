@@ -1,0 +1,8 @@
+given a date string in the form day month year, where:
+day is in the set {"1st", "2nd", "3rd", "4th", ..., "30th", "31st"}.
+month is in the set {"jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"}.
+year is in the range [1900, 2100].
+convert the date string to the format yyyy-mm-dd, where:
+yyyy denotes the 4 digit year.
+mm denotes the 2 digit month.
+dd denotes the 2 digit day.

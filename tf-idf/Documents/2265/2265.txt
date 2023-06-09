@@ -1,0 +1,7 @@
+you are given a 0-indexed integer array nums.
+the concatenation of two numbers is the number formed by concatenating their numerals.
+for example, the concatenation of 15, 49 is 1549.
+the concatenation value of nums is initially equal to 0. perform this operation until nums becomes empty:
+if there exists more than one number in nums, pick the first element and last element in nums respectively and add the value of their concatenation to the concatenation value of nums, then delete the first and last element from nums.
+if one element exists, add its value to the concatenation value of nums, then delete it.
+return the concatenation value of the nums.

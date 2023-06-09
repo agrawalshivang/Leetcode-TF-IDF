@@ -1,0 +1,9 @@
+given the following details of a matrix with n columns and 2 rows :
+the matrix is a binary matrix, which means each element in the matrix can be 0 or 1.
+the sum of elements of the 0-th(upper) row is given as upper.
+the sum of elements of the 1-st(lower) row is given as lower.
+the sum of elements in the i-th column(0-indexed) is colsum[i], where colsum is given as an integer array with length n.
+your task is to reconstruct the matrix with upper, lower and colsum.
+return it as a 2-d integer array.
+if there are more than one valid solution, any of them will be accepted.
+if no valid solution exists, return an empty 2-d array.

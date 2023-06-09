@@ -1,0 +1,3 @@
+you are given a string s and an integer repeatlimit. construct a new string repeatlimitedstring using the characters of s such that no letter appears more than repeatlimit times in a row. you do not have to use all characters from s.
+return the lexicographically largest repeatlimitedstring possible.
+a string a is lexicographically larger than a string b if in the first position where a and b differ, string a has a letter that appears later in the alphabet than the corresponding letter in b. if the first min(a.length, b.length) characters do not differ, then the longer string is the lexicographically larger one.

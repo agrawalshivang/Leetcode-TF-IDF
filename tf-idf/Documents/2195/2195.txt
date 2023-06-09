@@ -1,0 +1,3 @@
+you are given a 2d integer array logs where each logs[i] = [birthi, deathi] indicates the birth and death years of the ith person.
+the population of some year x is the number of people alive during that year. the ith person is counted in year x's population if x is in the inclusive range [birthi, deathi - 1]. note that the person is not counted in the year that they die.
+return the earliest year with the maximum population.

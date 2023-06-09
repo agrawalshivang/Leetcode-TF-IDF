@@ -1,0 +1,2 @@
+you are given an integer n. there is an undirected graph with n nodes, numbered from 0 to n - 1. you are given a 2d integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting nodes ai and bi.
+return the number of pairs of different nodes that are unreachable from each other.

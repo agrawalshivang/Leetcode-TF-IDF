@@ -1,0 +1,8 @@
+alice is texting bob using her phone. the mapping of digits to letters is shown in the figure below.
+in order to add a letter, alice has to press the key of the corresponding digit i times, where i is the position of the letter in the key.
+for example, to add the letter 's', alice has to press '7' four times. similarly, to add the letter 'k', alice has to press '5' twice.
+note that the digits '0' and '1' do not map to any letters, so alice does not use them.
+however, due to an error in transmission, bob did not receive alice's text message but received a string of pressed keys instead.
+for example, when alice sent the message "bob", bob received the string "2266622".
+given a string pressedkeys representing the string received by bob, return the total number of possible text messages alice could have sent.
+since the answer may be very large, return it modulo 109 + 7.

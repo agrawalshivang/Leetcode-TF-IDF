@@ -1,0 +1,13 @@
+you are given a stream of records about a particular stock. each record contains a timestamp and the corresponding price of the stock at that timestamp.
+unfortunately due to the volatile nature of the stock market, the records do not come in order. even worse, some records may be incorrect. another record with the same timestamp may appear later in the stream correcting the price of the previous wrong record.
+design an algorithm that:
+updates the price of the stock at a particular timestamp, correcting the price from any previous records at the timestamp.
+finds the latest price of the stock based on the current records. the latest price is the price at the latest timestamp recorded.
+finds the maximum price the stock has been based on the current records.
+finds the minimum price the stock has been based on the current records.
+implement the stockprice class:
+stockprice() initializes the object with no price records.
+void update(int timestamp, int price) updates the price of the stock at the given timestamp.
+int current() returns the latest price of the stock.
+int maximum() returns the maximum price of the stock.
+int minimum() returns the minimum price of the stock.

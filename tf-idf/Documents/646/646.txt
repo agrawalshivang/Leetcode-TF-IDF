@@ -1,0 +1,2 @@
+given a string of english letters s, return the greatest english letter which occurs as both a lowercase and uppercase letter in s. the returned letter should be in uppercase. if no such letter exists, return an empty string.
+an english letter b is greater than another letter a if b appears after a in the english alphabet.

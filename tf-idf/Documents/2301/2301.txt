@@ -1,0 +1,1 @@
+given the string s, return the size of the longest substring containing each vowel an even number of times. that is, 'a', 'e', 'i', 'o', and 'u' must appear an even number of times.

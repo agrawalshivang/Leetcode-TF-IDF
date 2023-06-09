@@ -1,0 +1,10 @@
+you are given a valid boolean expression as a string expression consisting of the characters '1','0','&' (bitwise and operator),'|' (bitwise or operator),'(', and ')'.
+for example, "()1|1" and "(1)&()" are not valid while "1", "(((1))|(0))", and "1|(0&(1))" are valid expressions.
+return the minimum cost to change the final value of the expression.
+for example, if expression = "1|1|(0&0)&1", its value is 1|1|(0&0)&1 = 1|1|0&1 = 1|0&1 = 1&1 = 1. we want to apply operations so that the new expression evaluates to 0.
+the cost of changing the final value of an expression is the number of operations performed on the expression. the types of operations are described as follows:
+turn a '1' into a '0'.
+turn a '0' into a '1'.
+turn a '&' into a '|'.
+turn a '|' into a '&'.
+note: '&' does not take precedence over '|' in the order of calculation. evaluate parentheses first, then in left-to-right order.

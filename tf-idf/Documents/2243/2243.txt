@@ -1,0 +1,9 @@
+you are given an array of strings tokens that represents an arithmetic expression in a reverse polish notation.
+evaluate the expression. return an integer that represents the value of the expression.
+note that:
+the valid operators are '+', '-', '*', and '/'.
+each operand may be an integer or another expression.
+the division between two integers always truncates toward zero.
+there will not be any division by zero.
+the input represents a valid arithmetic expression in a reverse polish notation.
+the answer and all the intermediate calculations can be represented in a 32-bit integer.

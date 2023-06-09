@@ -1,0 +1,2 @@
+you are given a string s. an awesome substring is a non-empty substring of s such that we can make any number of swaps in order to make it a palindrome.
+return the length of the maximum length awesome substring of s.

@@ -1,0 +1,5 @@
+given a sentence text (a sentence is a string of space-separated words) in the following format:
+first letter is in upper case.
+each word in text are separated by a single space.
+your task is to rearrange the words in text such that all words are rearranged in an increasing order of their lengths. if two words have the same length, arrange them in their original order.
+return the new text following the format shown above.

@@ -1,0 +1,2 @@
+you are given an array of points in the x-y plane points where points[i] = [xi, yi].
+return the minimum area of a rectangle formed from these points, with sides parallel to the x and y axes. if there is not any such rectangle, return 0.

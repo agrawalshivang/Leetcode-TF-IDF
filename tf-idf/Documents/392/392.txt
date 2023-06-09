@@ -1,0 +1,10 @@
+design your implementation of the linked list. you can choose to use a singly or doubly linked list.
+a node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node.
+if you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. assume all nodes in the linked list are 0-indexed.
+implement the mylinkedlist class:
+mylinkedlist() initializes the mylinkedlist object.
+int get(int index) get the value of the indexth node in the linked list. if the index is invalid, return -1.
+void addathead(int val) add a node of value val before the first element of the linked list. after the insertion, the new node will be the first node of the linked list.
+void addattail(int val) append a node of value val as the last element of the linked list.
+void addatindex(int index, int val) add a node of value val before the indexth node in the linked list. if index equals the length of the linked list, the node will be appended to the end of the linked list. if index is greater than the length, the node will not be inserted.
+void deleteatindex(int index) delete the indexth node in the linked list, if the index is valid.

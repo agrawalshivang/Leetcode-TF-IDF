@@ -1,0 +1,6 @@
+you are given an array of non-overlapping axis-aligned rectangles rects where rects[i] = [ai, bi, xi, yi] indicates that (ai, bi) is the bottom-left corner point of the ith rectangle and (xi, yi) is the top-right corner point of the ith rectangle. design an algorithm to pick a random integer point inside the space covered by one of the given rectangles. a point on the perimeter of a rectangle is included in the space covered by the rectangle.
+any integer point inside the space covered by one of the given rectangles should be equally likely to be returned.
+note that an integer point is a point that has integer coordinates.
+implement the solution class:
+solution(int[][] rects) initializes the object with the given rectangles rects.
+int[] pick() returns a random integer point [u, v] inside the space covered by one of the given rectangles.

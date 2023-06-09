@@ -1,0 +1,6 @@
+a happy string is a string that:
+consists only of letters of the set ['a', 'b', 'c'].
+s[i] != s[i + 1] for all values of i from 1 to s.length - 1 (string is 1-indexed).
+for example, strings "abc", "ac", "b" and "abcbabcbcb" are all happy strings and strings "aa", "baa" and "ababbc" are not happy strings.
+given two integers n and k, consider a list of all happy strings of length n sorted in lexicographical order.
+return the kth string of this list or return an empty string if there are less than k happy strings of length n.

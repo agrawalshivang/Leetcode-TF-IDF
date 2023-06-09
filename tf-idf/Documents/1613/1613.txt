@@ -1,0 +1,3 @@
+you are given a string s consisting of n characters which are either 'x' or 'o'.
+a move is defined as selecting three consecutive characters of s and converting them to 'o'. note that if a move is applied to the character 'o', it will stay the same.
+return the minimum number of moves required so that all the characters of s are converted to 'o'.

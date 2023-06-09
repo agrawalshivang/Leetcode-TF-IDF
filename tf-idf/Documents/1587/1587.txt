@@ -1,0 +1,2 @@
+given a binary tree, find the lowest common ancestor (lca) of two given nodes in the tree.
+according to the definition of lca on wikipedia: “the lowest common ancestor is defined between two nodes p and q as the lowest node in t that has both p and q as descendants (where we allow a node to be a descendant of itself).”

@@ -1,0 +1,6 @@
+you are given an integer array nums and two integers indexdiff and valuediff.
+find a pair of indices (i, j) such that:
+i != j,
+abs(i - j) <= indexdiff.
+abs(nums[i] - nums[j]) <= valuediff, and
+return true if such pair exists or false otherwise.

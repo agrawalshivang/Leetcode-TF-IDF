@@ -1,0 +1,2 @@
+you are given an array of characters letters that is sorted in non-decreasing order, and a character target. there are at least two different characters in letters.
+return the smallest character in letters that is lexicographically greater than target. if such a character does not exist, return the first character in letters.

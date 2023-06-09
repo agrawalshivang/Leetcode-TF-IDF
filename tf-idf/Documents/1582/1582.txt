@@ -1,0 +1,8 @@
+you are given three positive integers: n, index, and maxsum. you want to construct an array nums (0-indexed) that satisfies the following conditions:
+nums.length == n
+nums[i] is a positive integer where 0 <= i < n.
+abs(nums[i] - nums[i+1]) <= 1 where 0 <= i < n-1.
+the sum of all the elements of nums does not exceed maxsum.
+nums[index] is maximized.
+return nums[index] of the constructed array.
+note that abs(x) equals x if x >= 0, and -x otherwise.

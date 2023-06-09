@@ -1,0 +1,4 @@
+you are given two 0-indexed integer arrays nums1 and nums2, of equal length n.
+in one operation, you can swap the values of any two indices of nums1. the cost of this operation is the sum of the indices.
+find the minimum total cost of performing the given operation any number of times such that nums1[i] != nums2[i] for all 0 <= i <= n - 1 after performing all the operations.
+return the minimum total cost such that nums1 and nums2 satisfy the above condition. in case it is not possible, return -1.

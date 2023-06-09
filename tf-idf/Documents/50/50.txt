@@ -1,0 +1,4 @@
+you are given a 0-indexed string blocks of length n, where blocks[i] is either 'w' or 'b', representing the color of the ith block. the characters 'w' and 'b' denote the colors white and black, respectively.
+you are also given an integer k, which is the desired number of consecutive black blocks.
+in one operation, you can recolor a white block such that it becomes a black block.
+return the minimum number of operations needed such that there is at least one occurrence of k consecutive black blocks.

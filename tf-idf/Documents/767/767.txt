@@ -1,0 +1,5 @@
+given an integer array nums, your goal is to make all elements in nums equal. to complete one operation, follow these steps:
+find the largest value in nums. let its index be i (0-indexed) and its value be largest. if there are multiple elements with the largest value, pick the smallest i.
+find the next largest value in nums strictly smaller than largest. let its value be nextlargest.
+reduce nums[i] to nextlargest.
+return the number of operations to make all elements in nums equal.

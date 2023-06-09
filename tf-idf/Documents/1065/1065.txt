@@ -1,0 +1,5 @@
+you are stacking blocks to form a pyramid. each block has a color, which is represented by a single letter. each row of blocks contains one less block than the row beneath it and is centered on top.
+to make the pyramid aesthetically pleasing, there are only specific triangular patterns that are allowed. a triangular pattern consists of a single block stacked on top of two blocks. the patterns are given as a list of three-letter strings allowed, where the first two characters of a pattern represent the left and right bottom blocks respectively, and the third character is the top block.
+for example, "abc" represents a triangular pattern with a 'c' block stacked on top of an 'a' (left) and 'b' (right) block. note that this is different from "bac" where 'b' is on the left bottom and 'a' is on the right bottom.
+you start with a bottom row of blocks bottom, given as a single string, that you must use as the base of the pyramid.
+given bottom and allowed, return true if you can build the pyramid all the way to the top such that every triangular pattern in the pyramid is in allowed, or false otherwise.

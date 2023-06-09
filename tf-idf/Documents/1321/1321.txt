@@ -1,0 +1,8 @@
+you are given an integer n. there are n rooms numbered from 0 to n - 1.
+you are given a 2d integer array meetings where meetings[i] = [starti, endi] means that a meeting will be held during the half-closed time interval [starti, endi). all the values of starti are unique.
+meetings are allocated to rooms in the following manner:
+each meeting will take place in the unused room with the lowest number.
+if there are no available rooms, the meeting will be delayed until a room becomes free. the delayed meeting should have the same duration as the original meeting.
+when a room becomes unused, meetings that have an earlier original start time should be given the room.
+return the number of the room that held the most meetings. if there are multiple rooms, return the room with the lowest number.
+a half-closed interval [a, b) is the interval between a and b including a and not including b.

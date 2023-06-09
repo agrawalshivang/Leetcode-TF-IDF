@@ -1,0 +1,11 @@
+a robot on an infinite xy-plane starts at point (0, 0) facing north. the robot can receive a sequence of these three possible types of commands:
+-2: turn left 90 degrees.
+-1: turn right 90 degrees.
+1 <= k <= 9: move forward k units, one unit at a time.
+some of the grid squares are obstacles. the ith obstacle is at grid point obstacles[i] = (xi, yi). if the robot runs into an obstacle, then it will instead stay in its current location and move on to the next command.
+return the maximum euclidean distance that the robot ever gets from the origin squared (i.e. if the distance is 5, return 25).
+note:
+north means +y direction.
+east means +x direction.
+south means -y direction.
+west means -x direction.

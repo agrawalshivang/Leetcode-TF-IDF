@@ -1,0 +1,3 @@
+given a string s, return the maximum number of unique substrings that the given string can be split into.
+you can split string s into any list of non-empty substrings, where the concatenation of the substrings forms the original string. however, you must split the substrings such that all of them are unique.
+a substring is a contiguous sequence of characters within a string.

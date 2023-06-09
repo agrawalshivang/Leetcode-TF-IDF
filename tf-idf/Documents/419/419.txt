@@ -1,0 +1,3 @@
+given an integer array nums and two integers firstlen and secondlen, return the maximum sum of elements in two non-overlapping subarrays with lengths firstlen and secondlen.
+the array with length firstlen could occur before or after the array with length secondlen, but they have to be non-overlapping.
+a subarray is a contiguous part of an array.

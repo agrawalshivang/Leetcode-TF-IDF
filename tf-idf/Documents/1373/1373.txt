@@ -1,0 +1,6 @@
+you are given an integer n indicating the number of people in a network. each person is labeled from 0 to n - 1.
+you are also given a 0-indexed 2d integer array restrictions, where restrictions[i] = [xi, yi] means that person xi and person yi cannot become friends, either directly or indirectly through other people.
+initially, no one is friends with each other. you are given a list of friend requests as a 0-indexed 2d integer array requests, where requests[j] = [uj, vj] is a friend request between person uj and person vj.
+a friend request is successful if uj and vj can be friends. each friend request is processed in the given order (i.e., requests[j] occurs before requests[j + 1]), and upon a successful request, uj and vj become direct friends for all future friend requests.
+return a boolean array result, where each result[j] is true if the jth friend request is successful or false if it is not.
+note: if uj and vj are already direct friends, the request is still successful.

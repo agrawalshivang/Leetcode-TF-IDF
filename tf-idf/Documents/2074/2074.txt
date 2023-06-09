@@ -1,0 +1,3 @@
+you are given a 2d array of axis-aligned rectangles. each rectangle[i] = [xi1, yi1, xi2, yi2] denotes the ith rectangle where (xi1, yi1) are the coordinates of the bottom-left corner, and (xi2, yi2) are the coordinates of the top-right corner.
+calculate the total area covered by all rectangles in the plane. any area covered by two or more rectangles should only be counted once.
+return the total area. since the answer may be too large, return it modulo 109 + 7.

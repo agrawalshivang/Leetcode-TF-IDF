@@ -1,0 +1,4 @@
+you are given a 0-indexed m x n binary matrix grid. you can move from a cell (row, col) to any of the cells (row + 1, col) or (row, col + 1) that has the value 1. the matrix is disconnected if there is no path from (0, 0) to (m - 1, n - 1).
+you can flip the value of at most one (possibly none) cell. you cannot flip the cells (0, 0) and (m - 1, n - 1).
+return true if it is possible to make the matrix disconnect or false otherwise.
+note that flipping a cell changes its value from 0 to 1 or from 1 to 0.

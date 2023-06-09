@@ -1,0 +1,5 @@
+in a string s of lowercase letters, these letters form consecutive groups of the same character.
+for example, a string like s = "abbxxxxzyy" has the groups "a", "bb", "xxxx", "z", and "yy".
+a group is identified by an interval [start, end], where start and end denote the start and end indices (inclusive) of the group. in the above example, "xxxx" has the interval [3,6].
+a group is considered large if it has 3 or more characters.
+return the intervals of every large group sorted in increasing order by start index.

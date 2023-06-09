@@ -1,0 +1,5 @@
+suppose leetcode will start its ipo soon. in order to sell a good price of its shares to venture capital, leetcode would like to work on some projects to increase its capital before the ipo. since it has limited resources, it can only finish at most k distinct projects before the ipo. help leetcode design the best way to maximize its total capital after finishing at most k distinct projects.
+you are given n projects where the ith project has a pure profit profits[i] and a minimum capital of capital[i] is needed to start it.
+initially, you have w capital. when you finish a project, you will obtain its pure profit and the profit will be added to your total capital.
+pick a list of at most k distinct projects from given projects to maximize your final capital, and return the final maximized capital.
+the answer is guaranteed to fit in a 32-bit signed integer.

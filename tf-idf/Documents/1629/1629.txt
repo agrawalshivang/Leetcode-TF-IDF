@@ -1,0 +1,5 @@
+there is a party where n friends numbered from 0 to n - 1 are attending. there is an infinite number of chairs in this party that are numbered from 0 to infinity. when a friend arrives at the party, they sit on the unoccupied chair with the smallest number.
+for example, if chairs 0, 1, and 5 are occupied when a friend comes, they will sit on chair number 2.
+when a friend leaves the party, their chair becomes unoccupied at the moment they leave. if another friend arrives at that same moment, they can sit in that chair.
+you are given a 0-indexed 2d integer array times where times[i] = [arrivali, leavingi], indicating the arrival and leaving times of the ith friend respectively, and an integer targetfriend. all arrival times are distinct.
+return the chair number that the friend numbered targetfriend will sit on.

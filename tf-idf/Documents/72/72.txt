@@ -1,0 +1,13 @@
+an underground railway system is keeping track of customer travel times between different stations. they are using this data to calculate the average time it takes to travel from one station to another.
+implement the undergroundsystem class:
+void checkin(int id, string stationname, int t)
+a customer with a card id equal to id, checks in at the station stationname at time t.
+a customer can only be checked into one place at a time.
+void checkout(int id, string stationname, int t)
+a customer with a card id equal to id, checks out from the station stationname at time t.
+double getaveragetime(string startstation, string endstation)
+returns the average time it takes to travel from startstation to endstation.
+the average time is computed from all the previous traveling times from startstation to endstation that happened directly, meaning a check in at startstation followed by a check out from endstation.
+the time it takes to travel from startstation to endstation may be different from the time it takes to travel from endstation to startstation.
+there will be at least one customer that has traveled from startstation to endstation before getaveragetime is called.
+you may assume all calls to the checkin and checkout methods are consistent. if a customer checks in at time t1 then checks out at time t2, then t1 < t2. all events happen in chronological order.

@@ -1,0 +1,4 @@
+you are given two binary trees root1 and root2.
+imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. you need to merge the two trees into a new binary tree. the merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. otherwise, the not null node will be used as the node of the new tree.
+return the merged tree.
+note: the merging process must start from the root nodes of both trees.

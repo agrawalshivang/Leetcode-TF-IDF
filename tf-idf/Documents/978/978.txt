@@ -1,0 +1,4 @@
+you are given an integer array nums. you have an integer array arr of the same length with all values set to 0 initially. you also have the following modify function:
+you want to use the modify function to convert arr to nums using the minimum number of calls.
+return the minimum number of function calls to make nums from arr.
+the test cases are generated so that the answer fits in a 32-bit signed integer.

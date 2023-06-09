@@ -1,0 +1,10 @@
+you are given a string s. reorder the string using the following algorithm:
+pick the smallest character from s and append it to the result.
+pick the smallest character from s which is greater than the last appended character to the result and append it.
+repeat step 2 until you cannot pick more characters.
+pick the largest character from s and append it to the result.
+pick the largest character from s which is smaller than the last appended character to the result and append it.
+repeat step 5 until you cannot pick more characters.
+repeat the steps from 1 to 6 until you pick all characters from s.
+in each step, if the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
+return the result string after sorting s with this algorithm.

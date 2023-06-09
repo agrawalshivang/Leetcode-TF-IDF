@@ -1,0 +1,19 @@
+a kingdom consists of a king, his children, his grandchildren, and so on. every once in a while, someone in the family dies or a child is born.
+the kingdom has a well-defined order of inheritance that consists of the king as the first member. let's define the recursive function successor(x, curorder), which given a person x and the inheritance order so far, returns who should be the next person after x in the order of inheritance.
+successor(x, curorder):
+if x has no children or all of x's children are in curorder:
+if x is the king return null
+else return successor(x's parent, curorder)
+else return x's oldest child who's not in curorder
+for example, assume we have a kingdom that consists of the king, his children alice and bob (alice is older than bob), and finally alice's son jack.
+in the beginning, curorder will be ["king"].
+calling successor(king, curorder) will return alice, so we append to curorder to get ["king", "alice"].
+calling successor(alice, curorder) will return jack, so we append to curorder to get ["king", "alice", "jack"].
+calling successor(jack, curorder) will return bob, so we append to curorder to get ["king", "alice", "jack", "bob"].
+calling successor(bob, curorder) will return null. thus the order of inheritance will be ["king", "alice", "jack", "bob"].
+using the above function, we can always obtain a unique order of inheritance.
+implement the throneinheritance class:
+throneinheritance(string kingname) initializes an object of the throneinheritance class. the name of the king is given as part of the constructor.
+void birth(string parentname, string childname) indicates that parentname gave birth to childname.
+void death(string name) indicates the death of name. the death of the person doesn't affect the successor function nor the current inheritance order. you can treat it as just marking the person as dead.
+string[] getinheritanceorder() returns a list representing the current order of inheritance excluding dead people.

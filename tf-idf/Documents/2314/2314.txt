@@ -1,0 +1,2 @@
+given a binary tree root, a node x in the tree is named good if in the path from root to x there are no nodes with a value greater than x.
+return the number of good nodes in the binary tree.

@@ -1,0 +1,8 @@
+you are given a 0-indexed integer array nums consisting of 3 * n elements.
+you are allowed to remove any subsequence of elements of size exactly n from nums. the remaining 2 * n elements will be divided into two equal parts:
+the first n elements belonging to the first part and their sum is sumfirst.
+the next n elements belonging to the second part and their sum is sumsecond.
+the difference in sums of the two parts is denoted as sumfirst - sumsecond.
+for example, if sumfirst = 3 and sumsecond = 2, their difference is 1.
+similarly, if sumfirst = 2 and sumsecond = 3, their difference is -1.
+return the minimum difference possible between the sums of the two parts after the removal of n elements.

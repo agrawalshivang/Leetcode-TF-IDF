@@ -1,0 +1,4 @@
+given an integer array nums with possible duplicates, randomly output the index of a given target number. you can assume that the given target number must exist in the array.
+implement the solution class:
+solution(int[] nums) initializes the object with the array nums.
+int pick(int target) picks a random index i from nums where nums[i] == target. if there are multiple valid i's, then each index should have an equal probability of returning.

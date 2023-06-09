@@ -1,0 +1,9 @@
+you are given an integer matrix iswater of size m x n that represents a map of land and water cells.
+if iswater[i][j] == 0, cell (i, j) is a land cell.
+if iswater[i][j] == 1, cell (i, j) is a water cell.
+you must assign each cell a height in a way that follows these rules:
+the height of each cell must be non-negative.
+if the cell is a water cell, its height must be 0.
+any two adjacent cells must have an absolute height difference of at most 1. a cell is adjacent to another cell if the former is directly north, east, south, or west of the latter (i.e., their sides are touching).
+find an assignment of heights such that the maximum height in the matrix is maximized.
+return an integer matrix height of size m x n where height[i][j] is cell (i, j)'s height. if there are multiple solutions, return any of them.

@@ -1,0 +1,5 @@
+you are given a string text. you should split it to k substrings (subtext1, subtext2, ..., subtextk) such that:
+subtexti is a non-empty string.
+the concatenation of all the substrings is equal to text (i.e., subtext1 + subtext2 + ... + subtextk == text).
+subtexti == subtextk - i + 1 for all valid values of i (i.e., 1 <= i <= k).
+return the largest possible value of k.

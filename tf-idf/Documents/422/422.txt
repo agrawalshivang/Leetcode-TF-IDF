@@ -1,0 +1,10 @@
+given a string columntitle that represents the column title as appears in an excel sheet, return its corresponding column number.
+for example:
+a -> 1
+b -> 2
+c -> 3
+...
+z -> 26
+aa -> 27
+ab -> 28
+...

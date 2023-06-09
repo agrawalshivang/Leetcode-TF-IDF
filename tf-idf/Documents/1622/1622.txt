@@ -1,0 +1,6 @@
+you are given a 0-indexed array nums comprising of n non-negative integers.
+in one operation, you must:
+choose an integer i such that 1 <= i < n and nums[i] > 0.
+decrease nums[i] by 1.
+increase nums[i - 1] by 1.
+return the minimum possible value of the maximum integer of nums after performing any number of operations.

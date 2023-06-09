@@ -1,0 +1,9 @@
+international morse code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
+'a' maps to ".-",
+'b' maps to "-...",
+'c' maps to "-.-.", and so on.
+for convenience, the full table for the 26 letters of the english alphabet is given below:
+[".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+given an array of strings words where each word can be written as a concatenation of the morse code of each letter.
+for example, "cab" can be written as "-.-..--...", which is the concatenation of "-.-.", ".-", and "-...". we will call such a concatenation the transformation of a word.
+return the number of different transformations among all words we have.

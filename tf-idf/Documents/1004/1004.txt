@@ -1,0 +1,11 @@
+design your implementation of the circular double-ended queue (deque).
+implement the mycirculardeque class:
+mycirculardeque(int k) initializes the deque with a maximum size of k.
+boolean insertfront() adds an item at the front of deque. returns true if the operation is successful, or false otherwise.
+boolean insertlast() adds an item at the rear of deque. returns true if the operation is successful, or false otherwise.
+boolean deletefront() deletes an item from the front of deque. returns true if the operation is successful, or false otherwise.
+boolean deletelast() deletes an item from the rear of deque. returns true if the operation is successful, or false otherwise.
+int getfront() returns the front item from the deque. returns -1 if the deque is empty.
+int getrear() returns the last item from deque. returns -1 if the deque is empty.
+boolean isempty() returns true if the deque is empty, or false otherwise.
+boolean isfull() returns true if the deque is full, or false otherwise.

@@ -1,0 +1,15 @@
+due to a bug, there are many duplicate folders in a file system. you are given a 2d array paths, where paths[i] is an array representing an absolute path to the ith folder in the file system.
+for example, ["one", "two", "three"] represents the path "/one/two/three".
+two folders (not necessarily on the same level) are identical if they contain the same non-empty set of identical subfolders and underlying subfolder structure. the folders do not need to be at the root level to be identical. if two or more folders are identical, then mark the folders as well as all their subfolders.
+for example, folders "/a" and "/b" in the file structure below are identical. they (as well as their subfolders) should all be marked:
+/a
+/a/x
+/a/x/y
+/a/z
+/b
+/b/x
+/b/x/y
+/b/z
+however, if the file structure also included the path "/b/w", then the folders "/a" and "/b" would not be identical. note that "/a/x" and "/b/x" would still be considered identical even with the added folder.
+once all the identical folders and their subfolders have been marked, the file system will delete all of them. the file system only runs the deletion once, so any folders that become identical after the initial deletion are not deleted.
+return the 2d array ans containing the paths of the remaining folders after deleting all the marked folders. the paths may be returned in any order.

@@ -1,0 +1,16 @@
+sql schema
+table: cinema
++----------------+----------+
+| column name    | type     |
++----------------+----------+
+| id             | int      |
+| movie          | varchar  |
+| description    | varchar  |
+| rating         | float    |
++----------------+----------+
+id is the primary key for this table.
+each row contains information about the name of a movie, its genre, and its rating.
+rating is a 2 decimal places float in the range [0, 10]
+write an sql query to report the movies with an odd-numbered id and a description that is not "boring".
+return the result table ordered by rating in descending order.
+the query result format is in the following example.

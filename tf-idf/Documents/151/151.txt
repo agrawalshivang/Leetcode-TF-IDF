@@ -1,0 +1,23 @@
+sql schema
+table: customers
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
++-------------+---------+
+id is the primary key column for this table.
+each row of this table indicates the id and name of a customer.
+table: orders
++-------------+------+
+| column name | type |
++-------------+------+
+| id          | int  |
+| customerid  | int  |
++-------------+------+
+id is the primary key column for this table.
+customerid is a foreign key of the id from the customers table.
+each row of this table indicates the id of an order and the id of the customer who ordered it.
+write an sql query to report all customers who never order anything.
+return the result table in any order.
+the query result format is in the following example.

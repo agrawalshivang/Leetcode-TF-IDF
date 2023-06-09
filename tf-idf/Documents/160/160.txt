@@ -1,0 +1,4 @@
+you are given a sorted array nums of n non-negative integers and an integer maximumbit. you want to perform the following query n times:
+find a non-negative integer k < 2maximumbit such that nums[0] xor nums[1] xor ... xor nums[nums.length-1] xor k is maximized. k is the answer to the ith query.
+remove the last element from the current array nums.
+return an array answer, where answer[i] is the answer to the ith query.

@@ -1,0 +1,10 @@
+you would like to make dessert and are preparing to buy the ingredients. you have n ice cream base flavors and m types of toppings to choose from. you must follow these rules when making your dessert:
+there must be exactly one ice cream base.
+you can add one or more types of topping or have no toppings at all.
+there are at most two of each type of topping.
+you are given three inputs:
+basecosts, an integer array of length n, where each basecosts[i] represents the price of the ith ice cream base flavor.
+toppingcosts, an integer array of length m, where each toppingcosts[i] is the price of one of the ith topping.
+target, an integer representing your target price for dessert.
+you want to make a dessert with a total cost as close to target as possible.
+return the closest possible cost of the dessert to target. if there are multiple, return the lower one.

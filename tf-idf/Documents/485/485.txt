@@ -1,0 +1,2 @@
+a pangram is a sentence where every letter of the english alphabet appears at least once.
+given a string sentence containing only lowercase english letters, return true if sentence is a pangram, or false otherwise.

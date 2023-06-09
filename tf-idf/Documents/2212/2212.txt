@@ -1,0 +1,4 @@
+you are given two strings a and b of the same length. choose an index and split both strings at the same index, splitting a into two strings: aprefix and asuffix where a = aprefix + asuffix, and splitting b into two strings: bprefix and bsuffix where b = bprefix + bsuffix. check if aprefix + bsuffix or bprefix + asuffix forms a palindrome.
+when you split a string s into sprefix and ssuffix, either ssuffix or sprefix is allowed to be empty. for example, if s = "abc", then "" + "abc", "a" + "bc", "ab" + "c" , and "abc" + "" are valid splits.
+return true if it is possible to form a palindrome string, otherwise return false.
+notice that x + y denotes the concatenation of strings x and y.

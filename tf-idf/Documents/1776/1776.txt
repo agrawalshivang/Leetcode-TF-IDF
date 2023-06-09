@@ -1,0 +1,14 @@
+sql schema
+table: teacher
++-------------+------+
+| column name | type |
++-------------+------+
+| teacher_id  | int  |
+| subject_id  | int  |
+| dept_id     | int  |
++-------------+------+
+(subject_id, dept_id) is the primary key for this table.
+each row in this table indicates that the teacher with teacher_id teaches the subject subject_id in the department dept_id.
+write an sql query to report the number of unique subjects each teacher teaches in the university.
+return the result table in any order.
+the query result format is shown in the following example.

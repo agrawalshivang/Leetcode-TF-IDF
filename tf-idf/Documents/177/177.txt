@@ -1,0 +1,9 @@
+suppose we have a class:
+public class foo {
+public void first() { print("first"); }
+public void second() { print("second"); }
+public void third() { print("third"); }
+}
+the same instance of foo will be passed to three different threads. thread a will call first(), thread b will call second(), and thread c will call third(). design a mechanism and modify the program to ensure that second() is executed after first(), and third() is executed after second().
+note:
+we do not know how the threads will be scheduled in the operating system, even though the numbers in the input seem to imply the ordering. the input format you see is mainly to ensure our tests' comprehensiveness.

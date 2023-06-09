@@ -1,0 +1,4 @@
+you are given an array nums that consists of non-negative integers. let us define rev(x) as the reverse of the non-negative integer x. for example, rev(123) = 321, and rev(120) = 21. a pair of indices (i, j) is nice if it satisfies all of the following conditions:
+0 <= i < j < nums.length
+nums[i] + rev(nums[j]) == nums[j] + rev(nums[i])
+return the number of nice pairs of indices. since that number can be too large, return it modulo 109 + 7.

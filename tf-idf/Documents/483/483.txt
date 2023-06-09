@@ -1,0 +1,3 @@
+the variance of a string is defined as the largest difference between the number of occurrences of any 2 characters present in the string. note the two characters may or may not be the same.
+given a string s consisting of lowercase english letters only, return the largest variance possible among all substrings of s.
+a substring is a contiguous sequence of characters within a string.

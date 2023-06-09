@@ -1,0 +1,5 @@
+you are given a string s consisting of only lowercase english letters. in one operation, you can:
+delete the entire string s, or
+delete the first i letters of s if the first i letters of s are equal to the following i letters in s, for any i in the range 1 <= i <= s.length / 2.
+for example, if s = "ababc", then in one operation, you could delete the first two letters of s to get "abc", since the first two letters of s and the following two letters of s are both equal to "ab".
+return the maximum number of operations needed to delete all of s.

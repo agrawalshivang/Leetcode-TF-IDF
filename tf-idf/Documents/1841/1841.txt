@@ -1,0 +1,8 @@
+you are given the root of a binary tree.
+a zigzag path for a binary tree is defined as follow:
+choose any node in the binary tree and a direction (right or left).
+if the current direction is right, move to the right child of the current node; otherwise, move to the left child.
+change the direction from right to left or from left to right.
+repeat the second and third steps until you can't move in the tree.
+zigzag length is defined as the number of nodes visited - 1. (a single node has a length of 0).
+return the longest zigzag path contained in that tree.

@@ -1,0 +1,2 @@
+given two strings ransomnote and magazine, return true if ransomnote can be constructed by using the letters from magazine and false otherwise.
+each letter in magazine can only be used once in ransomnote.

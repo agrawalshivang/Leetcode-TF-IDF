@@ -1,0 +1,5 @@
+there is a directed weighted graph that consists of n nodes numbered from 0 to n - 1. the edges of the graph are initially represented by the given array edges where edges[i] = [fromi, toi, edgecosti] meaning that there is an edge from fromi to toi with the cost edgecosti.
+implement the graph class:
+graph(int n, int[][] edges) initializes the object with n nodes and the given edges.
+addedge(int[] edge) adds an edge to the list of edges where edge = [from, to, edgecost]. it is guaranteed that there is no edge between the two nodes before adding this one.
+int shortestpath(int node1, int node2) returns the minimum cost of a path from node1 to node2. if no path exists, return -1. the cost of a path is the sum of the costs of the edges in the path.

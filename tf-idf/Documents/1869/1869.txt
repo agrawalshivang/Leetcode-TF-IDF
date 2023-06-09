@@ -1,0 +1,4 @@
+given two strings a and b, return the length of the longest uncommon subsequence between a and b. if the longest uncommon subsequence does not exist, return -1.
+an uncommon subsequence between two strings is a string that is a subsequence of one but not the other.
+a subsequence of a string s is a string that can be obtained after deleting any number of characters from s.
+for example, "abc" is a subsequence of "aebdc" because you can delete the underlined characters in "aebdc" to get "abc". other subsequences of "aebdc" include "aebdc", "aeb", and "" (empty string).

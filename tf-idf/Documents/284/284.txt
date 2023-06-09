@@ -1,0 +1,11 @@
+on an infinite plane, a robot initially stands at (0, 0) and faces north. note that:
+the north direction is the positive direction of the y-axis.
+the south direction is the negative direction of the y-axis.
+the east direction is the positive direction of the x-axis.
+the west direction is the negative direction of the x-axis.
+the robot can receive one of three instructions:
+"g": go straight 1 unit.
+"l": turn 90 degrees to the left (i.e., anti-clockwise direction).
+"r": turn 90 degrees to the right (i.e., clockwise direction).
+the robot performs the instructions given in order, and repeats them forever.
+return true if and only if there exists a circle in the plane such that the robot never leaves the circle.

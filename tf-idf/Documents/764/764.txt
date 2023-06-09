@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array nums. you are allowed to permute nums into a new array perm of your choosing.
+we define the greatness of nums be the number of indices 0 <= i < nums.length for which perm[i] > nums[i].
+return the maximum possible greatness you can achieve after permuting nums.

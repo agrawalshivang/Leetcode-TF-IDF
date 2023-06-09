@@ -1,0 +1,6 @@
+in a garden represented as an infinite 2d grid, there is an apple tree planted at every integer coordinate. the apple tree planted at an integer coordinate (i, j) has |i| + |j| apples growing on it.
+you will buy an axis-aligned square plot of land that is centered at (0, 0).
+given an integer neededapples, return the minimum perimeter of a plot such that at least neededapples apples are inside or on the perimeter of that plot.
+the value of |x| is defined as:
+x if x >= 0
+-x if x < 0

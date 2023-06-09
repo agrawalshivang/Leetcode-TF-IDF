@@ -1,0 +1,5 @@
+you are given a 0-indexed integer array arr and an integer k. the array arr is circular. in other words, the first element of the array is the next element of the last element, and the last element of the array is the previous element of the first element.
+you can do the following operation any number of times:
+pick any element from arr and increase or decrease it by 1.
+return the minimum number of operations such that the sum of each subarray of length k is equal.
+a subarray is a contiguous part of the array.

@@ -1,0 +1,4 @@
+design the combinationiterator class:
+combinationiterator(string characters, int combinationlength) initializes the object with a string characters of sorted distinct lowercase english letters and a number combinationlength as arguments.
+next() returns the next combination of length combinationlength in lexicographical order.
+hasnext() returns true if and only if there exists a next combination.

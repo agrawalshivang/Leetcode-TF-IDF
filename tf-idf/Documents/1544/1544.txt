@@ -1,0 +1,4 @@
+you are given an integer array pref of size n. find and return the array arr of size n that satisfies:
+pref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i].
+note that ^ denotes the bitwise-xor operation.
+it can be proven that the answer is unique.

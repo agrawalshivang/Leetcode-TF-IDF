@@ -1,0 +1,2 @@
+you are given an integer array, nums, and an integer k. nums comprises of only 0's and 1's. in one move, you can choose two adjacent indices and swap their values.
+return the minimum number of moves required so that nums has k consecutive 1's.

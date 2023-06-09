@@ -1,0 +1,5 @@
+you are given a string s of lowercase english letters and an integer array shifts of the same length.
+call the shift() of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a').
+for example, shift('a') = 'b', shift('t') = 'u', and shift('z') = 'a'.
+now for each shifts[i] = x, we want to shift the first i + 1 letters of s, x times.
+return the final string after all such shifts to s are applied.

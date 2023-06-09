@@ -1,0 +1,2 @@
+given a string expression representing an expression of fraction addition and subtraction, return the calculation result in string format.
+the final result should be an irreducible fraction. if your final result is an integer, change it to the format of a fraction that has a denominator 1. so in this case, 2 should be converted to 2/1.

@@ -1,0 +1,16 @@
+sql schema
+table: salary
++-------------+----------+
+| column name | type     |
++-------------+----------+
+| id          | int      |
+| name        | varchar  |
+| sex         | enum     |
+| salary      | int      |
++-------------+----------+
+id is the primary key for this table.
+the sex column is enum value of type ('m', 'f').
+the table contains information about an employee.
+write an sql query to swap all 'f' and 'm' values (i.e., change all 'f' values to 'm' and vice versa) with a single update statement and no intermediate temporary tables.
+note that you must write a single update statement, do not write any select statement for this problem.
+the query result format is in the following example.

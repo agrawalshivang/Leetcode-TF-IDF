@@ -1,0 +1,23 @@
+sql schema
+table: visits
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| visit_id    | int     |
+| customer_id | int     |
++-------------+---------+
+visit_id is the primary key for this table.
+this table contains information about the customers who visited the mall.
+table: transactions
++----------------+---------+
+| column name    | type    |
++----------------+---------+
+| transaction_id | int     |
+| visit_id       | int     |
+| amount         | int     |
++----------------+---------+
+transaction_id is the primary key for this table.
+this table contains information about the transactions made during the visit_id.
+write a sql query to find the ids of the users who visited without making any transactions and the number of times they made these types of visits.
+return the result table sorted in any order.
+the query result format is in the following example.

@@ -1,0 +1,4 @@
+along a long library corridor, there is a line of seats and decorative plants. you are given a 0-indexed string corridor of length n consisting of letters 's' and 'p' where each 's' represents a seat and each 'p' represents a plant.
+one room divider has already been installed to the left of index 0, and another to the right of index n - 1. additional room dividers can be installed. for each position between indices i - 1 and i (1 <= i <= n - 1), at most one divider can be installed.
+divide the corridor into non-overlapping sections, where each section has exactly two seats with any number of plants. there may be multiple ways to perform the division. two ways are different if there is a position with a room divider installed in the first way but not in the second way.
+return the number of ways to divide the corridor. since the answer may be very large, return it modulo 109 + 7. if there is no way, return 0.

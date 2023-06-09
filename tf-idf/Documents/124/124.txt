@@ -1,0 +1,23 @@
+sql schema
+table: activity
++----------------+---------+
+| column name    | type    |
++----------------+---------+
+| machine_id     | int     |
+| process_id     | int     |
+| activity_type  | enum    |
+| timestamp      | float   |
++----------------+---------+
+the table shows the user activities for a factory website.
+(machine_id, process_id, activity_type) is the primary key of this table.
+machine_id is the id of a machine.
+process_id is the id of a process running on the machine with id machine_id.
+activity_type is an enum of type ('start', 'end').
+timestamp is a float representing the current time in seconds.
+'start' means the machine starts the process at the given timestamp and 'end' means the machine ends the process at the given timestamp.
+the 'start' timestamp will always be before the 'end' timestamp for every (machine_id, process_id) pair.
+there is a factory website that has several machines each running the same number of processes. write an sql query to find the average time each machine takes to complete a process.
+the time to complete a process is the 'end' timestamp minus the 'start' timestamp. the average time is calculated by the total time to complete every process on the machine divided by the number of processes that were run.
+the resulting table should have the machine_id along with the average time as processing_time, which should be rounded to 3 decimal places.
+return the result table in any order.
+the query result format is in the following example.

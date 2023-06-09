@@ -1,0 +1,5 @@
+the letter value of a letter is its position in the alphabet starting from 0 (i.e. 'a' -> 0, 'b' -> 1, 'c' -> 2, etc.).
+the numerical value of some string of lowercase english letters s is the concatenation of the letter values of each letter in s, which is then converted into an integer.
+for example, if s = "acb", we concatenate each letter's letter value, resulting in "021". after converting it, we get 21.
+you are given three strings firstword, secondword, and targetword, each consisting of lowercase english letters 'a' through 'j' inclusive.
+return true if the summation of the numerical values of firstword and secondword equals the numerical value of targetword, or false otherwise.

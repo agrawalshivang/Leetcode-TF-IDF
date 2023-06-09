@@ -1,0 +1,4 @@
+you are given an array routes representing bus routes where routes[i] is a bus route that the ith bus repeats forever.
+for example, if routes[0] = [1, 5, 7], this means that the 0th bus travels in the sequence 1 -> 5 -> 7 -> 1 -> 5 -> 7 -> 1 -> ... forever.
+you will start at the bus stop source (you are not on any bus initially), and you want to go to the bus stop target. you can travel between bus stops by buses only.
+return the least number of buses you must take to travel from source to target. return -1 if it is not possible.

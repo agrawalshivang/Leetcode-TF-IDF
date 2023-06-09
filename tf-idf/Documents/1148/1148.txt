@@ -1,0 +1,7 @@
+there are n pieces arranged in a line, and each piece is colored either by 'a' or by 'b'. you are given a string colors of length n where colors[i] is the color of the ith piece.
+alice and bob are playing a game where they take alternating turns removing pieces from the line. in this game, alice moves first.
+alice is only allowed to remove a piece colored 'a' if both its neighbors are also colored 'a'. she is not allowed to remove pieces that are colored 'b'.
+bob is only allowed to remove a piece colored 'b' if both its neighbors are also colored 'b'. he is not allowed to remove pieces that are colored 'a'.
+alice and bob cannot remove pieces from the edge of the line.
+if a player cannot make a move on their turn, that player loses and the other player wins.
+assuming alice and bob play optimally, return true if alice wins, or return false if bob wins.

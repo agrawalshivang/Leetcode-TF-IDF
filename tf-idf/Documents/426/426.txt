@@ -1,0 +1,3 @@
+there are n piles of stones arranged in a row. the ith pile has stones[i] stones.
+a move consists of merging exactly k consecutive piles into one pile, and the cost of this move is equal to the total number of stones in these k piles.
+return the minimum cost to merge all piles of stones into one pile. if it is impossible, return -1.

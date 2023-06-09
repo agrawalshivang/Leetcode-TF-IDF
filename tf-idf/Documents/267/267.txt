@@ -1,0 +1,5 @@
+you are given a 0-indexed string word of length n consisting of digits, and a positive integer m.
+the divisibility array div of word is an integer array of length n such that:
+div[i] = 1 if the numeric value of word[0,...,i] is divisible by m, or
+div[i] = 0 otherwise.
+return the divisibility array of word.

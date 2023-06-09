@@ -1,0 +1,7 @@
+note: this is a companion problem to the system design problem: design tinyurl.
+tinyurl is a url shortening service where you enter a url such as https://leetcode.com/problems/design-tinyurl and it returns a short url such as http://tinyurl.com/4e9iak. design a class to encode a url and decode a tiny url.
+there is no restriction on how your encode/decode algorithm should work. you just need to ensure that a url can be encoded to a tiny url and the tiny url can be decoded to the original url.
+implement the solution class:
+solution() initializes the object of the system.
+string encode(string longurl) returns a tiny url for the given longurl.
+string decode(string shorturl) returns the original long url for the given shorturl. it is guaranteed that the given shorturl was encoded by the same object.

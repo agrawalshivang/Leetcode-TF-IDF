@@ -1,0 +1,8 @@
+you are given an array of n strings strs, all of the same length.
+the strings can be arranged such that there is one on each line, making a grid.
+for example, strs = ["abc", "bce", "cae"] can be arranged as follows:
+abc
+bce
+cae
+you want to delete the columns that are not sorted lexicographically. in the above example (0-indexed), columns 0 ('a', 'b', 'c') and 2 ('c', 'e', 'e') are sorted, while column 1 ('b', 'c', 'a') is not, so you would delete column 1.
+return the number of columns that you will delete.

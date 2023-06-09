@@ -1,0 +1,2 @@
+given an m x n matrix, return true if the matrix is toeplitz. otherwise, return false.
+a matrix is toeplitz if every diagonal from top-left to bottom-right has the same elements.

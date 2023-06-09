@@ -1,0 +1,7 @@
+you are given a 0-indexed integer array stations of length n, where stations[i] represents the number of power stations in the ith city.
+each power station can provide power to every city in a fixed range. in other words, if the range is denoted by r, then a power station at city i can provide power to all cities j such that |i - j| <= r and 0 <= i, j <= n - 1.
+note that |x| denotes absolute value. for example, |7 - 5| = 2 and |3 - 10| = 7.
+the power of a city is the total number of power stations it is being provided power from.
+the government has sanctioned building k more power stations, each of which can be built in any city, and have the same range as the pre-existing ones.
+given the two integers r and k, return the maximum possible minimum power of a city, if the additional power stations are built optimally.
+note that you can build the k power stations in multiple cities.

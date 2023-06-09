@@ -1,0 +1,5 @@
+no-zero integer is a positive integer that does not contain any 0 in its decimal representation.
+given an integer n, return a list of two integers [a, b] where:
+a and b are no-zero integers.
+a + b = n
+the test cases are generated so that there is at least one valid solution. if there are many valid solutions, you can return any of them.

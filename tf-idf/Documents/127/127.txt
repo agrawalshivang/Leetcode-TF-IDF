@@ -1,0 +1,2 @@
+you are given an integer array nums. a number x is lonely when it appears only once, and no adjacent numbers (i.e. x + 1 and x - 1) appear in the array.
+return all lonely numbers in nums. you may return the answer in any order.

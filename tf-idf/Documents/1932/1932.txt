@@ -1,0 +1,15 @@
+given a callable function f(x, y) with a hidden formula and a value z, reverse engineer the formula and return all positive integer pairs x and y where f(x,y) == z. you may return the pairs in any order.
+while the exact formula is hidden, the function is monotonically increasing, i.e.:
+f(x, y) < f(x + 1, y)
+f(x, y) < f(x, y + 1)
+the function interface is defined like this:
+interface customfunction {
+public:
+// returns some positive integer f(x, y) for two positive integers x and y based on a formula.
+int f(int x, int y);
+};
+we will judge your solution as follows:
+the judge has a list of 9 hidden implementations of customfunction, along with a way to generate an answer key of all valid pairs for a specific z.
+the judge will receive two inputs: a function_id (to determine which implementation to test your code with), and the target z.
+the judge will call your findsolution and compare your results with the answer key.
+if your results match the answer key, your solution will be accepted.

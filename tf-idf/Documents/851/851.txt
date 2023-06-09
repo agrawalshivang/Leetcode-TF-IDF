@@ -1,0 +1,7 @@
+there is an authentication system that works with authentication tokens. for each session, the user will receive a new authentication token that will expire timetolive seconds after the currenttime. if the token is renewed, the expiry time will be extended to expire timetolive seconds after the (potentially different) currenttime.
+implement the authenticationmanager class:
+authenticationmanager(int timetolive) constructs the authenticationmanager and sets the timetolive.
+generate(string tokenid, int currenttime) generates a new token with the given tokenid at the given currenttime in seconds.
+renew(string tokenid, int currenttime) renews the unexpired token with the given tokenid at the given currenttime in seconds. if there are no unexpired tokens with the given tokenid, the request is ignored, and nothing happens.
+countunexpiredtokens(int currenttime) returns the number of unexpired tokens at the given currenttime.
+note that if a token expires at time t, and another action happens on time t (renew or countunexpiredtokens), the expiration takes place before the other actions.

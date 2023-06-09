@@ -1,0 +1,4 @@
+you are given a string num, which represents a large integer. you are also given a 0-indexed integer array change of length 10 that maps each digit 0-9 to another digit. more formally, digit d maps to digit change[d].
+you may choose to mutate a single substring of num. to mutate a substring, replace each digit num[i] with the digit it maps to in change (i.e. replace num[i] with change[num[i]]).
+return a string representing the largest possible integer after mutating (or choosing not to) a single substring of num.
+a substring is a contiguous sequence of characters within the string.

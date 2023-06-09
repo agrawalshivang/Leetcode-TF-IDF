@@ -1,0 +1,7 @@
+a parentheses string is valid if and only if:
+it is the empty string,
+it can be written as ab (a concatenated with b), where a and b are valid strings, or
+it can be written as (a), where a is a valid string.
+you are given a parentheses string s. in one move, you can insert a parenthesis at any position of the string.
+for example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))".
+return the minimum number of moves required to make s valid.

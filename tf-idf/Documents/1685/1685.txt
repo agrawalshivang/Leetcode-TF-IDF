@@ -1,0 +1,6 @@
+alice and bob take turns playing a game, with alice starting first.
+initially, there is a number n on the chalkboard. on each player's turn, that player makes a move consisting of:
+choosing any x with 0 < x < n and n % x == 0.
+replacing the number n on the chalkboard with n - x.
+also, if a player cannot make a move, they lose the game.
+return true if and only if alice wins the game, assuming both players play optimally.

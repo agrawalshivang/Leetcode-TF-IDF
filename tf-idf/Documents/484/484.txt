@@ -1,0 +1,6 @@
+you are given an array of integers nums. you are also given an integer original which is the first number that needs to be searched for in nums.
+you then do the following steps:
+if original is found in nums, multiply it by two (i.e., set original = 2 * original).
+otherwise, stop the process.
+repeat this process with the new number as long as you keep finding the number.
+return the final value of original.

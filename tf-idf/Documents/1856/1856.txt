@@ -1,0 +1,2 @@
+given a positive integer n, find the smallest integer which has exactly the same digits existing in the integer n and is greater in value than n. if no such positive integer exists, return -1.
+note that the returned integer should fit in 32-bit integer, if there is a valid answer but it does not fit in 32-bit integer, return -1.

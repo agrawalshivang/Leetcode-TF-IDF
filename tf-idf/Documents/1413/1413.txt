@@ -1,0 +1,12 @@
+given the heads of two singly linked-lists heada and headb, return the node at which the two lists intersect. if the two linked lists have no intersection at all, return null.
+for example, the following two linked lists begin to intersect at node c1:
+the test cases are generated such that there are no cycles anywhere in the entire linked structure.
+note that the linked lists must retain their original structure after the function returns.
+custom judge:
+the inputs to the judge are given as follows (your program is not given these inputs):
+intersectval - the value of the node where the intersection occurs. this is 0 if there is no intersected node.
+lista - the first linked list.
+listb - the second linked list.
+skipa - the number of nodes to skip ahead in lista (starting from the head) to get to the intersected node.
+skipb - the number of nodes to skip ahead in listb (starting from the head) to get to the intersected node.
+the judge will then create the linked structure based on these inputs and pass the two heads, heada and headb to your program. if you correctly return the intersected node, then your solution will be accepted.

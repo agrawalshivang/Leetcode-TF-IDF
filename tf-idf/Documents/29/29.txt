@@ -1,0 +1,7 @@
+you are given a string s consisting of lowercase english letters, and an integer k.
+first, convert s into an integer by replacing each letter with its position in the alphabet (i.e., replace 'a' with 1, 'b' with 2, ..., 'z' with 26). then, transform the integer by replacing it with the sum of its digits. repeat the transform operation k times in total.
+for example, if s = "zbax" and k = 2, then the resulting integer would be 8 by the following operations:
+convert: "zbax" ➝ "(26)(2)(1)(24)" ➝ "262124" ➝ 262124
+transform #1: 262124 ➝ 2 + 6 + 2 + 1 + 2 + 4 ➝ 17
+transform #2: 17 ➝ 1 + 7 ➝ 8
+return the resulting integer after performing the operations described above.

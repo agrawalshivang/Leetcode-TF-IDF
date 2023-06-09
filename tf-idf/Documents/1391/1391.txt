@@ -1,0 +1,3 @@
+given the coordinates of two rectilinear rectangles in a 2d plane, return the total area covered by the two rectangles.
+the first rectangle is defined by its bottom-left corner (ax1, ay1) and its top-right corner (ax2, ay2).
+the second rectangle is defined by its bottom-left corner (bx1, by1) and its top-right corner (bx2, by2).

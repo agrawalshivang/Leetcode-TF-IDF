@@ -1,0 +1,3 @@
+you are given a string s.
+a split is called good if you can split s into two non-empty strings sleft and sright where their concatenation is equal to s (i.e., sleft + sright = s) and the number of distinct letters in sleft and sright is the same.
+return the number of good splits you can make in s.

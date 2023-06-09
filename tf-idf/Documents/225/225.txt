@@ -1,0 +1,3 @@
+there are numbottles water bottles that are initially full of water. you can exchange numexchange empty water bottles from the market with one full water bottle.
+the operation of drinking a full water bottle turns it into an empty bottle.
+given the two integers numbottles and numexchange, return the maximum number of water bottles you can drink.

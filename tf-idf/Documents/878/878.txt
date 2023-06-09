@@ -1,0 +1,3 @@
+you are given two strings of the same length s and t. in one step you can choose any character of t and replace it with another character.
+return the minimum number of steps to make t an anagram of s.
+an anagram of a string is a string that contains the same characters with a different (or the same) ordering.

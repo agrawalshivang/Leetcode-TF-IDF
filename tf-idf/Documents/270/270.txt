@@ -1,0 +1,8 @@
+you are given a 2d integer array orders, where each orders[i] = [pricei, amounti, ordertypei] denotes that amounti orders have been placed of type ordertypei at the price pricei. the ordertypei is:
+0 if it is a batch of buy orders, or
+1 if it is a batch of sell orders.
+note that orders[i] represents a batch of amounti independent orders with the same price and order type. all orders represented by orders[i] will be placed before all orders represented by orders[i+1] for all valid i.
+there is a backlog that consists of orders that have not been executed. the backlog is initially empty. when an order is placed, the following happens:
+if the order is a buy order, you look at the sell order with the smallest price in the backlog. if that sell order's price is smaller than or equal to the current buy order's price, they will match and be executed, and that sell order will be removed from the backlog. else, the buy order is added to the backlog.
+vice versa, if the order is a sell order, you look at the buy order with the largest price in the backlog. if that buy order's price is larger than or equal to the current sell order's price, they will match and be executed, and that buy order will be removed from the backlog. else, the sell order is added to the backlog.
+return the total amount of orders in the backlog after placing all the orders from the input. since this number can be large, return it modulo 109 + 7.

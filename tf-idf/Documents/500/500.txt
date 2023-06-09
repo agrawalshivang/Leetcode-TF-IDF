@@ -1,0 +1,10 @@
+a scenic location is represented by its name and attractiveness score, where name is a unique string among all locations and score is an integer. locations can be ranked from the best to the worst. the higher the score, the better the location. if the scores of two locations are equal, then the location with the lexicographically smaller name is better.
+you are building a system that tracks the ranking of locations with the system initially starting with no locations. it supports:
+adding scenic locations, one at a time.
+querying the ith best location of all locations already added, where i is the number of times the system has been queried (including the current query).
+for example, when the system is queried for the 4th time, it returns the 4th best location of all locations already added.
+note that the test data are generated so that at any time, the number of queries does not exceed the number of locations added to the system.
+implement the sortracker class:
+sortracker() initializes the tracker system.
+void add(string name, int score) adds a scenic location with name and score to the system.
+string get() queries and returns the ith best location, where i is the number of times this method has been invoked (including this invocation).

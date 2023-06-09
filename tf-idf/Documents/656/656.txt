@@ -1,0 +1,2 @@
+given an array nums of size n, return the majority element.
+the majority element is the element that appears more than ⌊n / 2⌋ times. you may assume that the majority element always exists in the array.

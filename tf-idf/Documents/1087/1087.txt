@@ -1,0 +1,7 @@
+design a number container system that can do the following:
+insert or replace a number at the given index in the system.
+return the smallest index for the given number in the system.
+implement the numbercontainers class:
+numbercontainers() initializes the number container system.
+void change(int index, int number) fills the container at index with the number. if there is already a number at that index, replace it.
+int find(int number) returns the smallest index for the given number, or -1 if there is no index that is filled by number in the system.

@@ -1,0 +1,8 @@
+there are buckets buckets of liquid, where exactly one of the buckets is poisonous. to figure out which one is poisonous, you feed some number of (poor) pigs the liquid to see whether they will die or not. unfortunately, you only have minutestotest minutes to determine which bucket is poisonous.
+you can feed the pigs according to these steps:
+choose some live pigs to feed.
+for each pig, choose which buckets to feed it. the pig will consume all the chosen buckets simultaneously and will take no time. each pig can feed from any number of buckets, and each bucket can be fed from by any number of pigs.
+wait for minutestodie minutes. you may not feed any other pigs during this time.
+after minutestodie minutes have passed, any pigs that have been fed the poisonous bucket will die, and all others will survive.
+repeat this process until you run out of time.
+given buckets, minutestodie, and minutestotest, return the minimum number of pigs needed to figure out which bucket is poisonous within the allotted time.

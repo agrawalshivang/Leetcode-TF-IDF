@@ -1,0 +1,6 @@
+you are given an m x n matrix grid consisting of positive integers.
+perform the following operation until grid becomes empty:
+delete the element with the greatest value from each row. if multiple such elements exist, delete any of them.
+add the maximum of deleted elements to the answer.
+note that the number of columns decreases by one after each operation.
+return the answer after performing the operations described above.

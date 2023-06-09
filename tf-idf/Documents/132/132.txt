@@ -1,0 +1,15 @@
+sql schema
+table: patients
++--------------+---------+
+| column name  | type    |
++--------------+---------+
+| patient_id   | int     |
+| patient_name | varchar |
+| conditions   | varchar |
++--------------+---------+
+patient_id is the primary key for this table.
+'conditions' contains 0 or more code separated by spaces.
+this table contains information of the patients in the hospital.
+write an sql query to report the patient_id, patient_name and conditions of the patients who have type i diabetes. type i diabetes always starts with diab1 prefix.
+return the result table in any order.
+the query result format is in the following example.

@@ -1,0 +1,5 @@
+you have two fruit baskets containing n fruits each. you are given two 0-indexed integer arrays basket1 and basket2 representing the cost of fruit in each basket. you want to make both baskets equal. to do so, you can use the following operation as many times as you want:
+chose two indices i and j, and swap the ith fruit of basket1 with the jth fruit of basket2.
+the cost of the swap is min(basket1[i],basket2[j]).
+two baskets are considered equal if sorting them according to the fruit cost makes them exactly the same baskets.
+return the minimum cost to make both the baskets equal or -1 if impossible.

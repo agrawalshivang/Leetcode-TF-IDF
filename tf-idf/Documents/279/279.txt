@@ -1,0 +1,7 @@
+given a list paths of directory info, including the directory path, and all the files with contents in this directory, return all the duplicate files in the file system in terms of their paths. you may return the answer in any order.
+a group of duplicate files consists of at least two files that have the same content.
+a single directory info string in the input list has the following format:
+"root/d1/d2/.../dm f1.txt(f1_content) f2.txt(f2_content) ... fn.txt(fn_content)"
+it means there are n files (f1.txt, f2.txt ... fn.txt) with content (f1_content, f2_content ... fn_content) respectively in the directory "root/d1/d2/.../dm". note that n >= 1 and m >= 0. if m = 0, it means the directory is just the root directory.
+the output is a list of groups of duplicate file paths. for each group, it contains all the file paths of the files that have the same content. a file path is a string that has the following format:
+"directory_path/file_name.txt"

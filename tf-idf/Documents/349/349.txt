@@ -1,0 +1,7 @@
+you want to water n plants in your garden with a watering can. the plants are arranged in a row and are labeled from 0 to n - 1 from left to right where the ith plant is located at x = i. there is a river at x = -1 that you can refill your watering can at.
+each plant needs a specific amount of water. you will water the plants in the following way:
+water the plants in order from left to right.
+after watering the current plant, if you do not have enough water to completely water the next plant, return to the river to fully refill the watering can.
+you cannot refill the watering can early.
+you are initially at the river (i.e., x = -1). it takes one step to move one unit on the x-axis.
+given a 0-indexed integer array plants of n integers, where plants[i] is the amount of water the ith plant needs, and an integer capacity representing the watering can capacity, return the number of steps needed to water all the plants.

@@ -1,0 +1,2 @@
+you are given an array of unique integers salary where salary[i] is the salary of the ith employee.
+return the average salary of employees excluding the minimum and maximum salary. answers within 10-5 of the actual answer will be accepted.

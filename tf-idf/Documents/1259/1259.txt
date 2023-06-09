@@ -1,0 +1,10 @@
+given a string formula representing a chemical formula, return the count of each atom.
+the atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.
+one or more digits representing that element's count may follow if the count is greater than 1. if the count is 1, no digits will follow.
+for example, "h2o" and "h2o2" are possible, but "h1o2" is impossible.
+two formulas are concatenated together to produce another formula.
+for example, "h2o2he3mg4" is also a formula.
+a formula placed in parentheses, and a count (optionally added) is also a formula.
+for example, "(h2o2)" and "(h2o2)3" are formulas.
+return the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than 1), followed by the second name (in sorted order), followed by its count (if that count is more than 1), and so on.
+the test cases are generated so that all the values in the output fit in a 32-bit integer.

@@ -1,0 +1,4 @@
+you are given a 2d integer array intervals where intervals[i] = [lefti, righti] represents the inclusive interval [lefti, righti].
+you have to divide the intervals into one or more groups such that each interval is in exactly one group, and no two intervals that are in the same group intersect each other.
+return the minimum number of groups you need to make.
+two intervals intersect if there is at least one common number between them. for example, the intervals [1, 5] and [5, 8] intersect.

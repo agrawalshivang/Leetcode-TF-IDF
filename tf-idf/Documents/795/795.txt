@@ -1,0 +1,3 @@
+given a binary tree, find its minimum depth.
+the minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+note: a leaf is a node with no children.

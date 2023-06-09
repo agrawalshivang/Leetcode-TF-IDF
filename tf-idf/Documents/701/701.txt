@@ -1,0 +1,6 @@
+given a 2d matrix matrix, handle multiple queries of the following type:
+calculate the sum of the elements of matrix inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+implement the nummatrix class:
+nummatrix(int[][] matrix) initializes the object with the integer matrix matrix.
+int sumregion(int row1, int col1, int row2, int col2) returns the sum of the elements of matrix inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+you must design an algorithm where sumregion works on o(1) time complexity.

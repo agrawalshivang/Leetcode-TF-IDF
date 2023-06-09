@@ -1,0 +1,9 @@
+you are given n bst (binary search tree) root nodes for n separate bsts stored in an array trees (0-indexed). each bst in trees has at most 3 nodes, and no two roots have the same value. in one operation, you can:
+select two distinct indices i and j such that the value stored at one of the leaves of trees[i] is equal to the root value of trees[j].
+replace the leaf node in trees[i] with trees[j].
+remove trees[j] from trees.
+return the root of the resulting bst if it is possible to form a valid bst after performing n - 1 operations, or null if it is impossible to create a valid bst.
+a bst (binary search tree) is a binary tree where each node satisfies the following property:
+every node in the node's left subtree has a value strictly less than the node's value.
+every node in the node's right subtree has a value strictly greater than the node's value.
+a leaf is a node that has no children.

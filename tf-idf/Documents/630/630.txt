@@ -1,0 +1,4 @@
+you are given a list of bombs. the range of a bomb is defined as the area where its effect can be felt. this area is in the shape of a circle with the center as the location of the bomb.
+the bombs are represented by a 0-indexed 2d integer array bombs where bombs[i] = [xi, yi, ri]. xi and yi denote the x-coordinate and y-coordinate of the location of the ith bomb, whereas ri denotes the radius of its range.
+you may choose to detonate a single bomb. when a bomb is detonated, it will detonate all bombs that lie in its range. these bombs will further detonate the bombs that lie in their ranges.
+given the list of bombs, return the maximum number of bombs that can be detonated if you are allowed to detonate only one bomb.

@@ -1,0 +1,10 @@
+given four integers length, width, height, and mass, representing the dimensions and mass of a box, respectively, return a string representing the category of the box.
+the box is "bulky" if:
+any of the dimensions of the box is greater or equal to 104.
+or, the volume of the box is greater or equal to 109.
+if the mass of the box is greater or equal to 100, it is "heavy".
+if the box is both "bulky" and "heavy", then its category is "both".
+if the box is neither "bulky" nor "heavy", then its category is "neither".
+if the box is "bulky" but not "heavy", then its category is "bulky".
+if the box is "heavy" but not "bulky", then its category is "heavy".
+note that the volume of the box is the product of its length, width and height.

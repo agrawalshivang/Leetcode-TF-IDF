@@ -1,0 +1,3 @@
+hercy wants to save money for his first car. he puts money in the leetcode bank every day.
+he starts by putting in $1 on monday, the first day. every day from tuesday to sunday, he will put in $1 more than the day before. on every subsequent monday, he will put in $1 more than the previous monday.
+given n, return the total amount of money he will have in the leetcode bank at the end of the nth day.

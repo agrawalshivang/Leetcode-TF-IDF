@@ -1,0 +1,7 @@
+you are given a 0-indexed integer array nums.
+the effective value of three indices i, j, and k is defined as ((nums[i] | nums[j]) & nums[k]).
+the xor-beauty of the array is the xoring of the effective values of all the possible triplets of indices (i, j, k) where 0 <= i, j, k < n.
+return the xor-beauty of nums.
+note that:
+val1 | val2 is bitwise or of val1 and val2.
+val1 & val2 is bitwise and of val1 and val2.

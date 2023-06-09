@@ -1,0 +1,4 @@
+you are given an integer array ranks representing the ranks of some mechanics. ranksi is the rank of the ith mechanic. a mechanic with a rank r can repair n cars in r * n2 minutes.
+you are also given an integer cars representing the total number of cars waiting in the garage to be repaired.
+return the minimum time taken to repair all the cars.
+note: all the mechanics can repair the cars simultaneously.

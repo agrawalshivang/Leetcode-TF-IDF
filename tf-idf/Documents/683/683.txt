@@ -1,0 +1,13 @@
+sql schema
+table: users
++----------------+---------+
+| column name    | type    |
++----------------+---------+
+| user_id        | int     |
+| name           | varchar |
++----------------+---------+
+user_id is the primary key for this table.
+this table contains the id and the name of the user. the name consists of only lowercase and uppercase characters.
+write an sql query to fix the names so that only the first character is uppercase and the rest are lowercase.
+return the result table ordered by user_id.
+the query result format is in the following example.

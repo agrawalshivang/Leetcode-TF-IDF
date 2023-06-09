@@ -1,0 +1,6 @@
+you are given an array of integers stones where stones[i] is the weight of the ith stone.
+we are playing a game with the stones. on each turn, we choose the heaviest two stones and smash them together. suppose the heaviest two stones have weights x and y with x <= y. the result of this smash is:
+if x == y, both stones are destroyed, and
+if x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.
+at the end of the game, there is at most one stone left.
+return the weight of the last remaining stone. if there are no stones left, return 0.

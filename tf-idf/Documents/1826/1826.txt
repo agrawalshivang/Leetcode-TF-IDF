@@ -1,0 +1,5 @@
+you are given a 0-indexed array of strings garbage where garbage[i] represents the assortment of garbage at the ith house. garbage[i] consists only of the characters 'm', 'p' and 'g' representing one unit of metal, paper and glass garbage respectively. picking up one unit of any type of garbage takes 1 minute.
+you are also given a 0-indexed integer array travel where travel[i] is the number of minutes needed to go from house i to house i + 1.
+there are three garbage trucks in the city, each responsible for picking up one type of garbage. each garbage truck starts at house 0 and must visit each house in order; however, they do not need to visit every house.
+only one garbage truck may be used at any given moment. while one truck is driving or picking up garbage, the other two trucks cannot do anything.
+return the minimum number of minutes needed to pick up all the garbage.

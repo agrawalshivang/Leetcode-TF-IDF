@@ -1,0 +1,5 @@
+you are given a 2d integer array descriptions where descriptions[i] = [parenti, childi, islefti] indicates that parenti is the parent of childi in a binary tree of unique values. furthermore,
+if islefti == 1, then childi is the left child of parenti.
+if islefti == 0, then childi is the right child of parenti.
+construct the binary tree described by descriptions and return its root.
+the test cases will be generated such that the binary tree is valid.

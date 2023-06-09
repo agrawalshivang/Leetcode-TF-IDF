@@ -1,0 +1,3 @@
+there is a computer that can run an unlimited number of tasks at the same time. you are given a 2d integer array tasks where tasks[i] = [starti, endi, durationi] indicates that the ith task should run for a total of durationi seconds (not necessarily continuous) within the inclusive time range [starti, endi].
+you may turn on the computer only when it needs to run a task. you can also turn it off if it is idle.
+return the minimum time during which the computer should be turned on to complete all tasks.

@@ -1,0 +1,12 @@
+there is an undirected tree with n nodes labeled from 0 to n - 1, rooted at node 0. you are given a 2d integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
+at every node i, there is a gate. you are also given an array of even integers amount, where amount[i] represents:
+the price needed to open the gate at node i, if amount[i] is negative, or,
+the cash reward obtained on opening the gate at node i, otherwise.
+the game goes on as follows:
+initially, alice is at node 0 and bob is at node bob.
+at every second, alice and bob each move to an adjacent node. alice moves towards some leaf node, while bob moves towards node 0.
+for every node along their path, alice and bob either spend money to open the gate at that node, or accept the reward. note that:
+if the gate is already open, no price will be required, nor will there be any cash reward.
+if alice and bob reach the node simultaneously, they share the price/reward for opening the gate there. in other words, if the price to open the gate is c, then both alice and bob pay c / 2 each. similarly, if the reward at the gate is c, both of them receive c / 2 each.
+if alice reaches a leaf node, she stops moving. similarly, if bob reaches node 0, he stops moving. note that these events are independent of each other.
+return the maximum net income alice can have if she travels towards the optimal leaf node.

@@ -1,0 +1,2 @@
+given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
+return any array that satisfies this condition.

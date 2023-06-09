@@ -1,0 +1,22 @@
+sql schema
+table: queries
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| query_name  | varchar |
+| result      | varchar |
+| position    | int     |
+| rating      | int     |
++-------------+---------+
+there is no primary key for this table, it may have duplicate rows.
+this table contains information collected from some queries on a database.
+the position column has a value from 1 to 500.
+the rating column has a value from 1 to 5. query with rating less than 3 is a poor query.
+we define query quality as:
+the average of the ratio between query rating and its position.
+we also define poor query percentage as:
+the percentage of all queries with rating less than 3.
+write an sql query to find each query_name, the quality and poor_query_percentage.
+both quality and poor_query_percentage should be rounded to 2 decimal places.
+return the result table in any order.
+the query result format is in the following example.

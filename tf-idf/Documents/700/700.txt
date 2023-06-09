@@ -1,0 +1,8 @@
+you are given a string s consisting of digits from 1 to 9 and an integer k.
+a partition of a string s is called good if:
+each digit of s is part of exactly one substring.
+the value of each substring is less than or equal to k.
+return the minimum number of substrings in a good partition of s. if no good partition of s exists, return -1.
+note that:
+the value of a string is its result when interpreted as an integer. for example, the value of "123" is 123 and the value of "1" is 1.
+a substring is a contiguous sequence of characters within a string.

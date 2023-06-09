@@ -1,0 +1,7 @@
+you are given an array nums consisting of positive integers.
+starting with score = 0, apply the following algorithm:
+choose the smallest integer of the array that is not marked. if there is a tie, choose the one with the smallest index.
+add the value of the chosen integer to score.
+mark the chosen element and its two adjacent elements if they exist.
+repeat until all the array elements are marked.
+return the score you get after applying the above algorithm.

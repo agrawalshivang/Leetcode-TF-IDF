@@ -1,0 +1,5 @@
+given an array of integers arr, replace each element with its rank.
+the rank represents how large the element is. the rank has the following rules:
+rank is an integer starting from 1.
+the larger the element, the larger the rank. if two elements are equal, their rank must be the same.
+rank should be as small as possible.

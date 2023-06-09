@@ -1,0 +1,2 @@
+a string s is nice if, for every letter of the alphabet that s contains, it appears both in uppercase and lowercase. for example, "ababb" is nice because 'a' and 'a' appear, and 'b' and 'b' appear. however, "aba" is not because 'b' appears, but 'b' does not.
+given a string s, return the longest substring of s that is nice. if there are multiple, return the substring of the earliest occurrence. if there are none, return an empty string.

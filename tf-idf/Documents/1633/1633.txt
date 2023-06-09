@@ -1,0 +1,17 @@
+sql schema
+table: users
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| user_id       | int     |
+| name          | varchar |
+| mail          | varchar |
++---------------+---------+
+user_id is the primary key for this table.
+this table contains information of the users signed up in a website. some e-mails are invalid.
+write an sql query to find the users who have valid emails.
+a valid e-mail has a prefix name and a domain where:
+the prefix name is a string that may contain letters (upper or lower case), digits, underscore '_', period '.', and/or dash '-'. the prefix name must start with a letter.
+the domain is '@leetcode.com'.
+return the result table in any order.
+the query result format is in the following example.

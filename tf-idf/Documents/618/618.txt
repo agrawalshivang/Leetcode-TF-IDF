@@ -1,0 +1,3 @@
+given a m * n matrix seats  that represent seats distributions in a classroom. if a seat is broken, it is denoted by '#' character otherwise it is denoted by a '.' character.
+students can see the answers of those sitting next to the left, right, upper left and upper right, but he cannot see the answers of the student sitting directly in front or behind him. return the maximum number of students that can take the exam together without any cheating being possible..
+students must be placed in seats in good condition.

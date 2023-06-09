@@ -1,0 +1,6 @@
+design a data structure that keeps track of the values in it and answers some queries regarding their frequencies.
+implement the frequencytracker class.
+frequencytracker(): initializes the frequencytracker object with an empty array initially.
+void add(int number): adds number to the data structure.
+void deleteone(int number): deletes one occurrence of number from the data structure. the data structure may not contain number, and in this case nothing is deleted.
+bool hasfrequency(int frequency): returns true if there is a number in the data structure that occurs frequency number of times, otherwise, it returns false.

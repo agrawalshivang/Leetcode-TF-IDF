@@ -1,0 +1,6 @@
+given a string s containing only three types of characters: '(', ')' and '*', return true if s is valid.
+the following rules define a valid string:
+any left parenthesis '(' must have a corresponding right parenthesis ')'.
+any right parenthesis ')' must have a corresponding left parenthesis '('.
+left parenthesis '(' must go before the corresponding right parenthesis ')'.
+'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string "".

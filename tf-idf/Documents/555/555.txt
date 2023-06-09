@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. you are also given an integer k.
+pick the scores of any k students from the array so that the difference between the highest and the lowest of the k scores is minimized.
+return the minimum possible difference.

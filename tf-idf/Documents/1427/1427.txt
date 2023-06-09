@@ -1,0 +1,4 @@
+you are given a string, message, and a positive integer, limit.
+you must split message into one or more parts based on limit. each resulting part should have the suffix "<a/b>", where "b" is to be replaced with the total number of parts and "a" is to be replaced with the index of the part, starting from 1 and going up to b. additionally, the length of each resulting part (including its suffix) should be equal to limit, except for the last part whose length can be at most limit.
+the resulting parts should be formed such that when their suffixes are removed and they are all concatenated in order, they should be equal to message. also, the result should contain as few parts as possible.
+return the parts message would be split into as an array of strings. if it is impossible to split message as required, return an empty array.

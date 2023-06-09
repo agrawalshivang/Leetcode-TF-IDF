@@ -1,0 +1,6 @@
+you are given a string s consisting of lowercase letters and an integer k. we call a string t ideal if the following conditions are satisfied:
+t is a subsequence of the string s.
+the absolute difference in the alphabet order of every two adjacent letters in t is less than or equal to k.
+return the length of the longest ideal string.
+a subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+note that the alphabet order is not cyclic. for example, the absolute difference in the alphabet order of 'a' and 'z' is 25, not 1.

@@ -1,0 +1,4 @@
+given a singly linked list, return a random node's value from the linked list. each node must have the same probability of being chosen.
+implement the solution class:
+solution(listnode head) initializes the object with the head of the singly-linked list head.
+int getrandom() chooses a node randomly from the list and returns its value. all the nodes of the list should be equally likely to be chosen.

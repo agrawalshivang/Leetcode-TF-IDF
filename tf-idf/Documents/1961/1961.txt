@@ -1,0 +1,4 @@
+you are given a positive integer n. each digit of n has a sign according to the following rules:
+the most significant digit is assigned a positive sign.
+each other digit has an opposite sign to its adjacent digits.
+return the sum of all digits with their corresponding sign.

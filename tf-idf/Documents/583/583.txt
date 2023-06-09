@@ -1,0 +1,2 @@
+given a string s, sort it in decreasing order based on the frequency of the characters. the frequency of a character is the number of times it appears in the string.
+return the sorted string. if there are multiple answers, return any of them.

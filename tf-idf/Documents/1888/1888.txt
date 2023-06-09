@@ -1,0 +1,4 @@
+there is an undirected graph with n nodes numbered from 0 to n - 1 (inclusive). you are given a 0-indexed integer array values where values[i] is the value of the ith node. you are also given a 0-indexed 2d integer array edges, where each edges[j] = [uj, vj, timej] indicates that there is an undirected edge between the nodes uj and vj, and it takes timej seconds to travel between the two nodes. finally, you are given an integer maxtime.
+a valid path in the graph is any path that starts at node 0, ends at node 0, and takes at most maxtime seconds to complete. you may visit the same node multiple times. the quality of a valid path is the sum of the values of the unique nodes visited in the path (each node's value is added at most once to the sum).
+return the maximum quality of a valid path.
+note: there are at most four edges connected to each node.

@@ -1,0 +1,2 @@
+you are given two integer arrays of equal length target and arr. in one step, you can select any non-empty subarray of arr and reverse it. you are allowed to make any number of steps.
+return true if you can make arr equal to target or false otherwise.

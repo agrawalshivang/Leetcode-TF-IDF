@@ -1,0 +1,12 @@
+a message containing letters from a-z can be encoded into numbers using the following mapping:
+'a' -> "1"
+'b' -> "2"
+...
+'z' -> "26"
+to decode an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways). for example, "11106" can be mapped into:
+"aajf" with the grouping (1 1 10 6)
+"kjf" with the grouping (11 10 6)
+note that the grouping (1 11 06) is invalid because "06" cannot be mapped into 'f' since "6" is different from "06".
+in addition to the mapping above, an encoded message may contain the '*' character, which can represent any digit from '1' to '9' ('0' is excluded). for example, the encoded message "1*" may represent any of the encoded messages "11", "12", "13", "14", "15", "16", "17", "18", or "19". decoding "1*" is equivalent to decoding any of the encoded messages it can represent.
+given a string s consisting of digits and '*' characters, return the number of ways to decode it.
+since the answer may be very large, return it modulo 109 + 7.

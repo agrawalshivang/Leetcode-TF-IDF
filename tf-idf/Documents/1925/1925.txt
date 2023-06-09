@@ -1,0 +1,5 @@
+a valid parentheses string is either empty "", "(" + a + ")", or a + b, where a and b are valid parentheses strings, and + represents string concatenation.
+for example, "", "()", "(())()", and "(()(()))" are all valid parentheses strings.
+a valid parentheses string s is primitive if it is nonempty, and there does not exist a way to split it into s = a + b, with a and b nonempty valid parentheses strings.
+given a valid parentheses string s, consider its primitive decomposition: s = p1 + p2 + ... + pk, where pi are primitive valid parentheses strings.
+return s after removing the outermost parentheses of every primitive string in the primitive decomposition of s.

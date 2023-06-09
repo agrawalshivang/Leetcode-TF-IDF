@@ -1,0 +1,2 @@
+given an integer array nums, return the most frequent even element.
+if there is a tie, return the smallest one. if there is no such element, return -1.

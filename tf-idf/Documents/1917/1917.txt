@@ -1,0 +1,6 @@
+you are given an integer array nums where the ith bag contains nums[i] balls. you are also given an integer maxoperations.
+you can perform the following operation at most maxoperations times:
+take any bag of balls and divide it into two new bags with a positive number of balls.
+for example, a bag of 5 balls can become two new bags of 1 and 4 balls, or two new bags of 2 and 3 balls.
+your penalty is the maximum number of balls in a bag. you want to minimize your penalty after the operations.
+return the minimum possible penalty after performing the operations.

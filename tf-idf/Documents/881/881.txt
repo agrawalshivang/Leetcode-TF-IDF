@@ -1,0 +1,7 @@
+you are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. all the scores are guaranteed to be unique.
+the athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. the placement of each athlete determines their rank:
+the 1st place athlete's rank is "gold medal".
+the 2nd place athlete's rank is "silver medal".
+the 3rd place athlete's rank is "bronze medal".
+for the 4th place to the nth place athlete, their rank is their placement number (i.e., the xth place athlete's rank is "x").
+return an array answer of size n where answer[i] is the rank of the ith athlete.

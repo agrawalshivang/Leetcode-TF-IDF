@@ -1,0 +1,4 @@
+given a root node reference of a bst and a key, delete the node with the given key in the bst. return the root node reference (possibly updated) of the bst.
+basically, the deletion can be divided into two stages:
+search for a node to remove.
+if the node is found, delete the node.

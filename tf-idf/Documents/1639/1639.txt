@@ -1,0 +1,1 @@
+given an integer array nums, return the maximum result of nums[i] xor nums[j], where 0 <= i <= j < n.

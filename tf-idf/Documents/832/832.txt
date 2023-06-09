@@ -1,0 +1,5 @@
+you are given an integer array nums and an integer k. find the maximum subarray sum of all the subarrays of nums that meet the following conditions:
+the length of the subarray is k, and
+all the elements of the subarray are distinct.
+return the maximum subarray sum of all the subarrays that meet the conditions. if no subarray meets the conditions, return 0.
+a subarray is a contiguous non-empty sequence of elements within an array.

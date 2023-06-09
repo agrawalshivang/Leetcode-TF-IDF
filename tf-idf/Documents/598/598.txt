@@ -1,0 +1,6 @@
+you are given a 0-indexed integer array nums. the array nums is beautiful if:
+nums.length is even.
+nums[i] != nums[i + 1] for all i % 2 == 0.
+note that an empty array is considered beautiful.
+you can delete any number of elements from nums. when you delete an element, all the elements to the right of the deleted element will be shifted one unit to the left to fill the gap created and all the elements to the left of the deleted element will remain unchanged.
+return the minimum number of elements to delete from nums to make it beautiful.

@@ -1,0 +1,5 @@
+given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+an input string is valid if:
+open brackets must be closed by the same type of brackets.
+open brackets must be closed in the correct order.
+every close bracket has a corresponding open bracket of the same type.

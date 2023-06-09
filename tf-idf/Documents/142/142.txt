@@ -1,0 +1,5 @@
+two players play a turn based game on a binary tree. we are given the root of this binary tree, and the number of nodes n in the tree. n is odd, and each node has a distinct value from 1 to n.
+initially, the first player names a value x with 1 <= x <= n, and the second player names a value y with 1 <= y <= n and y != x. the first player colors the node with value x red, and the second player colors the node with value y blue.
+then, the players take turns starting with the first player. in each turn, that player chooses a node of their color (red if player 1, blue if player 2) and colors an uncolored neighbor of the chosen node (either the left child, right child, or parent of the chosen node.)
+if (and only if) a player cannot choose such a node in this way, they must pass their turn. if both players pass their turn, the game ends, and the winner is the player that colored more nodes.
+you are the second player. if it is possible to choose such a y to ensure you win the game, return true. if it is not possible, return false.

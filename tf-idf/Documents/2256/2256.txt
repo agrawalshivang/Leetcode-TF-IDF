@@ -1,0 +1,6 @@
+alice and bob have an undirected graph of n nodes and three types of edges:
+type 1: can be traversed by alice only.
+type 2: can be traversed by bob only.
+type 3: can be traversed by both alice and bob.
+given an array edges where edges[i] = [typei, ui, vi] represents a bidirectional edge of type typei between nodes ui and vi, find the maximum number of edges you can remove so that after removing the edges, the graph can still be fully traversed by both alice and bob. the graph is fully traversed by alice and bob if starting from any node, they can reach all other nodes.
+return the maximum number of edges you can remove, or return -1 if alice and bob cannot fully traverse the graph.

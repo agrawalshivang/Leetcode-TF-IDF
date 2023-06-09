@@ -1,0 +1,5 @@
+you are standing at position 0 on an infinite number line. there is a destination at position target.
+you can make some number of moves nummoves so that:
+on each move, you can either go left or right.
+during the ith move (starting from i == 1 to i == nummoves), you take i steps in the chosen direction.
+given the integer target, return the minimum number of moves required (i.e., the minimum nummoves) to reach the destination.

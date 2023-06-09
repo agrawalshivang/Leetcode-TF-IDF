@@ -1,0 +1,8 @@
+you are asked to cut off all the trees in a forest for a golf event. the forest is represented as an m x n matrix. in this matrix:
+0 means the cell cannot be walked through.
+1 represents an empty cell that can be walked through.
+a number greater than 1 represents a tree in a cell that can be walked through, and this number is the tree's height.
+in one step, you can walk in any of the four directions: north, east, south, and west. if you are standing in a cell with a tree, you can choose whether to cut it off.
+you must cut off the trees in order from shortest to tallest. when you cut off a tree, the value at its cell becomes 1 (an empty cell).
+starting from the point (0, 0), return the minimum steps you need to walk to cut off all the trees. if you cannot cut off all the trees, return -1.
+note: the input is generated such that no two trees have the same height, and there is at least one tree needs to be cut off.

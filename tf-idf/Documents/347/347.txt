@@ -1,0 +1,8 @@
+you are given the customer visit log of a shop represented by a 0-indexed string customers consisting only of characters 'n' and 'y':
+if the ith character is 'y', it means that customers come at the ith hour
+whereas 'n' indicates that no customers come at the ith hour.
+if the shop closes at the jth hour (0 <= j <= n), the penalty is calculated as follows:
+for every hour when the shop is open and no customers come, the penalty increases by 1.
+for every hour when the shop is closed and customers come, the penalty increases by 1.
+return the earliest hour at which the shop must be closed to incur a minimum penalty.
+note that if a shop closes at the jth hour, it means the shop is closed at the hour j.

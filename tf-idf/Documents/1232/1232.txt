@@ -1,0 +1,3 @@
+given an array of integers nums, you start with an initial positive value startvalue.
+in each iteration, you calculate the step by step sum of startvalue plus elements in nums (from left to right).
+return the minimum positive value of startvalue such that the step by step sum is never less than 1.

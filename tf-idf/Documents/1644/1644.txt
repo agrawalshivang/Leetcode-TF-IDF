@@ -1,0 +1,3 @@
+you have n robots. you are given two 0-indexed integer arrays, chargetimes and runningcosts, both of length n. the ith robot costs chargetimes[i] units to charge and costs runningcosts[i] units to run. you are also given an integer budget.
+the total cost of running k chosen robots is equal to max(chargetimes) + k * sum(runningcosts), where max(chargetimes) is the largest charge cost among the k robots and sum(runningcosts) is the sum of running costs among the k robots.
+return the maximum number of consecutive robots you can run such that the total cost does not exceed budget.

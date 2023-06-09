@@ -1,0 +1,5 @@
+there is a tree (i.e., a connected, undirected graph that has no cycles) consisting of n nodes numbered from 0 to n - 1 and exactly n - 1 edges. each node has a value associated with it, and the root of the tree is node 0.
+to represent this tree, you are given an integer array nums and a 2d array edges. each nums[i] represents the ith node's value, and each edges[j] = [uj, vj] represents an edge between nodes uj and vj in the tree.
+two values x and y are coprime if gcd(x, y) == 1 where gcd(x, y) is the greatest common divisor of x and y.
+an ancestor of a node i is any other node on the shortest path from node i to the root. a node is not considered an ancestor of itself.
+return an array ans of size n, where ans[i] is the closest ancestor to node i such that nums[i] and nums[ans[i]] are coprime, or -1 if there is no such ancestor.

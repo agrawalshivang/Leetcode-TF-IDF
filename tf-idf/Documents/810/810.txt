@@ -1,0 +1,2 @@
+given an integer numrows, return the first numrows of pascal's triangle.
+in pascal's triangle, each number is the sum of the two numbers directly above it as shown:

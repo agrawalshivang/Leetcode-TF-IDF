@@ -1,0 +1,6 @@
+you are given an integer array nums and an integer k.
+find the longest subsequence of nums that meets the following requirements:
+the subsequence is strictly increasing and
+the difference between adjacent elements in the subsequence is at most k.
+return the length of the longest subsequence that meets the requirements.
+a subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.

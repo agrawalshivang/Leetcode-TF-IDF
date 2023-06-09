@@ -1,0 +1,14 @@
+given an integer array data representing the data, return whether it is a valid utf-8 encoding (i.e. it translates to a sequence of valid utf-8 encoded characters).
+a character in utf8 can be from 1 to 4 bytes long, subjected to the following rules:
+for a 1-byte character, the first bit is a 0, followed by its unicode code.
+for an n-bytes character, the first n bits are all one's, the n + 1 bit is 0, followed by n - 1 bytes with the most significant 2 bits being 10.
+this is how the utf-8 encoding would work:
+number of bytes   |        utf-8 octet sequence
+|              (binary)
+--------------------+-----------------------------------------
+1          |   0xxxxxxx
+2          |   110xxxxx 10xxxxxx
+3          |   1110xxxx 10xxxxxx 10xxxxxx
+4          |   11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+x denotes a bit in the binary form of a byte that may be either 0 or 1.
+note: the input is an array of integers. only the least significant 8 bits of each integer is used to store the data. this means each integer represents only 1 byte of data.

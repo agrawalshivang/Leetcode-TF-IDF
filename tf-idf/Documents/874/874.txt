@@ -1,0 +1,5 @@
+you are given a positive integer primefactors. you are asked to construct a positive integer n that satisfies the following conditions:
+the number of prime factors of n (not necessarily distinct) is at most primefactors.
+the number of nice divisors of n is maximized. note that a divisor of n is nice if it is divisible by every prime factor of n. for example, if n = 12, then its prime factors are [2,2,3], then 6 and 12 are nice divisors, while 3 and 4 are not.
+return the number of nice divisors of n. since that number can be too large, return it modulo 109 + 7.
+note that a prime number is a natural number greater than 1 that is not a product of two smaller natural numbers. the prime factors of a number n is a list of prime numbers such that their product equals n.

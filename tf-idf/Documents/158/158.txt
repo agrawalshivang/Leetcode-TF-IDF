@@ -1,0 +1,8 @@
+design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+implement the minstack class:
+minstack() initializes the stack object.
+void push(int val) pushes the element val onto the stack.
+void pop() removes the element on the top of the stack.
+int top() gets the top element of the stack.
+int getmin() retrieves the minimum element in the stack.
+you must implement a solution with o(1) time complexity for each function.

@@ -1,0 +1,6 @@
+you are given a 0-indexed array of strings details. each element of details provides information about a given passenger compressed into a string of length 15. the system is such that:
+the first ten characters consist of the phone number of passengers.
+the next character denotes the gender of the person.
+the following two characters are used to indicate the age of the person.
+the last two characters determine the seat allotted to that person.
+return the number of passengers who are strictly more than 60 years old.

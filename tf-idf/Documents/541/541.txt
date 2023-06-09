@@ -1,0 +1,4 @@
+you are given a string title consisting of one or more words separated by a single space, where each word consists of english letters. capitalize the string by changing the capitalization of each word such that:
+if the length of the word is 1 or 2 letters, change all letters to lowercase.
+otherwise, change the first letter to uppercase and the remaining letters to lowercase.
+return the capitalized title.

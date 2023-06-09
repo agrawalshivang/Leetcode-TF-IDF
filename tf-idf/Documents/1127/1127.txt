@@ -1,0 +1,10 @@
+alice and bob are opponents in an archery competition. the competition has set the following rules:
+alice first shoots numarrows arrows and then bob shoots numarrows arrows.
+the points are then calculated as follows:
+the target has integer scoring sections ranging from 0 to 11 inclusive.
+for each section of the target with score k (in between 0 to 11), say alice and bob have shot ak and bk arrows on that section respectively. if ak >= bk, then alice takes k points. if ak < bk, then bob takes k points.
+however, if ak == bk == 0, then nobody takes k points.
+for example, if alice and bob both shot 2 arrows on the section with score 11, then alice takes 11 points. on the other hand, if alice shot 0 arrows on the section with score 11 and bob shot 2 arrows on that same section, then bob takes 11 points.
+you are given the integer numarrows and an integer array alicearrows of size 12, which represents the number of arrows alice shot on each scoring section from 0 to 11. now, bob wants to maximize the total number of points he can obtain.
+return the array bobarrows which represents the number of arrows bob shot on each scoring section from 0 to 11. the sum of the values in bobarrows should equal numarrows.
+if there are multiple ways for bob to earn the maximum total points, return any one of them.

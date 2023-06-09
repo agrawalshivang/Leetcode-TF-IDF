@@ -1,0 +1,15 @@
+roman numerals are represented by seven different symbols: i, v, x, l, c, d and m.
+symbol       value
+i             1
+v             5
+x             10
+l             50
+c             100
+d             500
+m             1000
+for example, 2 is written as ii in roman numeral, just two one's added together. 12 is written as xii, which is simply x + ii. the number 27 is written as xxvii, which is xx + v + ii.
+roman numerals are usually written largest to smallest from left to right. however, the numeral for four is not iiii. instead, the number four is written as iv. because the one is before the five we subtract it making four. the same principle applies to the number nine, which is written as ix. there are six instances where subtraction is used:
+i can be placed before v (5) and x (10) to make 4 and 9.
+x can be placed before l (50) and c (100) to make 40 and 90.
+c can be placed before d (500) and m (1000) to make 400 and 900.
+given an integer, convert it to a roman numeral.

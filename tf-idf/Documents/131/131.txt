@@ -1,0 +1,9 @@
+given an m x n matrix, return a new matrix answer where answer[row][col] is the rank of matrix[row][col].
+the rank is an integer that represents how large an element is compared to other elements. it is calculated using the following rules:
+the rank is an integer starting from 1.
+if two elements p and q are in the same row or column, then:
+if p < q then rank(p) < rank(q)
+if p == q then rank(p) == rank(q)
+if p > q then rank(p) > rank(q)
+the rank should be as small as possible.
+the test cases are generated so that answer is unique under the given rules.

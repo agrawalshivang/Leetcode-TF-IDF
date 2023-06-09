@@ -1,0 +1,2 @@
+given an integer n, return all the numbers in the range [1, n] sorted in lexicographical order.
+you must write an algorithm that runs in o(n) time and uses o(1) extra space.

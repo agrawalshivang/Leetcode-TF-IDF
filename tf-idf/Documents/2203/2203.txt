@@ -1,0 +1,5 @@
+design a system that manages the reservation state of n seats that are numbered from 1 to n.
+implement the seatmanager class:
+seatmanager(int n) initializes a seatmanager object that will manage n seats numbered from 1 to n. all seats are initially available.
+int reserve() fetches the smallest-numbered unreserved seat, reserves it, and returns its number.
+void unreserve(int seatnumber) unreserves the seat with the given seatnumber.

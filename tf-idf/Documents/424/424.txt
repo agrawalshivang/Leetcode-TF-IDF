@@ -1,0 +1,5 @@
+the bitwise and of an array nums is the bitwise and of all integers in nums.
+for example, for nums = [1, 5, 3], the bitwise and is equal to 1 & 5 & 3 = 1.
+also, for nums = [7], the bitwise and is 7.
+you are given an array of positive integers candidates. evaluate the bitwise and of every combination of numbers of candidates. each number in candidates may only be used once in each combination.
+return the size of the largest combination of candidates with a bitwise and greater than 0.

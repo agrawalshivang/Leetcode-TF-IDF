@@ -1,0 +1,4 @@
+balanced strings are those that have an equal quantity of 'l' and 'r' characters.
+given a balanced string s, split it into some number of substrings such that:
+each substring is balanced.
+return the maximum number of balanced strings you can obtain.

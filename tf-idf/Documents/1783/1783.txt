@@ -1,0 +1,4 @@
+a square matrix is said to be an x-matrix if both of the following conditions hold:
+all the elements in the diagonals of the matrix are non-zero.
+all other elements are 0.
+given a 2d integer array grid of size n x n representing a square matrix, return true if grid is an x-matrix. otherwise, return false.

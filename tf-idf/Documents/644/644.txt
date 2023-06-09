@@ -1,0 +1,12 @@
+sql schema
+table: mynumbers
++-------------+------+
+| column name | type |
++-------------+------+
+| num         | int  |
++-------------+------+
+there is no primary key for this table. it may contain duplicates.
+each row of this table contains an integer.
+a single number is a number that appeared only once in the mynumbers table.
+write an sql query to report the largest single number. if there is no single number, report null.
+the query result format is in the following example.

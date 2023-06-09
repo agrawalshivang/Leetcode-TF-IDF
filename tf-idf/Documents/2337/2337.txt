@@ -1,0 +1,6 @@
+given an integer k, return the minimum number of fibonacci numbers whose sum is equal to k. the same fibonacci number can be used multiple times.
+the fibonacci numbers are defined as:
+f1 = 1
+f2 = 1
+fn = fn-1 + fn-2 for n > 2.
+it is guaranteed that for the given constraints we can always find such fibonacci numbers that sum up to k.

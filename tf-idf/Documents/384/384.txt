@@ -1,0 +1,4 @@
+you are given an integer n indicating there are n people numbered from 0 to n - 1. you are also given a 0-indexed 2d integer array meetings where meetings[i] = [xi, yi, timei] indicates that person xi and person yi have a meeting at timei. a person may attend multiple meetings at the same time. finally, you are given an integer firstperson.
+person 0 has a secret and initially shares the secret with a person firstperson at time 0. this secret is then shared every time a meeting takes place with a person that has the secret. more formally, for every meeting, if a person xi has the secret at timei, then they will share the secret with person yi, and vice versa.
+the secrets are shared instantaneously. that is, a person may receive the secret and share it with people in other meetings within the same time frame.
+return a list of all the people that have the secret after all the meetings have taken place. you may return the answer in any order.

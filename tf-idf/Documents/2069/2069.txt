@@ -1,0 +1,2 @@
+the power of the string is the maximum length of a non-empty substring that contains only one unique character.
+given a string s, return the power of s.

@@ -1,0 +1,4 @@
+we have two special characters:
+the first character can be represented by one bit 0.
+the second character can be represented by two bits (10 or 11).
+given a binary array bits that ends with 0, return true if the last character must be a one-bit character.

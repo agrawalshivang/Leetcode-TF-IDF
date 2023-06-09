@@ -1,0 +1,4 @@
+you are given an integer array nums of length n and an integer numslots such that 2 * numslots >= n. there are numslots slots numbered from 1 to numslots.
+you have to place all n integers into the slots such that each slot contains at most two numbers. the and sum of a given placement is the sum of the bitwise and of every number with its respective slot number.
+for example, the and sum of placing the numbers [1, 3] into slot 1 and [4, 6] into slot 2 is equal to (1 and 1) + (3 and 1) + (4 and 2) + (6 and 2) = 1 + 1 + 0 + 2 = 4.
+return the maximum possible and sum of nums given numslots slots.

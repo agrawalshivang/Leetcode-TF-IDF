@@ -1,0 +1,5 @@
+there is a strange printer with the following two special requirements:
+on each turn, the printer will print a solid rectangular pattern of a single color on the grid. this will cover up the existing colors in the rectangle.
+once the printer has used a color for the above operation, the same color cannot be used again.
+you are given a m x n matrix targetgrid, where targetgrid[row][col] is the color in the position (row, col) of the grid.
+return true if it is possible to print the matrix targetgrid, otherwise, return false.

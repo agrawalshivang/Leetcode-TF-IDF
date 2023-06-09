@@ -1,0 +1,5 @@
+given the root of a binary tree, return the lowest common ancestor of its deepest leaves.
+recall that:
+the node of a binary tree is a leaf if and only if it has no children
+the depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1.
+the lowest common ancestor of a set s of nodes, is the node a with the largest depth such that every node in s is in the subtree with root a.

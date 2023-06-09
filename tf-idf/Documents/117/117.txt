@@ -1,0 +1,5 @@
+you are given an integer n indicating there are n specialty retail stores. there are m product types of varying amounts, which are given as a 0-indexed integer array quantities, where quantities[i] represents the number of products of the ith product type.
+you need to distribute all products to the retail stores following these rules:
+a store can only be given at most one product type but can be given any amount of it.
+after distribution, each store will have been given some number of products (possibly 0). let x represent the maximum number of products given to any store. you want x to be as small as possible, i.e., you want to minimize the maximum number of products that are given to any store.
+return the minimum possible x.

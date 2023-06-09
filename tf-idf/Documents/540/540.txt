@@ -1,0 +1,11 @@
+you are given an integer n representing the size of a 0-indexed memory array. all memory units are initially free.
+you have a memory allocator with the following functionalities:
+allocate a block of size consecutive free memory units and assign it the id mid.
+free all memory units with the given id mid.
+note that:
+multiple blocks can be allocated to the same mid.
+you should free all the memory units with mid, even if they were allocated in different blocks.
+implement the allocator class:
+allocator(int n) initializes an allocator object with a memory array of size n.
+int allocate(int size, int mid) find the leftmost block of size consecutive free memory units and allocate it with the id mid. return the block's first index. if such a block does not exist, return -1.
+int free(int mid) free all memory units with the id mid. return the number of memory units you have freed.

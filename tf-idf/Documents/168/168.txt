@@ -1,0 +1,4 @@
+alice and bob play a game with piles of stones. there are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].
+the objective of the game is to end with the most stones. the total number of stones across all the piles is odd, so there are no ties.
+alice and bob take turns, with alice starting first. each turn, a player takes the entire pile of stones either from the beginning or from the end of the row. this continues until there are no more piles left, at which point the person with the most stones wins.
+assuming alice and bob play optimally, return true if alice wins the game, or false if bob wins.

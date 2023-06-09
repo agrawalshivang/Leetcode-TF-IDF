@@ -1,0 +1,4 @@
+you have an inventory of different colored balls, and there is a customer that wants orders balls of any color.
+the customer weirdly values the colored balls. each colored ball's value is the number of balls of that color you currently have in your inventory. for example, if you own 6 yellow balls, the customer would pay 6 for the first yellow ball. after the transaction, there are only 5 yellow balls left, so the next yellow ball is then valued at 5 (i.e., the value of the balls decreases as you sell more to the customer).
+you are given an integer array, inventory, where inventory[i] represents the number of balls of the ith color that you initially own. you are also given an integer orders, which represents the total number of balls that the customer wants. you can sell the balls in any order.
+return the maximum total value that you can attain after selling orders colored balls. as the answer may be too large, return it modulo 109 + 7.

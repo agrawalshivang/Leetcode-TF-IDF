@@ -1,0 +1,11 @@
+there is an 8 x 8 chessboard containing n pieces (rooks, queens, or bishops). you are given a string array pieces of length n, where pieces[i] describes the type (rook, queen, or bishop) of the ith piece. in addition, you are given a 2d integer array positions also of length n, where positions[i] = [ri, ci] indicates that the ith piece is currently at the 1-based coordinate (ri, ci) on the chessboard.
+when making a move for a piece, you choose a destination square that the piece will travel toward and stop on.
+a rook can only travel horizontally or vertically from (r, c) to the direction of (r+1, c), (r-1, c), (r, c+1), or (r, c-1).
+a queen can only travel horizontally, vertically, or diagonally from (r, c) to the direction of (r+1, c), (r-1, c), (r, c+1), (r, c-1), (r+1, c+1), (r+1, c-1), (r-1, c+1), (r-1, c-1).
+a bishop can only travel diagonally from (r, c) to the direction of (r+1, c+1), (r+1, c-1), (r-1, c+1), (r-1, c-1).
+you must make a move for every piece on the board simultaneously. a move combination consists of all the moves performed on all the given pieces. every second, each piece will instantaneously travel one square towards their destination if they are not already at it. all pieces start traveling at the 0th second. a move combination is invalid if, at a given time, two or more pieces occupy the same square.
+return the number of valid move combinations.
+notes:
+no two pieces will start in the same square.
+you may choose the square a piece is already on as its destination.
+if two pieces are directly adjacent to each other, it is valid for them to move past each other and swap positions in one second.

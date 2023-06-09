@@ -1,0 +1,8 @@
+you are participating in an online chess tournament. there is a chess round that starts every 15 minutes. the first round of the day starts at 00:00, and after every 15 minutes, a new round starts.
+for example, the second round starts at 00:15, the fourth round starts at 00:45, and the seventh round starts at 01:30.
+you are given two strings logintime and logouttime where:
+logintime is the time you will login to the game, and
+logouttime is the time you will logout from the game.
+if logouttime is earlier than logintime, this means you have played from logintime to midnight and from midnight to logouttime.
+return the number of full chess rounds you have played in the tournament.
+note: all the given times follow the 24-hour clock. that means the first round of the day starts at 00:00 and the last round of the day starts at 23:45.

@@ -1,0 +1,11 @@
+a string is a valid parentheses string (denoted vps) if it meets one of the following:
+it is an empty string "", or a single character not equal to "(" or ")",
+it can be written as ab (a concatenated with b), where a and b are vps's, or
+it can be written as (a), where a is a vps.
+we can similarly define the nesting depth depth(s) of any vps s as follows:
+depth("") = 0
+depth(c) = 0, where c is a string with a single character not equal to "(" or ")".
+depth(a + b) = max(depth(a), depth(b)), where a and b are vps's.
+depth("(" + a + ")") = 1 + depth(a), where a is a vps.
+for example, "", "()()", and "()(()())" are vps's (with nesting depths 0, 1, and 2), and ")(" and "(()" are not vps's.
+given a vps represented as string s, return the nesting depth of s.

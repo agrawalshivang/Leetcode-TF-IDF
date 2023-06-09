@@ -1,0 +1,3 @@
+you are given an integer n.
+each number from 1 to n is grouped according to the sum of its digits.
+return the number of groups that have the largest size.

@@ -1,0 +1,4 @@
+for a stream of integers, implement a data structure that checks if the last k integers parsed in the stream are equal to value.
+implement the datastream class:
+datastream(int value, int k) initializes the object with an empty integer stream and the two integers value and k.
+boolean consec(int num) adds num to the stream of integers. returns true if the last k integers are equal to value, and false otherwise. if there are less than k integers, the condition does not hold true, so returns false.

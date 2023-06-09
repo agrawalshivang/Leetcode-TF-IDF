@@ -1,0 +1,2 @@
+you are given a string s consisting of the characters 'a', 'b', and 'c' and a non-negative integer k. each minute, you may take either the leftmost character of s, or the rightmost character of s.
+return the minimum number of minutes needed for you to take at least k of each character, or return -1 if it is not possible to take k of each character.

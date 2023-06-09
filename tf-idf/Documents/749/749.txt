@@ -1,0 +1,7 @@
+alice and bob want to water n plants in their garden. the plants are arranged in a row and are labeled from 0 to n - 1 from left to right where the ith plant is located at x = i.
+each plant needs a specific amount of water. alice and bob have a watering can each, initially full. they water the plants in the following way:
+alice waters the plants in order from left to right, starting from the 0th plant. bob waters the plants in order from right to left, starting from the (n - 1)th plant. they begin watering the plants simultaneously.
+it takes the same amount of time to water each plant regardless of how much water it needs.
+alice/bob must water the plant if they have enough in their can to fully water it. otherwise, they first refill their can (instantaneously) then water the plant.
+in case both alice and bob reach the same plant, the one with more water currently in his/her watering can should water this plant. if they have the same amount of water, then alice should water this plant.
+given a 0-indexed integer array plants of n integers, where plants[i] is the amount of water the ith plant needs, and two integers capacitya and capacityb representing the capacities of alice's and bob's watering cans respectively, return the number of times they have to refill to water all the plants.

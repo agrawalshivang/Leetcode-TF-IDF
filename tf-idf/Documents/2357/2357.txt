@@ -1,0 +1,3 @@
+you are the manager of a basketball team. for the upcoming tournament, you want to choose the team with the highest overall score. the score of the team is the sum of scores of all the players in the team.
+however, the basketball team is not allowed to have conflicts. a conflict exists if a younger player has a strictly higher score than an older player. a conflict does not occur between players of the same age.
+given two lists, scores and ages, where each scores[i] and ages[i] represents the score and age of the ith player, respectively, return the highest overall score of all possible basketball teams.

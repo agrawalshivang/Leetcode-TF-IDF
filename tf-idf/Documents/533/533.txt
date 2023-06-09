@@ -1,0 +1,31 @@
+sql schema
+table: students
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| student_id    | int     |
+| student_name  | varchar |
++---------------+---------+
+student_id is the primary key for this table.
+each row of this table contains the id and the name of one student in the school.
+table: subjects
++--------------+---------+
+| column name  | type    |
++--------------+---------+
+| subject_name | varchar |
++--------------+---------+
+subject_name is the primary key for this table.
+each row of this table contains the name of one subject in the school.
+table: examinations
++--------------+---------+
+| column name  | type    |
++--------------+---------+
+| student_id   | int     |
+| subject_name | varchar |
++--------------+---------+
+there is no primary key for this table. it may contain duplicates.
+each student from the students table takes every course from the subjects table.
+each row of this table indicates that a student with id student_id attended the exam of subject_name.
+write an sql query to find the number of times each student attended each exam.
+return the result table ordered by student_id and subject_name.
+the query result format is in the following example.

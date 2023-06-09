@@ -1,0 +1,3 @@
+you are given a 0-indexed 2d integer array of events where events[i] = [starttimei, endtimei, valuei]. the ith event starts at starttimei and ends at endtimei, and if you attend this event, you will receive a value of valuei. you can choose at most two non-overlapping events to attend such that the sum of their values is maximized.
+return this maximum sum.
+note that the start time and end time is inclusive: that is, you cannot attend two events where one of them starts and the other ends at the same time. more specifically, if you attend an event with end time t, the next event must start at or after t + 1.

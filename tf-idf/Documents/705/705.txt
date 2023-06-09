@@ -1,0 +1,5 @@
+you are given two integer arrays nums1 and nums2 of length n.
+the xor sum of the two integer arrays is (nums1[0] xor nums2[0]) + (nums1[1] xor nums2[1]) + ... + (nums1[n - 1] xor nums2[n - 1]) (0-indexed).
+for example, the xor sum of [1,2,3] and [3,2,1] is equal to (1 xor 3) + (2 xor 2) + (3 xor 1) = 2 + 0 + 2 = 4.
+rearrange the elements of nums2 such that the resulting xor sum is minimized.
+return the xor sum after the rearrangement.

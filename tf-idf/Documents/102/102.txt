@@ -1,0 +1,3 @@
+given the array houses where houses[i] is the location of the ith house along a street and an integer k, allocate k mailboxes in the street.
+return the minimum total distance between each house and its nearest mailbox.
+the test cases are generated so that the answer fits in a 32-bit integer.

@@ -1,0 +1,7 @@
+given two strings s and t, your goal is to convert s into t in k moves or less.
+during the ith (1 <= i <= k) move you can:
+choose any index j (1-indexed) from s, such that 1 <= j <= s.length and j has not been chosen in any previous move, and shift the character at that index i times.
+do nothing.
+shifting a character means replacing it by the next letter in the alphabet (wrapping around so that 'z' becomes 'a'). shifting a character by i means applying the shift operations i times.
+remember that any index j can be picked at most once.
+return true if it's possible to convert s into t in no more than k moves, otherwise return false.

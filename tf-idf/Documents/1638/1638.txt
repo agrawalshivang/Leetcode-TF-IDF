@@ -1,0 +1,8 @@
+design a data structure to store the strings' count with the ability to return the strings with minimum and maximum counts.
+implement the allone class:
+allone() initializes the object of the data structure.
+inc(string key) increments the count of the string key by 1. if key does not exist in the data structure, insert it with count 1.
+dec(string key) decrements the count of the string key by 1. if the count of key is 0 after the decrement, remove it from the data structure. it is guaranteed that key exists in the data structure before the decrement.
+getmaxkey() returns one of the keys with the maximal count. if no element exists, return an empty string "".
+getminkey() returns one of the keys with the minimum count. if no element exists, return an empty string "".
+note that each function must run in o(1) average time complexity.

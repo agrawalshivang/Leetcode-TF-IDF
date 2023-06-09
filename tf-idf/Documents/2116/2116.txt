@@ -1,0 +1,4 @@
+given an input string s, reverse the order of the words.
+a word is defined as a sequence of non-space characters. the words in s will be separated by at least one space.
+return a string of the words in reverse order concatenated by a single space.
+note that s may contain leading or trailing spaces or multiple spaces between two words. the returned string should only have a single space separating the words. do not include any extra spaces.

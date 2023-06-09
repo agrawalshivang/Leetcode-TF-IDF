@@ -1,0 +1,4 @@
+alice and bob take turns playing a game, with alice starting first.
+there are n stones arranged in a row. on each player's turn, they can remove either the leftmost stone or the rightmost stone from the row and receive points equal to the sum of the remaining stones' values in the row. the winner is the one with the higher score when there are no stones left to remove.
+bob found that he will always lose this game (poor bob, he always loses), so he decided to minimize the score's difference. alice's goal is to maximize the difference in the score.
+given an array of integers stones where stones[i] represents the value of the ith stone from the left, return the difference in alice and bob's score if they both play optimally.

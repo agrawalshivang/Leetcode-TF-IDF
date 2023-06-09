@@ -1,0 +1,3 @@
+you are given two positive integer arrays nums and numsdivide. you can delete any number of elements from nums.
+return the minimum number of deletions such that the smallest element in nums divides all the elements of numsdivide. if this is not possible, return -1.
+note that an integer x divides y if y % x == 0.

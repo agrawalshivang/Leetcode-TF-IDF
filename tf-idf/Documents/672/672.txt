@@ -1,0 +1,14 @@
+sql schema
+table: employees
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| employee_id | int     |
+| name        | varchar |
+| salary      | int     |
++-------------+---------+
+employee_id is the primary key for this table.
+each row of this table indicates the employee id, employee name, and salary.
+write an sql query to calculate the bonus of each employee. the bonus of an employee is 100% of their salary if the id of the employee is an odd number and the employee name does not start with the character 'm'. the bonus of an employee is 0 otherwise.
+return the result table ordered by employee_id.
+the query result format is in the following example.

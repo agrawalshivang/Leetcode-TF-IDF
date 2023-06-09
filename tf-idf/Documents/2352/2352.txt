@@ -1,0 +1,4 @@
+given a multi-dimensional array arr and a depth n, return a flattened version of that array.
+a multi-dimensional array is a recursive data structure that contains integers or other multi-dimensional arrays.
+a flattened array is a version of that array with some or all of the sub-arrays removed and replaced with the actual elements in that sub-array. this flattening operation should only be done if the current depth of nesting is less than n. the depth of the elements in the first array are considered to be 0.
+please solve it without the built-in array.flat method.

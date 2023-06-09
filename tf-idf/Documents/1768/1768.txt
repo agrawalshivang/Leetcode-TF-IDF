@@ -1,0 +1,8 @@
+alice and bob take turns playing a game, with alice starting first.
+there are n stones in a pile. on each player's turn, they can remove a stone from the pile and receive points based on the stone's value. alice and bob may value the stones differently.
+you are given two integer arrays of length n, alicevalues and bobvalues. each alicevalues[i] and bobvalues[i] represents how alice and bob, respectively, value the ith stone.
+the winner is the person with the most points after all the stones are chosen. if both players have the same amount of points, the game results in a draw. both players will play optimally. both players know the other's values.
+determine the result of the game, and:
+if alice wins, return 1.
+if bob wins, return -1.
+if the game results in a draw, return 0.

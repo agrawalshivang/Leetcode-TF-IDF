@@ -1,0 +1,3 @@
+reverse bits of a given 32 bits unsigned integer.
+note:
+note that in some languages, such as java, there is no unsigned integer type. in this case, both input and output will be given as a signed integer type. they should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.

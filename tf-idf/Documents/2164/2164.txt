@@ -1,0 +1,8 @@
+you are given a 0-indexed array of non-negative integers nums. for each integer in nums, you must find its respective second greater integer.
+the second greater integer of nums[i] is nums[j] such that:
+j > i
+nums[j] > nums[i]
+there exists exactly one index k such that nums[k] > nums[i] and i < k < j.
+if there is no such nums[j], the second greater integer is considered to be -1.
+for example, in the array [1, 2, 4, 3], the second greater integer of 1 is 4, 2 is 3, and that of 3 and 4 is -1.
+return an integer array answer, where answer[i] is the second greater integer of nums[i].

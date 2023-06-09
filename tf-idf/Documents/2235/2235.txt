@@ -1,0 +1,3 @@
+given an array of positive integers nums, return the maximum possible sum of an ascending subarray in nums.
+a subarray is defined as a contiguous sequence of numbers in an array.
+a subarray [numsl, numsl+1, ..., numsr-1, numsr] is ascending if for all i where l <= i < r, numsi  < numsi+1. note that a subarray of size 1 is ascending.

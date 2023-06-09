@@ -1,0 +1,7 @@
+you and a gang of thieves are planning on robbing a bank. you are given a 0-indexed integer array security, where security[i] is the number of guards on duty on the ith day. the days are numbered starting from 0. you are also given an integer time.
+the ith day is a good day to rob the bank if:
+there are at least time days before and after the ith day,
+the number of guards at the bank for the time days before i are non-increasing, and
+the number of guards at the bank for the time days after i are non-decreasing.
+more formally, this means day i is a good day to rob the bank if and only if security[i - time] >= security[i - time + 1] >= ... >= security[i] <= ... <= security[i + time - 1] <= security[i + time].
+return a list of all days (0-indexed) that are good days to rob the bank. the order that the days are returned in does not matter.

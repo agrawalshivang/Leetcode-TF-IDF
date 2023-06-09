@@ -1,0 +1,2 @@
+nearly everyone has used the multiplication table. the multiplication table of size m x n is an integer matrix mat where mat[i][j] == i * j (1-indexed).
+given three integers m, n, and k, return the kth smallest element in the m x n multiplication table.

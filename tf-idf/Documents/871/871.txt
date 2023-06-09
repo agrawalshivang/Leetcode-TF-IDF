@@ -1,0 +1,4 @@
+there is a test that has n types of questions. you are given an integer target and a 0-indexed 2d integer array types where types[i] = [counti, marksi] indicates that there are counti questions of the ith type, and each one of them is worth marksi points.
+return the number of ways you can earn exactly target points in the exam. since the answer may be too large, return it modulo 109 + 7.
+note that questions of the same type are indistinguishable.
+for example, if there are 3 questions of the same type, then solving the 1st and 2nd questions is the same as solving the 1st and 3rd questions, or the 2nd and 3rd questions.

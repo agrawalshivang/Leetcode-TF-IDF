@@ -1,0 +1,6 @@
+you are given an array items, where each items[i] = [typei, colori, namei] describes the type, color, and name of the ith item. you are also given a rule represented by two strings, rulekey and rulevalue.
+the ith item is said to match the rule if one of the following is true:
+rulekey == "type" and rulevalue == typei.
+rulekey == "color" and rulevalue == colori.
+rulekey == "name" and rulevalue == namei.
+return the number of items that match the given rule.

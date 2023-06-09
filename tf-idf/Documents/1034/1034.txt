@@ -1,0 +1,3 @@
+given an integer array arr and a mapping function fn, return a new array with a transformation applied to each element.
+the returned array should be created such that returnedarray[i] = fn(arr[i], i).
+please solve it without the built-in array.map method.

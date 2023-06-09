@@ -1,0 +1,25 @@
+sql schema
+table: employee
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| empid       | int     |
+| name        | varchar |
+| supervisor  | int     |
+| salary      | int     |
++-------------+---------+
+empid is the primary key column for this table.
+each row of this table indicates the name and the id of an employee in addition to their salary and the id of their manager.
+table: bonus
++-------------+------+
+| column name | type |
++-------------+------+
+| empid       | int  |
+| bonus       | int  |
++-------------+------+
+empid is the primary key column for this table.
+empid is a foreign key to empid from the employee table.
+each row of this table contains the id of an employee and their respective bonus.
+write an sql query to report the name and bonus amount of each employee with a bonus less than 1000.
+return the result table in any order.
+the query result format is in the following example.

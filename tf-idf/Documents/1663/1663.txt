@@ -1,0 +1,5 @@
+you are given a positive integer array nums.
+the element sum is the sum of all the elements in nums.
+the digit sum is the sum of all the digits (not necessarily distinct) that appear in nums.
+return the absolute difference between the element sum and digit sum of nums.
+note that the absolute difference between two integers x and y is defined as |x - y|.

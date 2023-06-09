@@ -1,0 +1,11 @@
+(this problem is an interactive problem.)
+you may recall that an array arr is a mountain array if and only if:
+arr.length >= 3
+there exists some i with 0 < i < arr.length - 1 such that:
+arr[0] < arr[1] < ... < arr[i - 1] < arr[i]
+arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+given a mountain array mountainarr, return the minimum index such that mountainarr.get(index) == target. if such an index does not exist, return -1.
+you cannot access the mountain array directly. you may only access the array using a mountainarray interface:
+mountainarray.get(k) returns the element of the array at index k (0-indexed).
+mountainarray.length() returns the length of the array.
+submissions making more than 100 calls to mountainarray.get will be judged wrong answer. also, any solutions that attempt to circumvent the judge will result in disqualification.

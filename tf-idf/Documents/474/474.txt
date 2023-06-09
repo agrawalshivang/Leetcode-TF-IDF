@@ -1,0 +1,3 @@
+you are given a 0-indexed integer array nums. you can rearrange the elements of nums to any order (including the given order).
+let prefix be the array containing the prefix sums of nums after rearranging it. in other words, prefix[i] is the sum of the elements from 0 to i in nums after rearranging it. the score of nums is the number of positive integers in the array prefix.
+return the maximum score you can achieve.

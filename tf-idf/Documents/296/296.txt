@@ -1,0 +1,6 @@
+you are given a positive integer n representing the number of nodes in an undirected graph. the nodes are labeled from 1 to n.
+you are also given a 2d integer array edges, where edges[i] = [ai, bi] indicates that there is a bidirectional edge between nodes ai and bi. notice that the given graph may be disconnected.
+divide the nodes of the graph into m groups (1-indexed) such that:
+each node in the graph belongs to exactly one group.
+for every pair of nodes in the graph that are connected by an edge [ai, bi], if ai belongs to the group with index x, and bi belongs to the group with index y, then |y - x| = 1.
+return the maximum number of groups (i.e., maximum m) into which you can divide the nodes. return -1 if it is impossible to group the nodes with the given conditions.

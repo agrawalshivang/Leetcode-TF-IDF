@@ -1,0 +1,4 @@
+you are given a string s consisting only of uppercase english letters.
+you can apply some operations to this string where, in one operation, you can remove any occurrence of one of the substrings "ab" or "cd" from s.
+return the minimum possible length of the resulting string that you can obtain.
+note that the string concatenates after removing the substring and could produce new "ab" or "cd" substrings.

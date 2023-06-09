@@ -1,0 +1,7 @@
+you are given nums, an array of positive integers of size 2 * n. you must perform n operations on this array.
+in the ith operation (1-indexed), you will:
+choose two elements, x and y.
+receive a score of i * gcd(x, y).
+remove x and y from nums.
+return the maximum score you can receive after performing n operations.
+the function gcd(x, y) is the greatest common divisor of x and y.

@@ -1,0 +1,5 @@
+given an integer array nums, design an algorithm to randomly shuffle the array. all permutations of the array should be equally likely as a result of the shuffling.
+implement the solution class:
+solution(int[] nums) initializes the object with the integer array nums.
+int[] reset() resets the array to its original configuration and returns it.
+int[] shuffle() returns a random shuffling of the array.

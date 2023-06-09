@@ -1,0 +1,4 @@
+given an array arr that represents a permutation of numbers from 1 to n.
+you have a binary string of size n that initially has all its bits set to zero. at each step i (assuming both the binary string and arr are 1-indexed) from 1 to n, the bit at position arr[i] is set to 1.
+you are also given an integer m. find the latest step at which there exists a group of ones of length m. a group of ones is a contiguous substring of 1's such that it cannot be extended in either direction.
+return the latest step at which there exists a group of ones of length exactly m. if no such group exists, return -1.

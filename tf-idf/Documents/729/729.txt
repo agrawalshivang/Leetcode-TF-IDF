@@ -1,0 +1,4 @@
+you are given an integer array nums containing distinct numbers, and you can perform the following operations until the array is empty:
+if the first element has the smallest value, remove it
+otherwise, put the first element at the end of the array.
+return an integer denoting the number of operations it takes to make nums empty.

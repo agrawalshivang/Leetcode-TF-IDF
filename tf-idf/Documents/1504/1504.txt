@@ -1,0 +1,9 @@
+given a tic-tac-toe board as a string array board, return true if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.
+the board is a 3 x 3 array that consists of characters ' ', 'x', and 'o'. the ' ' character represents an empty square.
+here are the rules of tic-tac-toe:
+players take turns placing characters into empty squares ' '.
+the first player always places 'x' characters, while the second player always places 'o' characters.
+'x' and 'o' characters are always placed into empty squares, never filled ones.
+the game ends when there are three of the same (non-empty) character filling any row, column, or diagonal.
+the game also ends if all squares are non-empty.
+no more moves can be played if the game is over.

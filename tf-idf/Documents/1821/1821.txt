@@ -1,0 +1,2 @@
+given an array rectangles where rectangles[i] = [xi, yi, ai, bi] represents an axis-aligned rectangle. the bottom-left point of the rectangle is (xi, yi) and the top-right point of it is (ai, bi).
+return true if all the rectangles together form an exact cover of a rectangular region.

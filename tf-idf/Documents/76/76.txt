@@ -1,0 +1,7 @@
+you are given a 0-indexed 2d integer array brackets where brackets[i] = [upperi, percenti] means that the ith tax bracket has an upper bound of upperi and is taxed at a rate of percenti. the brackets are sorted by upper bound (i.e. upperi-1 < upperi for 0 < i < brackets.length).
+tax is calculated as follows:
+the first upper0 dollars earned are taxed at a rate of percent0.
+the next upper1 - upper0 dollars earned are taxed at a rate of percent1.
+the next upper2 - upper1 dollars earned are taxed at a rate of percent2.
+and so on.
+you are given an integer income representing the amount of money you earned. return the amount of money that you have to pay in taxes. answers within 10-5 of the actual answer will be accepted.

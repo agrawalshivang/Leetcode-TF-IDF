@@ -1,0 +1,16 @@
+sql schema
+table: scores
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| score       | decimal |
++-------------+---------+
+id is the primary key for this table.
+each row of this table contains the score of a game. score is a floating point value with two decimal places.
+write an sql query to rank the scores. the ranking should be calculated according to the following rules:
+the scores should be ranked from the highest to the lowest.
+if there is a tie between two scores, both should have the same ranking.
+after a tie, the next ranking number should be the next consecutive integer value. in other words, there should be no holes between ranks.
+return the result table ordered by score in descending order.
+the query result format is in the following example.

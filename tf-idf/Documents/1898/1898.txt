@@ -1,0 +1,6 @@
+there is a set of n items. you are given two integer arrays values and labels where the value and the label of the ith element are values[i] and labels[i] respectively. you are also given two integers numwanted and uselimit.
+choose a subset s of the n elements such that:
+the size of the subset s is less than or equal to numwanted.
+there are at most uselimit items with the same label in s.
+the score of a subset is the sum of the values in the subset.
+return the maximum score of a subset s.

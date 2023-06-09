@@ -1,0 +1,6 @@
+given the head of a singly linked list, sort the list using insertion sort, and return the sorted list's head.
+the steps of the insertion sort algorithm:
+insertion sort iterates, consuming one input element each repetition and growing a sorted output list.
+at each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list and inserts it there.
+it repeats until no input elements remain.
+the following is a graphical example of the insertion sort algorithm. the partially sorted list (black) initially contains only the first element in the list. one element (red) is removed from the input data and inserted in-place into the sorted list with each iteration.

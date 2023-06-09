@@ -1,0 +1,2 @@
+given a string s and a dictionary of strings worddict, add spaces in s to construct a sentence where each word is a valid dictionary word. return all such possible sentences in any order.
+note that the same word in the dictionary may be reused multiple times in the segmentation.

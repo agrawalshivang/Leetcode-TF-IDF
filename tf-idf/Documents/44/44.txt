@@ -1,0 +1,7 @@
+there is a bag that consists of items, each item has a number 1, 0, or -1 written on it.
+you are given four non-negative integers numones, numzeros, numnegones, and k.
+the bag initially contains:
+numones items with 1s written on them.
+numzeroes items with 0s written on them.
+numnegones items with -1s written on them.
+we want to pick exactly k items among the available items. return the maximum possible sum of numbers written on the items.

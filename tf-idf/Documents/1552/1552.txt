@@ -1,0 +1,9 @@
+tic-tac-toe is played by two players a and b on a 3 x 3 grid. the rules of tic-tac-toe are:
+players take turns placing characters into empty squares ' '.
+the first player a always places 'x' characters, while the second player b always places 'o' characters.
+'x' and 'o' characters are always placed into empty squares, never on filled ones.
+the game ends when there are three of the same (non-empty) character filling any row, column, or diagonal.
+the game also ends if all squares are non-empty.
+no more moves can be played if the game is over.
+given a 2d integer array moves where moves[i] = [rowi, coli] indicates that the ith move will be played on grid[rowi][coli]. return the winner of the game if it exists (a or b). in case the game ends in a draw return "draw". if there are still movements to play return "pending".
+you can assume that moves is valid (i.e., it follows the rules of tic-tac-toe), the grid is initially empty, and a will play first.

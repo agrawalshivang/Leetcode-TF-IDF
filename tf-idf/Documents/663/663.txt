@@ -1,0 +1,10 @@
+html entity parser is the parser that takes html code as input and replace all the entities of the special characters by the characters itself.
+the special characters and their entities for html are:
+quotation mark: the entity is &quot; and symbol character is ".
+single quote mark: the entity is &apos; and symbol character is '.
+ampersand: the entity is &amp; and symbol character is &.
+greater than sign: the entity is &gt; and symbol character is >.
+less than sign: the entity is &lt; and symbol character is <.
+slash: the entity is &frasl; and symbol character is /.
+given the input text string to the html parser, you have to implement the entity parser.
+return the text after replacing the entities by the special characters.

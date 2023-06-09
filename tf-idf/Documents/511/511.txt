@@ -1,0 +1,3 @@
+you are given an integer array nums and an integer k. you can partition the array into at most k non-empty adjacent subarrays. the score of a partition is the sum of the averages of each subarray.
+note that the partition must use every integer in nums, and that the score is not necessarily an integer.
+return the maximum score you can achieve of all the possible partitions. answers within 10-6 of the actual answer will be accepted.

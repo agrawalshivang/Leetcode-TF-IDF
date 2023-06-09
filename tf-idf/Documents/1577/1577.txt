@@ -1,0 +1,5 @@
+we define the usage of capitals in a word to be right when one of the following cases holds:
+all letters in this word are capitals, like "usa".
+all letters in this word are not capitals, like "leetcode".
+only the first letter in this word is capital, like "google".
+given a string word, return true if the usage of capitals in it is right.

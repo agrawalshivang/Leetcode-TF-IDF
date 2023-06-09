@@ -1,0 +1,4 @@
+you are given an array of n pairs pairs where pairs[i] = [lefti, righti] and lefti < righti.
+a pair p2 = [c, d] follows a pair p1 = [a, b] if b < c. a chain of pairs can be formed in this fashion.
+return the length longest chain which can be formed.
+you do not need to use up all the given intervals. you can select pairs in any order.

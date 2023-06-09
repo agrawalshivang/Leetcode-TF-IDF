@@ -1,0 +1,2 @@
+you are given two strings s1 and s2 of equal length. a string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.
+return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. otherwise, return false.

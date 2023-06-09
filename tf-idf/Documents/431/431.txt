@@ -1,0 +1,4 @@
+you are given an integer n. there is an undirected graph with n vertices, numbered from 0 to n - 1. you are given a 2d integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting vertices ai and bi.
+return the number of complete connected components of the graph.
+a connected component is a subgraph of a graph in which there exists a path between any two vertices, and no vertex of the subgraph shares an edge with a vertex outside of the subgraph.
+a connected component is said to be complete if there exists an edge between every pair of its vertices.

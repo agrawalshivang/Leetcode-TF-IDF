@@ -1,0 +1,5 @@
+you are given a 0-indexed string hamsters where hamsters[i] is either:
+'h' indicating that there is a hamster at index i, or
+'.' indicating that index i is empty.
+you will add some number of food buckets at the empty indices in order to feed the hamsters. a hamster can be fed if there is at least one food bucket to its left or to its right. more formally, a hamster at index i can be fed if you place a food bucket at index i - 1 and/or at index i + 1.
+return the minimum number of food buckets you should place at empty indices to feed all the hamsters or -1 if it is impossible to feed all of them.

@@ -1,0 +1,3 @@
+given a rectangular pizza represented as a rows x cols matrix containing the following characters: 'a' (an apple) and '.' (empty cell) and given the integer k. you have to cut the pizza into k pieces using k-1 cuts.
+for each cut you choose the direction: vertical or horizontal, then you choose a cut position at the cell boundary and cut the pizza into two pieces. if you cut the pizza vertically, give the left part of the pizza to a person. if you cut the pizza horizontally, give the upper part of the pizza to a person. give the last piece of pizza to the last person.
+return the number of ways of cutting the pizza such that each piece contains at least one apple. since the answer can be a huge number, return this modulo 10^9 + 7.

@@ -1,0 +1,4 @@
+there are several cards arranged in a row, and each card has an associated number of points. the points are given in the integer array cardpoints.
+in one step, you can take one card from the beginning or from the end of the row. you have to take exactly k cards.
+your score is the sum of the points of the cards you have taken.
+given the integer array cardpoints and the integer k, return the maximum score you can obtain.

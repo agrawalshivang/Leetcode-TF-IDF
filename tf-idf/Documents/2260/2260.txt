@@ -1,0 +1,4 @@
+you are given two positive integers startpos and endpos. initially, you are standing at position startpos on an infinite number line. with one step, you can move either one position to the left, or one position to the right.
+given a positive integer k, return the number of different ways to reach the position endpos starting from startpos, such that you perform exactly k steps. since the answer may be very large, return it modulo 109 + 7.
+two ways are considered different if the order of the steps made is not exactly the same.
+note that the number line includes negative integers.

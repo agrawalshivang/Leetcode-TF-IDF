@@ -1,0 +1,7 @@
+given an integer array nums, handle multiple queries of the following types:
+update the value of an element in nums.
+calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+implement the numarray class:
+numarray(int[] nums) initializes the object with the integer array nums.
+void update(int index, int val) updates the value of nums[index] to be val.
+int sumrange(int left, int right) returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).

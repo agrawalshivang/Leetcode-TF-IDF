@@ -1,0 +1,3 @@
+you are given an m x n binary matrix matrix.
+you can choose any number of columns in the matrix and flip every cell in that column (i.e., change the value of the cell from 0 to 1 or vice versa).
+return the maximum number of rows that have all values equal after some number of flips.

@@ -1,0 +1,4 @@
+you are given an integer array target. you have an integer array initial of the same size as target with all elements initially zeros.
+in one operation you can choose any subarray from initial and increment each value by one.
+return the minimum number of operations to form a target array from initial.
+the test cases are generated so that the answer fits in a 32-bit integer.

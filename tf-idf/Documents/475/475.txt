@@ -1,0 +1,2 @@
+solve a given equation and return the value of 'x' in the form of a string "x=#value". the equation contains only '+', '-' operation, the variable 'x' and its coefficient. you should return "no solution" if there is no solution for the equation, or "infinite solutions" if there are infinite solutions for the equation.
+if there is exactly one solution for the equation, we ensure that the value of 'x' is an integer.

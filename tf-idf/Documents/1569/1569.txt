@@ -1,0 +1,2 @@
+you are given two 0-indexed arrays, nums1 and nums2, consisting of non-negative integers. there exists another array, nums3, which contains the bitwise xor of all pairings of integers between nums1 and nums2 (every integer in nums1 is paired with every integer in nums2 exactly once).
+return the bitwise xor of all integers in nums3.

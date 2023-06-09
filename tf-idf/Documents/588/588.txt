@@ -1,0 +1,3 @@
+given a sentence that consists of some words separated by a single space, and a searchword, check if searchword is a prefix of any word in sentence.
+return the index of the word in sentence (1-indexed) where searchword is a prefix of this word. if searchword is a prefix of more than one word, return the index of the first word (minimum index). if there is no such word return -1.
+a prefix of a string s is any leading contiguous substring of s.

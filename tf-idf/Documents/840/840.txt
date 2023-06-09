@@ -1,0 +1,3 @@
+you are given an integer array nums. you want to maximize the number of points you get by performing the following operation any number of times:
+pick any nums[i] and delete it to earn nums[i] points. afterwards, you must delete every element equal to nums[i] - 1 and every element equal to nums[i] + 1.
+return the maximum number of points you can earn by applying the above operation some number of times.

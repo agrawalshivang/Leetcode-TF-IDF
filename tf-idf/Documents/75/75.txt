@@ -1,0 +1,6 @@
+you have a data structure of employee information, including the employee's unique id, importance value, and direct subordinates' ids.
+you are given an array of employees employees where:
+employees[i].id is the id of the ith employee.
+employees[i].importance is the importance value of the ith employee.
+employees[i].subordinates is a list of the ids of the direct subordinates of the ith employee.
+given an integer id that represents an employee's id, return the total importance value of this employee and all their direct and indirect subordinates.

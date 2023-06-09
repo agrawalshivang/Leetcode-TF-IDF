@@ -1,0 +1,4 @@
+given a list of folders folder, return the folders after removing all sub-folders in those folders. you may return the answer in any order.
+if a folder[i] is located within another folder[j], it is called a sub-folder of it.
+the format of a path is one or more concatenated strings of the form: '/' followed by one or more lowercase english letters.
+for example, "/leetcode" and "/leetcode/problems" are valid paths while an empty string and "/" are not.

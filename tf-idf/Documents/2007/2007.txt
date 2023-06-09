@@ -1,0 +1,5 @@
+given a string s, return the number of unique palindromes of length three that are a subsequence of s.
+note that even if there are multiple ways to obtain the same subsequence, it is still only counted once.
+a palindrome is a string that reads the same forwards and backwards.
+a subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+for example, "ace" is a subsequence of "abcde".

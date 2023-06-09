@@ -1,0 +1,3 @@
+you are given two 0-indexed integer arrays fronts and backs of length n, where the ith card has the positive integer fronts[i] printed on the front and backs[i] printed on the back. initially, each card is placed on a table such that the front number is facing up and the other is facing down. you may flip over any number of cards (possibly zero).
+after flipping the cards, an integer is considered good if it is facing down on some card and not facing up on any card.
+return the minimum possible good integer after flipping the cards. if there are no good integers, return 0.

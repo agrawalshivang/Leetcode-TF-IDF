@@ -1,0 +1,6 @@
+you are given a string s and two integers x and y. you can perform two types of operations any number of times.
+remove substring "ab" and gain x points.
+for example, when removing "ab" from "cabxbae" it becomes "cxbae".
+remove substring "ba" and gain y points.
+for example, when removing "ba" from "cabxbae" it becomes "cabxe".
+return the maximum points you can gain after applying the above operations on s.

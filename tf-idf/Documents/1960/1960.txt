@@ -1,0 +1,13 @@
+sql schema
+table: orders
++-----------------+----------+
+| column name     | type     |
++-----------------+----------+
+| order_number    | int      |
+| customer_number | int      |
++-----------------+----------+
+order_number is the primary key for this table.
+this table contains information about the order id and the customer id.
+write an sql query to find the customer_number for the customer who has placed the largest number of orders.
+the test cases are generated so that exactly one customer will have placed more orders than any other customer.
+the query result format is in the following example.

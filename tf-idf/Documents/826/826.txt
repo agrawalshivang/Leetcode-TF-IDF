@@ -1,0 +1,7 @@
+you are given an m x n matrix board, representing the current state of a crossword puzzle. the crossword contains lowercase english letters (from solved words), ' ' to represent any empty cells, and '#' to represent any blocked cells.
+a word can be placed horizontally (left to right or right to left) or vertically (top to bottom or bottom to top) in the board if:
+it does not occupy a cell containing the character '#'.
+the cell each letter is placed in must either be ' ' (empty) or match the letter already on the board.
+there must not be any empty cells ' ' or other lowercase letters directly left or right of the word if the word was placed horizontally.
+there must not be any empty cells ' ' or other lowercase letters directly above or below the word if the word was placed vertically.
+given a string word, return true if word can be placed in board, or false otherwise.

@@ -1,0 +1,7 @@
+write a bash script to calculate the
+frequency
+of each word in a text file words.txt.
+for simplicity sake, you may assume:
+words.txt contains only lowercase characters and space ' ' characters.
+each word must consist of lowercase characters only.
+words are separated by one or more whitespace characters.

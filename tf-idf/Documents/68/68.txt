@@ -1,0 +1,9 @@
+you are given an array of logs. each log is a space-delimited string of words, where the first word is the identifier.
+there are two types of logs:
+letter-logs: all words (except the identifier) consist of lowercase english letters.
+digit-logs: all words (except the identifier) consist of digits.
+reorder these logs so that:
+the letter-logs come before all digit-logs.
+the letter-logs are sorted lexicographically by their contents. if their contents are the same, then sort them lexicographically by their identifiers.
+the digit-logs maintain their relative ordering.
+return the final order of the logs.

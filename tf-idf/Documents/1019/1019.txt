@@ -1,0 +1,2 @@
+given a string n representing an integer, return the closest integer (not including itself), which is a palindrome. if there is a tie, return the smaller one.
+the closest is defined as the absolute difference minimized between two integers.

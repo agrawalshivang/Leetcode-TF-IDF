@@ -1,0 +1,7 @@
+you have k servers numbered from 0 to k-1 that are being used to handle multiple requests simultaneously. each server has infinite computational capacity but cannot handle more than one request at a time. the requests are assigned to servers according to a specific algorithm:
+the ith (0-indexed) request arrives.
+if all servers are busy, the request is dropped (not handled at all).
+if the (i % k)th server is available, assign the request to that server.
+otherwise, assign the request to the next available server (wrapping around the list of servers and starting from 0 if necessary). for example, if the ith server is busy, try to assign the request to the (i+1)th server, then the (i+2)th server, and so on.
+you are given a strictly increasing array arrival of positive integers, where arrival[i] represents the arrival time of the ith request, and another array load, where load[i] represents the load of the ith request (the time it takes to complete). your goal is to find the busiest server(s). a server is considered busiest if it handled the most number of requests successfully among all the servers.
+return a list containing the ids (0-indexed) of the busiest server(s). you may return the ids in any order.

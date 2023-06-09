@@ -1,0 +1,5 @@
+you are given a 0-indexed integer array nums. in one operation, you may do the following:
+choose two integers in nums that are equal.
+remove both integers from nums, forming a pair.
+the operation is done on nums as many times as possible.
+return a 0-indexed integer array answer of size 2 where answer[0] is the number of pairs that are formed and answer[1] is the number of leftover integers in nums after doing the operation as many times as possible.

@@ -1,0 +1,3 @@
+you are given an integer array nums of even length n and an integer limit. in one move, you can replace any integer from nums with another integer between 1 and limit, inclusive.
+the array nums is complementary if for all indices i (0-indexed), nums[i] + nums[n - 1 - i] equals the same number. for example, the array [1,2,3,4] is complementary because for all indices i, nums[i] + nums[n - 1 - i] = 5.
+return the minimum number of moves required to make nums complementary.

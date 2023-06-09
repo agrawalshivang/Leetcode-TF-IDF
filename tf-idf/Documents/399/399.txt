@@ -1,0 +1,6 @@
+you are given a 0-indexed m x n binary matrix matrix and an integer numselect, which denotes the number of distinct columns you must select from matrix.
+let us consider s = {c1, c2, ...., cnumselect} as the set of columns selected by you. a row row is covered by s if:
+for each cell matrix[row][col] (0 <= col <= n - 1) where matrix[row][col] == 1, col is present in s or,
+no cell in row has a value of 1.
+you need to choose numselect columns such that the number of rows that are covered is maximized.
+return the maximum number of rows that can be covered by a set of numselect columns.

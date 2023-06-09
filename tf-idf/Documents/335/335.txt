@@ -1,0 +1,4 @@
+you are given a 0-indexed binary string s and two integers minjump and maxjump. in the beginning, you are standing at index 0, which is equal to '0'. you can move from index i to index j if the following conditions are fulfilled:
+i + minjump <= j <= min(i + maxjump, s.length - 1), and
+s[j] == '0'.
+return true if you can reach index s.length - 1 in s, or false otherwise.

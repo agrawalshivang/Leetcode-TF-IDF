@@ -1,0 +1,9 @@
+you are given a 0-indexed integer array nums of even length.
+as long as nums is not empty, you must repetitively:
+find the minimum number in nums and remove it.
+find the maximum number in nums and remove it.
+calculate the average of the two removed numbers.
+the average of two numbers a and b is (a + b) / 2.
+for example, the average of 2 and 3 is (2 + 3) / 2 = 2.5.
+return the number of distinct averages calculated using the above process.
+note that when there is a tie for a minimum or maximum number, any can be removed.

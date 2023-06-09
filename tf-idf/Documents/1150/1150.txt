@@ -1,0 +1,3 @@
+you are given a 0-indexed string s and a 0-indexed integer array spaces that describes the indices in the original string where spaces will be added. each space should be inserted before the character at the given index.
+for example, given s = "enjoyyourcoffee" and spaces = [5, 9], we place spaces before 'y' and 'c', which are at indices 5 and 9 respectively. thus, we obtain "enjoy your coffee".
+return the modified string after the spaces have been added.

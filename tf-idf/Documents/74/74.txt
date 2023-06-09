@@ -1,0 +1,5 @@
+there are n soldiers standing in a line. each soldier is assigned a unique rating value.
+you have to form a team of 3 soldiers amongst them under the following rules:
+choose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]).
+a team is valid if: (rating[i] < rating[j] < rating[k]) or (rating[i] > rating[j] > rating[k]) where (0 <= i < j < k < n).
+return the number of teams you can form given the conditions. (soldiers can be part of multiple teams).

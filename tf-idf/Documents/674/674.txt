@@ -1,0 +1,8 @@
+you are given a string s that contains some bracket pairs, with each pair containing a non-empty key.
+for example, in the string "(name)is(age)yearsold", there are two bracket pairs that contain the keys "name" and "age".
+you know the values of a wide range of keys. this is represented by a 2d string array knowledge where each knowledge[i] = [keyi, valuei] indicates that key keyi has a value of valuei.
+you are tasked to evaluate all of the bracket pairs. when you evaluate a bracket pair that contains some key keyi, you will:
+replace keyi and the bracket pair with the key's corresponding valuei.
+if you do not know the value of the key, you will replace keyi and the bracket pair with a question mark "?" (without the quotation marks).
+each key will appear at most once in your knowledge. there will not be any nested brackets in s.
+return the resulting string after evaluating all of the bracket pairs.

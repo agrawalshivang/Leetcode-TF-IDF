@@ -1,0 +1,3 @@
+you are given an array of events where events[i] = [startdayi, enddayi]. every event i starts at startdayi and ends at enddayi.
+you can attend an event i at any day d where starttimei <= d <= endtimei. you can only attend one event at any time d.
+return the maximum number of events you can attend.

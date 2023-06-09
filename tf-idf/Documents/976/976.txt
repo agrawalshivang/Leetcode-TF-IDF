@@ -1,0 +1,6 @@
+you are given a non-negative floating point number rounded to two decimal places celsius, that denotes the temperature in celsius.
+you should convert celsius into kelvin and fahrenheit and return it as an array ans = [kelvin, fahrenheit].
+return the array ans. answers within 10-5 of the actual answer will be accepted.
+note that:
+kelvin = celsius + 273.15
+fahrenheit = celsius * 1.80 + 32.00

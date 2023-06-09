@@ -1,0 +1,3 @@
+we are given an array asteroids of integers representing asteroids in a row.
+for each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). each asteroid moves at the same speed.
+find out the state of the asteroids after all collisions. if two asteroids meet, the smaller one will explode. if both are the same size, both will explode. two asteroids moving in the same direction will never meet.

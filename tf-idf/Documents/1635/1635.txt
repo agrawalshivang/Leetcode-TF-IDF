@@ -1,0 +1,2 @@
+you are given a 0-indexed integer array nums and two integers key and k. a k-distant index is an index i of nums for which there exists at least one index j such that |i - j| <= k and nums[j] == key.
+return a list of all k-distant indices sorted in increasing order.

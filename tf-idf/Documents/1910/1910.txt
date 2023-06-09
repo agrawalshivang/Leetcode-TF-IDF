@@ -1,0 +1,1 @@
+in a string composed of 'l', 'r', and 'x' characters, like "rxxlrxrxl", a move consists of either replacing one occurrence of "xl" with "lx", or replacing one occurrence of "rx" with "xr". given the starting string start and the ending string end, return true if and only if there exists a sequence of moves to transform one string to the other.

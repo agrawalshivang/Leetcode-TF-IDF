@@ -1,0 +1,7 @@
+given an array of characters chars, compress it using the following algorithm:
+begin with an empty string s. for each group of consecutive repeating characters in chars:
+if the group's length is 1, append the character to s.
+otherwise, append the character followed by the group's length.
+the compressed string s should not be returned separately, but instead, be stored in the input character array chars. note that group lengths that are 10 or longer will be split into multiple characters in chars.
+after you are done modifying the input array, return the new length of the array.
+you must write an algorithm that uses only constant extra space.

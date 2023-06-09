@@ -1,0 +1,10 @@
+given a string representing a code snippet, implement a tag validator to parse the code and return whether it is valid.
+a code snippet is valid if all the following rules hold:
+the code must be wrapped in a valid closed tag. otherwise, the code is invalid.
+a closed tag (not necessarily valid) has exactly the following format : <tag_name>tag_content</tag_name>. among them, <tag_name> is the start tag, and </tag_name> is the end tag. the tag_name in start and end tags should be the same. a closed tag is valid if and only if the tag_name and tag_content are valid.
+a valid tag_name only contain upper-case letters, and has length in range [1,9]. otherwise, the tag_name is invalid.
+a valid tag_content may contain other valid closed tags, cdata and any characters (see note1) except unmatched <, unmatched start and end tag, and unmatched or closed tags with invalid tag_name. otherwise, the tag_content is invalid.
+a start tag is unmatched if no end tag exists with the same tag_name, and vice versa. however, you also need to consider the issue of unbalanced when tags are nested.
+a < is unmatched if you cannot find a subsequent >. and when you find a < or </, all the subsequent characters until the next > should be parsed as tag_name (not necessarily valid).
+the cdata has the following format : <![cdata[cdata_content]]>. the range of cdata_content is defined as the characters between <![cdata[ and the first subsequent ]]>.
+cdata_content may contain any characters. the function of cdata is to forbid the validator to parse cdata_content, so even it has some characters that can be parsed as tag (no matter valid or invalid), you should treat it as regular characters.

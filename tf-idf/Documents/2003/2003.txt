@@ -1,0 +1,4 @@
+given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:
+'?' matches any single character.
+'*' matches any sequence of characters (including the empty sequence).
+the matching should cover the entire input string (not partial).

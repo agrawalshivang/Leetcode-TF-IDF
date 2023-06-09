@@ -1,0 +1,5 @@
+you are given an integer array nums. the adjacent integers in nums will perform the float division.
+for example, for nums = [2,3,4], we will evaluate the expression "2/3/4".
+however, you can add any number of parenthesis at any position to change the priority of operations. you want to add these parentheses such the value of the expression after the evaluation is maximum.
+return the corresponding expression that has the maximum value in string format.
+note: your expression should not contain redundant parenthesis.

@@ -1,0 +1,4 @@
+you are given a 2d integer array groups of length n. you are also given an integer array nums.
+you are asked if you can choose n disjoint subarrays from the array nums such that the ith subarray is equal to groups[i] (0-indexed), and if i > 0, the (i-1)th subarray appears before the ith subarray in nums (i.e. the subarrays must be in the same order as groups).
+return true if you can do this task, and false otherwise.
+note that the subarrays are disjoint if and only if there is no index k such that nums[k] belongs to more than one subarray. a subarray is a contiguous sequence of elements within an array.

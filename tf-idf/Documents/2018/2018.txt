@@ -1,0 +1,6 @@
+a trie (pronounced as "try") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. there are various applications of this data structure, such as autocomplete and spellchecker.
+implement the trie class:
+trie() initializes the trie object.
+void insert(string word) inserts the string word into the trie.
+boolean search(string word) returns true if the string word is in the trie (i.e., was inserted before), and false otherwise.
+boolean startswith(string prefix) returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.

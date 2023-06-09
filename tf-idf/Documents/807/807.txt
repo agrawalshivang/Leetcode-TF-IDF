@@ -1,0 +1,5 @@
+design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key's value at a certain timestamp.
+implement the timemap class:
+timemap() initializes the object of the data structure.
+void set(string key, string value, int timestamp) stores the key key with the value value at the given time timestamp.
+string get(string key, int timestamp) returns a value such that set was called previously, with timestamp_prev <= timestamp. if there are multiple such values, it returns the value associated with the largest timestamp_prev. if there are no values, it returns "".

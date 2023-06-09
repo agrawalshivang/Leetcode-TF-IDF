@@ -1,0 +1,12 @@
+a social media company is trying to monitor activity on their site by analyzing the number of tweets that occur in select periods of time. these periods can be partitioned into smaller time chunks based on a certain frequency (every minute, hour, or day).
+for example, the period [10, 10000] (in seconds) would be partitioned into the following time chunks with these frequencies:
+every minute (60-second chunks): [10,69], [70,129], [130,189], ..., [9970,10000]
+every hour (3600-second chunks): [10,3609], [3610,7209], [7210,10000]
+every day (86400-second chunks): [10,10000]
+notice that the last chunk may be shorter than the specified frequency's chunk size and will always end with the end time of the period (10000 in the above example).
+design and implement an api to help the company with their analysis.
+implement the tweetcounts class:
+tweetcounts() initializes the tweetcounts object.
+void recordtweet(string tweetname, int time) stores the tweetname at the recorded time (in seconds).
+list<integer> gettweetcountsperfrequency(string freq, string tweetname, int starttime, int endtime) returns a list of integers representing the number of tweets with tweetname in each time chunk for the given period of time [starttime, endtime] (in seconds) and frequency freq.
+freq is one of "minute", "hour", or "day" representing a frequency of every minute, hour, or day respectively.

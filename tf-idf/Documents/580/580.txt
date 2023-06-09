@@ -1,0 +1,2 @@
+you are given two integers m and n. consider an m x n grid where each cell is initially white. you can paint each cell red, green, or blue. all cells must be painted.
+return the number of ways to color the grid with no two adjacent cells having the same color. since the answer can be very large, return it modulo 109 + 7.

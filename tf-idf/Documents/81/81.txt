@@ -1,0 +1,2 @@
+given an integer array nums, return the number of longest increasing subsequences.
+notice that the sequence has to be strictly increasing.

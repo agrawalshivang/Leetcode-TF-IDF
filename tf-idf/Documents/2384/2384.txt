@@ -1,0 +1,2 @@
+you are given a binary string s. in one second, all occurrences of "01" are simultaneously replaced with "10". this process repeats until no occurrences of "01" exist.
+return the number of seconds needed to complete this process.

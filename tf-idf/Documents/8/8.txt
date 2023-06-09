@@ -1,0 +1,3 @@
+you are given an integer num. rearrange the digits of num such that its value is minimized and it does not contain any leading zeros.
+return the rearranged number with minimal value.
+note that the sign of the number does not change after rearranging the digits.

@@ -1,0 +1,8 @@
+a password is said to be strong if it satisfies all the following criteria:
+it has at least 8 characters.
+it contains at least one lowercase letter.
+it contains at least one uppercase letter.
+it contains at least one digit.
+it contains at least one special character. the special characters are the characters in the following string: "!@#$%^&*()-+".
+it does not contain 2 of the same character in adjacent positions (i.e., "aab" violates this condition, but "aba" does not).
+given a string password, return true if it is a strong password. otherwise, return false.

@@ -1,0 +1,2 @@
+given an array nums. we define a running sum of an array as runningsum[i] = sum(nums[0]…nums[i]).
+return the running sum of nums.

@@ -1,0 +1,8 @@
+you are given a stream of points on the x-y plane. design an algorithm that:
+adds new points from the stream into a data structure. duplicate points are allowed and should be treated as different points.
+given a query point, counts the number of ways to choose three points from the data structure such that the three points and the query point form an axis-aligned square with positive area.
+an axis-aligned square is a square whose edges are all the same length and are either parallel or perpendicular to the x-axis and y-axis.
+implement the detectsquares class:
+detectsquares() initializes the object with an empty data structure.
+void add(int[] point) adds a new point point = [x, y] to the data structure.
+int count(int[] point) counts the number of ways to form axis-aligned squares with point point = [x, y] as described above.

@@ -1,0 +1,17 @@
+sql schema
+table: employee
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| name        | varchar |
+| department  | varchar |
+| managerid   | int     |
++-------------+---------+
+id is the primary key column for this table.
+each row of this table indicates the name of an employee, their department, and the id of their manager.
+if managerid is null, then the employee does not have a manager.
+no employee will be the manager of themself.
+write an sql query to report the managers with at least five direct reports.
+return the result table in any order.
+the query result format is in the following example.

@@ -1,0 +1,10 @@
+an original string, consisting of lowercase english letters, can be encoded by the following steps:
+arbitrarily split it into a sequence of some number of non-empty substrings.
+arbitrarily choose some elements (possibly none) of the sequence, and replace each with its length (as a numeric string).
+concatenate the sequence as the encoded string.
+for example, one way to encode an original string "abcdefghijklmnop" might be:
+split it as a sequence: ["ab", "cdefghijklmn", "o", "p"].
+choose the second and third elements to be replaced by their lengths, respectively. the sequence becomes ["ab", "12", "1", "p"].
+concatenate the elements of the sequence to get the encoded string: "ab121p".
+given two encoded strings s1 and s2, consisting of lowercase english letters and digits 1-9 (inclusive), return true if there exists an original string that could be encoded as both s1 and s2. otherwise, return false.
+note: the test cases are generated such that the number of consecutive digits in s1 and s2 does not exceed 3.

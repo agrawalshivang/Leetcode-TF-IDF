@@ -1,0 +1,5 @@
+you are given an integer n. you roll a fair 6-sided dice n times. determine the total number of distinct sequences of rolls possible such that the following conditions are satisfied:
+the greatest common divisor of any adjacent values in the sequence is equal to 1.
+there is at least a gap of 2 rolls between equal valued rolls. more formally, if the value of the ith roll is equal to the value of the jth roll, then abs(i - j) > 2.
+return the total number of distinct sequences possible. since the answer may be very large, return it modulo 109 + 7.
+two sequences are considered distinct if at least one element is different.

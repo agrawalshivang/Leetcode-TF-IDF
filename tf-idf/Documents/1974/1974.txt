@@ -1,0 +1,6 @@
+given an array of integers arr and an integer d. in one step you can jump from index i to index:
+i + x where: i + x < arr.length and  0 < x <= d.
+i - x where: i - x >= 0 and  0 < x <= d.
+in addition, you can only jump from index i to index j if arr[i] > arr[j] and arr[i] > arr[k] for all indices k between i and j (more formally min(i, j) < k < max(i, j)).
+you can choose any index of the array and start jumping. return the maximum number of indices you can visit.
+notice that you can not jump outside of the array at any time.

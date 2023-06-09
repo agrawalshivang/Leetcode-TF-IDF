@@ -1,0 +1,9 @@
+you are playing a variation of the game zuma.
+in this variation of zuma, there is a single row of colored balls on a board, where each ball can be colored red 'r', yellow 'y', blue 'b', green 'g', or white 'w'. you also have several colored balls in your hand.
+your goal is to clear all of the balls from the board. on each turn:
+pick any ball from your hand and insert it in between two balls in the row or on either end of the row.
+if there is a group of three or more consecutive balls of the same color, remove the group of balls from the board.
+if this removal causes more groups of three or more of the same color to form, then continue removing each group until there are none left.
+if there are no more balls on the board, then you win the game.
+repeat this process until you either win or do not have any more balls in your hand.
+given a string board, representing the row of balls on the board, and a string hand, representing the balls in your hand, return the minimum number of balls you have to insert to clear all the balls from the board. if you cannot clear all the balls from the board using the balls in your hand, return -1.

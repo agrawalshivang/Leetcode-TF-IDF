@@ -1,0 +1,4 @@
+you are given a string s containing one or more words. every consecutive pair of words is separated by a single space ' '.
+a string t is an anagram of string s if the ith word of t is a permutation of the ith word of s.
+for example, "acb dfe" is an anagram of "abc def", but "def cab" and "adc bef" are not.
+return the number of distinct anagrams of s. since the answer may be very large, return it modulo 109 + 7.

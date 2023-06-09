@@ -1,0 +1,4 @@
+you are given a 0-indexed array of distinct integers nums.
+there is an element in nums that has the lowest value and an element that has the highest value. we call them the minimum and maximum respectively. your goal is to remove both these elements from the array.
+a deletion is defined as either removing an element from the front of the array or removing an element from the back of the array.
+return the minimum number of deletions it would take to remove both the minimum and maximum element from the array.

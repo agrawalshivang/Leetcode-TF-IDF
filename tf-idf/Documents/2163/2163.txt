@@ -1,0 +1,7 @@
+you are given two 0-indexed integer arrays nums and multipliers of size n and m respectively, where n >= m.
+you begin with a score of 0. you want to perform exactly m operations. on the ith operation (0-indexed) you will:
+choose one integer x from either the start or the end of the array nums.
+add multipliers[i] * x to your score.
+note that multipliers[0] corresponds to the first operation, multipliers[1] to the second operation, and so on.
+remove x from nums.
+return the maximum score after performing m operations.

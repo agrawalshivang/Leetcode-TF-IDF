@@ -1,0 +1,27 @@
+sql schema
+table: sales
++-------------+-------+
+| column name | type  |
++-------------+-------+
+| sale_id     | int   |
+| product_id  | int   |
+| year        | int   |
+| quantity    | int   |
+| price       | int   |
++-------------+-------+
+(sale_id, year) is the primary key of this table.
+product_id is a foreign key to product table.
+each row of this table shows a sale on the product product_id in a certain year.
+note that the price is per unit.
+table: product
++--------------+---------+
+| column name  | type    |
++--------------+---------+
+| product_id   | int     |
+| product_name | varchar |
++--------------+---------+
+product_id is the primary key of this table.
+each row of this table indicates the product name of each product.
+write an sql query that reports the product_name, year, and price for each sale_id in the sales table.
+return the resulting table in any order.
+the query result format is in the following example.

@@ -1,0 +1,10 @@
+a width x height grid is on an xy-plane with the bottom-left cell at (0, 0) and the top-right cell at (width - 1, height - 1). the grid is aligned with the four cardinal directions ("north", "east", "south", and "west"). a robot is initially at cell (0, 0) facing direction "east".
+the robot can be instructed to move for a specific number of steps. for each step, it does the following.
+attempts to move forward one cell in the direction it is facing.
+if the cell the robot is moving to is out of bounds, the robot instead turns 90 degrees counterclockwise and retries the step.
+after the robot finishes moving the number of steps required, it stops and awaits the next instruction.
+implement the robot class:
+robot(int width, int height) initializes the width x height grid with the robot at (0, 0) facing "east".
+void step(int num) instructs the robot to move forward num steps.
+int[] getpos() returns the current cell the robot is at, as an array of length 2, [x, y].
+string getdir() returns the current direction of the robot, "north", "east", "south", or "west".

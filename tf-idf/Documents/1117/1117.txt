@@ -1,0 +1,4 @@
+you are given a string s. you can convert s to a
+palindrome
+by adding characters in front of it.
+return the shortest palindrome you can find by performing this transformation.

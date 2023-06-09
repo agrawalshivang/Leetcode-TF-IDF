@@ -1,0 +1,4 @@
+a string is good if there are no repeated characters.
+given a string s, return the number of good substrings of length three in s.
+note that if there are multiple occurrences of the same substring, every occurrence should be counted.
+a substring is a contiguous sequence of characters in a string.

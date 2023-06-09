@@ -1,0 +1,5 @@
+you are given a tree with n nodes numbered from 0 to n - 1 in the form of a parent array parent where parent[i] is the parent of ith node. the root of the tree is node 0. find the kth ancestor of a given node.
+the kth ancestor of a tree node is the kth node in the path from that node to the root node.
+implement the treeancestor class:
+treeancestor(int n, int[] parent) initializes the object with the number of nodes in the tree and the parent array.
+int getkthancestor(int node, int k) return the kth ancestor of the given node node. if there is no such ancestor, return -1.

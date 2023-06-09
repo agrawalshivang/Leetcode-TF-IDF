@@ -1,0 +1,16 @@
+sql schema
+table: employees
++-------------+----------+
+| column name | type     |
++-------------+----------+
+| employee_id | int      |
+| name        | varchar  |
+| reports_to  | int      |
+| age         | int      |
++-------------+----------+
+employee_id is the primary key for this table.
+this table contains information about the employees and the id of the manager they report to. some employees do not report to anyone (reports_to is null).
+for this problem, we will consider a manager an employee who has at least 1 other employee reporting to them.
+write an sql query to report the ids and the names of all managers, the number of employees who report directly to them, and the average age of the reports rounded to the nearest integer.
+return the result table ordered by employee_id.
+the query result format is in the following example.

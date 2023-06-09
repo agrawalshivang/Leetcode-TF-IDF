@@ -1,0 +1,23 @@
+you are given a personal information string s, representing either an email address or a phone number. return the masked personal information using the below rules.
+email address:
+an email address is:
+a name consisting of uppercase and lowercase english letters, followed by
+the '@' symbol, followed by
+the domain consisting of uppercase and lowercase english letters with a dot '.' somewhere in the middle (not the first or last character).
+to mask an email:
+the uppercase letters in the name and domain must be converted to lowercase letters.
+the middle letters of the name (i.e., all but the first and last letters) must be replaced by 5 asterisks "*****".
+phone number:
+a phone number is formatted as follows:
+the phone number contains 10-13 digits.
+the last 10 digits make up the local number.
+the remaining 0-3 digits, in the beginning, make up the country code.
+separation characters from the set {'+', '-', '(', ')', ' '} separate the above digits in some way.
+to mask a phone number:
+remove all separation characters.
+the masked phone number should have the form:
+"***-***-xxxx" if the country code has 0 digits.
+"+*-***-***-xxxx" if the country code has 1 digit.
+"+**-***-***-xxxx" if the country code has 2 digits.
+"+***-***-***-xxxx" if the country code has 3 digits.
+"xxxx" is the last 4 digits of the local number.

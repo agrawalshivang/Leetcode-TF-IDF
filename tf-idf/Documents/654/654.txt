@@ -1,0 +1,6 @@
+there is an undirected graph consisting of n nodes numbered from 0 to n - 1. you are given a 0-indexed integer array vals of length n where vals[i] denotes the value of the ith node.
+you are also given a 2d integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting nodes ai and bi.
+a star graph is a subgraph of the given graph having a center node containing 0 or more neighbors. in other words, it is a subset of edges of the given graph such that there exists a common node for all edges.
+the image below shows star graphs with 3 and 4 neighbors respectively, centered at the blue node.
+the star sum is the sum of the values of all the nodes present in the star graph.
+given an integer k, return the maximum star sum of a star graph containing at most k edges.

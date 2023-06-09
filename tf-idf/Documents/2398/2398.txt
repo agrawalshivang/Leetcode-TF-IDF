@@ -1,0 +1,5 @@
+you are given an integer array nums. the absolute sum of a subarray [numsl, numsl+1, ..., numsr-1, numsr] is abs(numsl + numsl+1 + ... + numsr-1 + numsr).
+return the maximum absolute sum of any (possibly empty) subarray of nums.
+note that abs(x) is defined as follows:
+if x is a negative integer, then abs(x) = -x.
+if x is a non-negative integer, then abs(x) = x.

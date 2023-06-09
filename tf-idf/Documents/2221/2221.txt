@@ -1,0 +1,9 @@
+you are given two strings of the same length s1 and s2 and a string basestr.
+we say s1[i] and s2[i] are equivalent characters.
+for example, if s1 = "abc" and s2 = "cde", then we have 'a' == 'c', 'b' == 'd', and 'c' == 'e'.
+equivalent characters follow the usual rules of any equivalence relation:
+reflexivity: 'a' == 'a'.
+symmetry: 'a' == 'b' implies 'b' == 'a'.
+transitivity: 'a' == 'b' and 'b' == 'c' implies 'a' == 'c'.
+for example, given the equivalency information from s1 = "abc" and s2 = "cde", "acd" and "aab" are equivalent strings of basestr = "eed", and "aab" is the lexicographically smallest equivalent string of basestr.
+return the lexicographically smallest equivalent string of basestr by using the equivalency information from s1 and s2.

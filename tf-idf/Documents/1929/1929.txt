@@ -1,0 +1,8 @@
+randomizedcollection is a data structure that contains a collection of numbers, possibly duplicates (i.e., a multiset). it should support inserting and removing specific elements and also reporting a random element.
+implement the randomizedcollection class:
+randomizedcollection() initializes the empty randomizedcollection object.
+bool insert(int val) inserts an item val into the multiset, even if the item is already present. returns true if the item is not present, false otherwise.
+bool remove(int val) removes an item val from the multiset if present. returns true if the item is present, false otherwise. note that if val has multiple occurrences in the multiset, we only remove one of them.
+int getrandom() returns a random element from the current multiset of elements. the probability of each element being returned is linearly related to the number of the same values the multiset contains.
+you must implement the functions of the class such that each function works on average o(1) time complexity.
+note: the test cases are generated such that getrandom will only be called if there is at least one item in the randomizedcollection.

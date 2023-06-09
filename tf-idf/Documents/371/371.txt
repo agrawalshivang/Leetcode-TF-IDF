@@ -1,0 +1,4 @@
+you are given a positive integer n, indicating that we initially have an n x n 0-indexed integer matrix mat filled with zeroes.
+you are also given a 2d integer array query. for each query[i] = [row1i, col1i, row2i, col2i], you should do the following operation:
+add 1 to every element in the submatrix with the top left corner (row1i, col1i) and the bottom right corner (row2i, col2i). that is, add 1 to mat[x][y] for all row1i <= x <= row2i and col1i <= y <= col2i.
+return the matrix mat after performing every query.

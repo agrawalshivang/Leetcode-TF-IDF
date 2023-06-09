@@ -1,0 +1,4 @@
+you are given an integer array nums and an integer threshold.
+find any subarray of nums of length k such that every element in the subarray is greater than threshold / k.
+return the size of any such subarray. if there is no such subarray, return -1.
+a subarray is a contiguous non-empty sequence of elements within an array.

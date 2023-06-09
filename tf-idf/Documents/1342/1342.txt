@@ -1,0 +1,5 @@
+write code that enhances all arrays such that you can call the array.groupby(fn) method on any array and it will return a grouped version of the array.
+a grouped array is an object where each key is the output of fn(arr[i]) and each value is an array containing all items in the original array with that key.
+the provided callback fn will accept an item in the array and return a string key.
+the order of each value list should be the order the items appear in the array. any order of keys is acceptable.
+please solve it without lodash's _.groupby function.

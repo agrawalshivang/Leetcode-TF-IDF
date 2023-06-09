@@ -1,0 +1,2 @@
+you are given the array paths, where paths[i] = [cityai, citybi] means there exists a direct path going from cityai to citybi. return the destination city, that is, the city without any path outgoing to another city.
+it is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.

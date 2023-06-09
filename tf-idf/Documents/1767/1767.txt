@@ -1,0 +1,3 @@
+given a non-negative integer x, return the square root of x rounded down to the nearest integer. the returned integer should be non-negative as well.
+you must not use any built-in exponent function or operator.
+for example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.

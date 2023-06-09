@@ -1,0 +1,13 @@
+sql schema
+table: logins
++----------------+----------+
+| column name    | type     |
++----------------+----------+
+| user_id        | int      |
+| time_stamp     | datetime |
++----------------+----------+
+(user_id, time_stamp) is the primary key for this table.
+each row contains information about the login time for the user with id user_id.
+write an sql query to report the latest login for all users in the year 2020. do not include the users who did not login in 2020.
+return the result table in any order.
+the query result format is in the following example.

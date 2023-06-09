@@ -1,0 +1,7 @@
+there is a room with n bulbs labeled from 1 to n that all are turned on initially, and four buttons on the wall. each of the four buttons has a different functionality where:
+button 1: flips the status of all the bulbs.
+button 2: flips the status of all the bulbs with even labels (i.e., 2, 4, ...).
+button 3: flips the status of all the bulbs with odd labels (i.e., 1, 3, ...).
+button 4: flips the status of all the bulbs with a label j = 3k + 1 where k = 0, 1, 2, ... (i.e., 1, 4, 7, 10, ...).
+you must make exactly presses button presses in total. for each press, you may pick any of the four buttons to press.
+given the two integers n and presses, return the number of different possible statuses after performing all presses button presses.

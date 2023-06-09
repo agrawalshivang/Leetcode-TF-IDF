@@ -1,0 +1,8 @@
+an attendance record for a student can be represented as a string where each character signifies whether the student was absent, late, or present on that day. the record only contains the following three characters:
+'a': absent.
+'l': late.
+'p': present.
+any student is eligible for an attendance award if they meet both of the following criteria:
+the student was absent ('a') for strictly fewer than 2 days total.
+the student was never late ('l') for 3 or more consecutive days.
+given an integer n, return the number of possible attendance records of length n that make a student eligible for an attendance award. the answer may be very large, so return it modulo 109 + 7.

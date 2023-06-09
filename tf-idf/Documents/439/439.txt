@@ -1,0 +1,5 @@
+you have observations of n + m 6-sided dice rolls with each face numbered from 1 to 6. n of the observations went missing, and you only have the observations of m rolls. fortunately, you have also calculated the average value of the n + m rolls.
+you are given an integer array rolls of length m where rolls[i] is the value of the ith observation. you are also given the two integers mean and n.
+return an array of length n containing the missing observations such that the average value of the n + m rolls is exactly mean. if there are multiple valid answers, return any of them. if no such array exists, return an empty array.
+the average value of a set of k numbers is the sum of the numbers divided by k.
+note that mean is an integer, so the sum of the n + m rolls should be divisible by n + m.

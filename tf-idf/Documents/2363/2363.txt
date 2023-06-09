@@ -1,0 +1,2 @@
+given an integer array queries and a positive integer intlength, return an array answer where answer[i] is either the queries[i]th smallest positive palindrome of length intlength or -1 if no such palindrome exists.
+a palindrome is a number that reads the same backwards and forwards. palindromes cannot have leading zeros.

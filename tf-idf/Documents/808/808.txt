@@ -1,0 +1,5 @@
+you are given an integer array nums and a positive integer k. you can choose any subsequence of the array and sum all of its elements together.
+we define the k-sum of the array as the kth largest subsequence sum that can be obtained (not necessarily distinct).
+return the k-sum of the array.
+a subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+note that the empty subsequence is considered to have a sum of 0.

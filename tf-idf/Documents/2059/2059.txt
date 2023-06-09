@@ -1,0 +1,5 @@
+we have two arrays arr1 and arr2 which are initially empty. you need to add positive integers to them such that they satisfy all the following conditions:
+arr1 contains uniquecnt1 distinct positive integers, each of which is not divisible by divisor1.
+arr2 contains uniquecnt2 distinct positive integers, each of which is not divisible by divisor2.
+no integer is present in both arr1 and arr2.
+given divisor1, divisor2, uniquecnt1, and uniquecnt2, return the minimum possible maximum integer that can be present in either array.

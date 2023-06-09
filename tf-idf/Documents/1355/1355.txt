@@ -1,0 +1,5 @@
+a k-booking happens when k events have some non-empty intersection (i.e., there is some time that is common to all k events.)
+you are given some events [starttime, endtime), after each given event, return an integer k representing the maximum k-booking between all the previous events.
+implement the mycalendarthree class:
+mycalendarthree() initializes the object.
+int book(int starttime, int endtime) returns an integer k representing the largest integer such that there exists a k-booking in the calendar.

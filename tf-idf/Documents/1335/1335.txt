@@ -1,0 +1,5 @@
+there exists an undirected and initially unrooted tree with n nodes indexed from 0 to n - 1. you are given the integer n and a 2d integer array edges of length n - 1, where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
+each node has an associated price. you are given an integer array price, where price[i] is the price of the ith node.
+the price sum of a given path is the sum of the prices of all nodes lying on that path.
+the tree can be rooted at any node root of your choice. the incurred cost after choosing root is the difference between the maximum and minimum price sum amongst all paths starting at root.
+return the maximum possible cost amongst all possible root choices.

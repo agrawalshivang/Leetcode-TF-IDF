@@ -1,0 +1,4 @@
+two strings, x and y, are considered similar if either they are identical or we can make them equivalent by swapping at most two letters (in distinct positions) within the string x.
+for example, "tars" and "rats" are similar (swapping at positions 0 and 2), and "rats" and "arts" are similar, but "star" is not similar to "tars", "rats", or "arts".
+together, these form two connected groups by similarity: {"tars", "rats", "arts"} and {"star"}.  notice that "tars" and "arts" are in the same group even though they are not similar.  formally, each group is such that a word is in the group if and only if it is similar to at least one other word in the group.
+we are given a list strs of strings where every string in strs is an anagram of every other string in strs. how many groups are there?

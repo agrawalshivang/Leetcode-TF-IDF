@@ -1,0 +1,7 @@
+you are given an integer array nums. you can choose exactly one index (0-indexed) and remove the element. notice that the index of the elements may change after the removal.
+for example, if nums = [6,1,7,4,1]:
+choosing to remove index 1 results in nums = [6,7,4,1].
+choosing to remove index 2 results in nums = [6,1,4,1].
+choosing to remove index 4 results in nums = [6,1,7,4].
+an array is fair if the sum of the odd-indexed values equals the sum of the even-indexed values.
+return the number of indices that you could choose such that after the removal, nums is fair.

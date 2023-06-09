@@ -1,0 +1,4 @@
+you are given a positive integer n.
+continuously replace n with the sum of its prime factors.
+note that if a prime factor divides n multiple times, it should be included in the sum as many times as it divides n.
+return the smallest value n will take on.

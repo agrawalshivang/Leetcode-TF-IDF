@@ -1,0 +1,3 @@
+you are given a 0-indexed 2d integer array pairs where pairs[i] = [starti, endi]. an arrangement of pairs is valid if for every index i where 1 <= i < pairs.length, we have endi-1 == starti.
+return any valid arrangement of pairs.
+note: the inputs will be generated such that there exists a valid arrangement of pairs.

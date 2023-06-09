@@ -1,0 +1,6 @@
+alice had a 0-indexed array arr consisting of n positive integers. she chose an arbitrary positive integer k and created two new 0-indexed integer arrays lower and higher in the following manner:
+lower[i] = arr[i] - k, for every index i where 0 <= i < n
+higher[i] = arr[i] + k, for every index i where 0 <= i < n
+unfortunately, alice lost all three arrays. however, she remembers the integers that were present in the arrays lower and higher, but not the array each integer belonged to. help alice and recover the original array.
+given an array nums consisting of 2n integers, where exactly n of the integers were present in lower and the remaining in higher, return the original array arr. in case the answer is not unique, return any valid array.
+note: the test cases are generated such that there exists at least one valid array arr.

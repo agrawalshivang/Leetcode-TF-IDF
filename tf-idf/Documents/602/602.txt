@@ -1,0 +1,6 @@
+there is a supermarket that is frequented by many customers. the products sold at the supermarket are represented as two parallel integer arrays products and prices, where the ith product has an id of products[i] and a price of prices[i].
+when a customer is paying, their bill is represented as two parallel integer arrays product and amount, where the jth product they purchased has an id of product[j], and amount[j] is how much of the product they bought. their subtotal is calculated as the sum of each amount[j] * (price of the jth product).
+the supermarket decided to have a sale. every nth customer paying for their groceries will be given a percentage discount. the discount amount is given by discount, where they will be given discount percent off their subtotal. more formally, if their subtotal is bill, then they would actually pay bill * ((100 - discount) / 100).
+implement the cashier class:
+cashier(int n, int discount, int[] products, int[] prices) initializes the object with n, the discount, and the products and their prices.
+double getbill(int[] product, int[] amount) returns the final total of the bill with the discount applied (if any). answers within 10-5 of the actual value will be accepted.

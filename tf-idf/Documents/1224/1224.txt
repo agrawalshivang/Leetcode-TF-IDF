@@ -1,0 +1,2 @@
+write a function that reverses a string. the input string is given as an array of characters s.
+you must do this by modifying the input array in-place with o(1) extra memory.

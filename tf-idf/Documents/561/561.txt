@@ -1,0 +1,3 @@
+you are given an array of intervals, where intervals[i] = [starti, endi] and each starti is unique.
+the right interval for an interval i is an interval j such that startj >= endi and startj is minimized. note that i may equal j.
+return an array of right interval indices for each interval i. if no right interval exists for interval i, then put -1 at index i.

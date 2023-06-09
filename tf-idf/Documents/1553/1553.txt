@@ -1,0 +1,4 @@
+let's define a function countuniquechars(s) that returns the number of unique characters on s.
+for example, calling countuniquechars(s) if s = "leetcode" then "l", "t", "c", "o", "d" are the unique characters since they appear only once in s, therefore countuniquechars(s) = 5.
+given a string s, return the sum of countuniquechars(t) where t is a substring of s. the test cases are generated such that the answer fits in a 32-bit integer.
+notice that some substrings can be repeated so in this case you have to count the repeated ones too.

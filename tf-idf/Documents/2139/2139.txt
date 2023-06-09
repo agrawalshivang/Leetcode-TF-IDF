@@ -1,0 +1,8 @@
+a boolean expression is an expression that evaluates to either true or false. it can be in one of the following shapes:
+'t' that evaluates to true.
+'f' that evaluates to false.
+'!(subexpr)' that evaluates to the logical not of the inner expression subexpr.
+'&(subexpr1, subexpr2, ..., subexprn)' that evaluates to the logical and of the inner expressions subexpr1, subexpr2, ..., subexprn where n >= 1.
+'|(subexpr1, subexpr2, ..., subexprn)' that evaluates to the logical or of the inner expressions subexpr1, subexpr2, ..., subexprn where n >= 1.
+given a string expression that represents a boolean expression, return the evaluation of that expression.
+it is guaranteed that the given expression is valid and follows the given rules.

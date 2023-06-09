@@ -1,0 +1,5 @@
+you have n flower seeds. every seed must be planted first before it can begin to grow, then bloom. planting a seed takes time and so does the growth of a seed. you are given two 0-indexed integer arrays planttime and growtime, of length n each:
+planttime[i] is the number of full days it takes you to plant the ith seed. every day, you can work on planting exactly one seed. you do not have to work on planting the same seed on consecutive days, but the planting of a seed is not complete until you have worked planttime[i] days on planting it in total.
+growtime[i] is the number of full days it takes the ith seed to grow after being completely planted. after the last day of its growth, the flower blooms and stays bloomed forever.
+from the beginning of day 0, you can plant the seeds in any order.
+return the earliest possible day where all seeds are blooming.

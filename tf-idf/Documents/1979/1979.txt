@@ -1,0 +1,7 @@
+according to wikipedia's article: "the game of life, also known simply as life, is a cellular automaton devised by the british mathematician john horton conway in 1970."
+the board is made up of an m x n grid of cells, where each cell has an initial state: live (represented by a 1) or dead (represented by a 0). each cell interacts with its eight neighbors (horizontal, vertical, diagonal) using the following four rules (taken from the above wikipedia article):
+any live cell with fewer than two live neighbors dies as if caused by under-population.
+any live cell with two or three live neighbors lives on to the next generation.
+any live cell with more than three live neighbors dies, as if by over-population.
+any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+the next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously. given the current state of the m x n grid board, return the next state.

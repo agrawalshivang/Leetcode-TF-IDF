@@ -1,0 +1,5 @@
+you are assigned to put some amount of boxes onto one truck. you are given a 2d array boxtypes, where boxtypes[i] = [numberofboxesi, numberofunitsperboxi]:
+numberofboxesi is the number of boxes of type i.
+numberofunitsperboxi is the number of units in each box of the type i.
+you are also given an integer trucksize, which is the maximum number of boxes that can be put on the truck. you can choose any boxes to put on the truck as long as the number of boxes does not exceed trucksize.
+return the maximum total number of units that can be put on the truck.

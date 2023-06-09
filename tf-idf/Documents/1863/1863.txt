@@ -1,0 +1,3 @@
+given a string s. in one step you can insert any character at any index of the string.
+return the minimum number of steps to make s palindrome.
+a palindrome string is one that reads the same backward as well as forward.

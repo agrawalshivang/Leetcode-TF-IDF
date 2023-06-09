@@ -1,0 +1,2 @@
+a ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. the width of such a ramp is j - i.
+given an integer array nums, return the maximum width of a ramp in nums. if there is no ramp in nums, return 0.

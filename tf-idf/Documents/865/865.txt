@@ -1,0 +1,6 @@
+a complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
+design an algorithm to insert a new node to a complete binary tree keeping it complete after the insertion.
+implement the cbtinserter class:
+cbtinserter(treenode root) initializes the data structure with the root of the complete binary tree.
+int insert(int v) inserts a treenode into the tree with value node.val == val so that the tree remains complete, and returns the value of the parent of the inserted treenode.
+treenode get_root() returns the root node of the tree.

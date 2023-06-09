@@ -1,0 +1,4 @@
+you are given an array target that consists of distinct integers and another integer array arr that can have duplicates.
+in one operation, you can insert any integer at any position in arr. for example, if arr = [1,4,1,2], you can add 3 in the middle and make it [1,4,3,1,2]. note that you can insert the integer at the very beginning or end of the array.
+return the minimum number of operations needed to make target a subsequence of arr.
+a subsequence of an array is a new array generated from the original array by deleting some elements (possibly none) without changing the remaining elements' relative order. for example, [2,7,4] is a subsequence of [4,2,3,7,2,1,4] (the underlined elements), while [2,4,2] is not.

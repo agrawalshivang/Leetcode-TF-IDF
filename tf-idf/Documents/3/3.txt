@@ -1,0 +1,3 @@
+you are given the string croakoffrogs, which represents a combination of the string "croak" from different frogs, that is, multiple frogs can croak at the same time, so multiple "croak" are mixed.
+return the minimum number of different frogs to finish all the croaks in the given string.
+a valid "croak" means a frog is printing five letters 'c', 'r', 'o', 'a', and 'k' sequentially. the frogs have to print all five letters to finish a croak. if the given string is not a combination of a valid "croak" return -1.

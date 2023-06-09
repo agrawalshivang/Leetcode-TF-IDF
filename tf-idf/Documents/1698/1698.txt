@@ -1,0 +1,13 @@
+sql schema
+table: person
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| id          | int     |
+| email       | varchar |
++-------------+---------+
+id is the primary key column for this table.
+each row of this table contains an email. the emails will not contain uppercase letters.
+write an sql query to delete all the duplicate emails, keeping only one unique email with the smallest id. note that you are supposed to write a delete statement and not a select one.
+after running your script, the answer shown is the person table. the driver will first compile and run your piece of code and then show the person table. the final order of the person table does not matter.
+the query result format is in the following example.

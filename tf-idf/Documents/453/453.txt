@@ -1,0 +1,7 @@
+given a single positive integer x, we will write an expression of the form x (op1) x (op2) x (op3) x ... where each operator op1, op2, etc. is either addition, subtraction, multiplication, or division (+, -, *, or /). for example, with x = 3, we might write 3 * 3 / 3 + 3 - 3 which is a value of 3.
+when writing such an expression, we adhere to the following conventions:
+the division operator (/) returns rational numbers.
+there are no parentheses placed anywhere.
+we use the usual order of operations: multiplication and division happen before addition and subtraction.
+it is not allowed to use the unary negation operator (-). for example, "x - x" is a valid expression as it only uses subtraction, but "-x + x" is not because it uses negation.
+we would like to write an expression with the least number of operators such that the expression equals the given target. return the least number of operators used.

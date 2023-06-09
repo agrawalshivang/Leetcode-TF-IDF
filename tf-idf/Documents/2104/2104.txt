@@ -1,0 +1,24 @@
+a binary matrix is a matrix in which all the elements are either 0 or 1.
+given quadtree1 and quadtree2. quadtree1 represents a n * n binary matrix and quadtree2 represents another n * n binary matrix.
+return a quad-tree representing the n * n binary matrix which is the result of logical bitwise or of the two binary matrixes represented by quadtree1 and quadtree2.
+notice that you can assign the value of a node to true or false when isleaf is false, and both are accepted in the answer.
+a quad-tree is a tree data structure in which each internal node has exactly four children. besides, each node has two attributes:
+val: true if the node represents a grid of 1's or false if the node represents a grid of 0's.
+isleaf: true if the node is leaf node on the tree or false if the node has the four children.
+class node {
+public boolean val;
+public boolean isleaf;
+public node topleft;
+public node topright;
+public node bottomleft;
+public node bottomright;
+}
+we can construct a quad-tree from a two-dimensional area using the following steps:
+if the current grid has the same value (i.e all 1's or all 0's) set isleaf true and set val to the value of the grid and set the four children to null and stop.
+if the current grid has different values, set isleaf to false and set val to any value and divide the current grid into four sub-grids as shown in the photo.
+recurse for each of the children with the proper sub-grid.
+if you want to know more about the quad-tree, you can refer to the wiki.
+quad-tree format:
+the input/output represents the serialized format of a quad-tree using level order traversal, where null signifies a path terminator where no node exists below.
+it is very similar to the serialization of the binary tree. the only difference is that the node is represented as a list [isleaf, val].
+if the value of isleaf or val is true we represent it as 1 in the list [isleaf, val] and if the value of isleaf or val is false we represent it as 0.

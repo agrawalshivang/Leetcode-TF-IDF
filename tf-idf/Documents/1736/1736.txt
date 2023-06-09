@@ -1,0 +1,5 @@
+there is a restaurant with a single chef. you are given an array customers, where customers[i] = [arrivali, timei]:
+arrivali is the arrival time of the ith customer. the arrival times are sorted in non-decreasing order.
+timei is the time needed to prepare the order of the ith customer.
+when a customer arrives, he gives the chef his order, and the chef starts preparing it once he is idle. the customer waits till the chef finishes preparing his order. the chef does not prepare food for more than one customer at a time. the chef prepares food for customers in the order they were given in the input.
+return the average waiting time of all customers. solutions within 10-5 from the actual answer are considered accepted.

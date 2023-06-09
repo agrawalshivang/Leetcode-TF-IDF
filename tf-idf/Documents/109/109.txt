@@ -1,0 +1,6 @@
+design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.
+implement the freqstack class:
+freqstack() constructs an empty frequency stack.
+void push(int val) pushes an integer val onto the top of the stack.
+int pop() removes and returns the most frequent element in the stack.
+if there is a tie for the most frequent element, the element closest to the stack's top is removed and returned.

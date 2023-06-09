@@ -1,0 +1,4 @@
+given two strings s and t, find the number of ways you can choose a non-empty substring of s and replace a single character by a different character such that the resulting substring is a substring of t. in other words, find the number of substrings in s that differ from some substring in t by exactly one character.
+for example, the underlined substrings in "computer" and "computation" only differ by the 'e'/'a', so this is a valid way.
+return the number of substrings that satisfy the condition above.
+a substring is a contiguous sequence of characters within a string.

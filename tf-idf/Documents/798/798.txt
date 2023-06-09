@@ -1,0 +1,4 @@
+given a string s, determine if it is valid.
+a string s is valid if, starting with an empty string t = "", you can transform t into s after performing the following operation any number of times:
+insert string "abc" into any position in t. more formally, t becomes tleft + "abc" + tright, where t == tleft + tright. note that tleft and tright may be empty.
+return true if s is a valid string, otherwise, return false.

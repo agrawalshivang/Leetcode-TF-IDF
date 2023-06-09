@@ -1,0 +1,6 @@
+given an integer array nums, return the number of and triples.
+an and triple is a triple of indices (i, j, k) such that:
+0 <= i < nums.length
+0 <= j < nums.length
+0 <= k < nums.length
+nums[i] & nums[j] & nums[k] == 0, where & represents the bitwise-and operator.

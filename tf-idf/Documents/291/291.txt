@@ -1,0 +1,2 @@
+you are given a 2d integer array, queries. for each queries[i], where queries[i] = [ni, ki], find the number of different ways you can place positive integers into an array of size ni such that the product of the integers is ki. as the number of ways may be too large, the answer to the ith query is the number of ways modulo 109 + 7.
+return an integer array answer where answer.length == queries.length, and answer[i] is the answer to the ith query.

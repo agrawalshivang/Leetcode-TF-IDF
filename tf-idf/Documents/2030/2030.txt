@@ -1,0 +1,24 @@
+sql schema
+table: project
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| project_id  | int     |
+| employee_id | int     |
++-------------+---------+
+(project_id, employee_id) is the primary key of this table.
+employee_id is a foreign key to employee table.
+each row of this table indicates that the employee with employee_id is working on the project with project_id.
+table: employee
++------------------+---------+
+| column name      | type    |
++------------------+---------+
+| employee_id      | int     |
+| name             | varchar |
+| experience_years | int     |
++------------------+---------+
+employee_id is the primary key of this table. it's guaranteed that experience_years is not null.
+each row of this table contains information about one employee.
+write an sql query that reports the average experience years of all the employees for each project, rounded to 2 digits.
+return the result table in any order.
+the query result format is in the following example.

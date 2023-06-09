@@ -1,0 +1,3 @@
+you are given a string s of lowercase english letters and a 2d integer array shifts where shifts[i] = [starti, endi, directioni]. for every i, shift the characters in s from the index starti to the index endi (inclusive) forward if directioni = 1, or shift the characters backward if directioni = 0.
+shifting a character forward means replacing it with the next letter in the alphabet (wrapping around so that 'z' becomes 'a'). similarly, shifting a character backward means replacing it with the previous letter in the alphabet (wrapping around so that 'a' becomes 'z').
+return the final string after all such shifts to s are applied.

@@ -1,0 +1,3 @@
+you are given an array of positive integers beans, where each integer represents the number of magic beans found in a particular magic bag.
+remove any number of beans (possibly none) from each bag such that the number of beans in each remaining non-empty bag (still containing at least one bean) is equal. once a bean has been removed from a bag, you are not allowed to return it to any of the bags.
+return the minimum number of magic beans that you have to remove.

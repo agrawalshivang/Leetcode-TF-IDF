@@ -1,0 +1,8 @@
+there are n friends that are playing a game. the friends are sitting in a circle and are numbered from 1 to n in clockwise order. more formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 <= i < n, and moving clockwise from the nth friend brings you to the 1st friend.
+the rules of the game are as follows:
+start at the 1st friend.
+count the next k friends in the clockwise direction including the friend you started at. the counting wraps around the circle and may count some friends more than once.
+the last friend you counted leaves the circle and loses the game.
+if there is still more than one friend in the circle, go back to step 2 starting from the friend immediately clockwise of the friend who just lost and repeat.
+else, the last friend in the circle wins the game.
+given the number of friends, n, and an integer k, return the winner of the game.

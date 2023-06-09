@@ -1,0 +1,3 @@
+there is a car with capacity empty seats. the vehicle only drives east (i.e., it cannot turn around and drive west).
+you are given the integer capacity and an array trips where trips[i] = [numpassengersi, fromi, toi] indicates that the ith trip has numpassengersi passengers and the locations to pick them up and drop them off are fromi and toi respectively. the locations are given as the number of kilometers due east from the car's initial location.
+return true if it is possible to pick up and drop off all passengers for all the given trips, or false otherwise.

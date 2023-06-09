@@ -1,0 +1,4 @@
+given a m x n binary matrix mat. in one step, you can choose one cell and flip it and all the four neighbors of it if they exist (flip is changing 1 to 0 and 0 to 1). a pair of cells are called neighbors if they share one edge.
+return the minimum number of steps required to convert mat to a zero matrix or -1 if you cannot.
+a binary matrix is a matrix with all cells equal to 0 or 1 only.
+a zero matrix is a matrix with all cells equal to 0.

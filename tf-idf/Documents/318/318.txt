@@ -1,0 +1,6 @@
+there are n oranges in the kitchen and you decided to eat some of these oranges every day as follows:
+eat one orange.
+if the number of remaining oranges n is divisible by 2 then you can eat n / 2 oranges.
+if the number of remaining oranges n is divisible by 3 then you can eat 2 * (n / 3) oranges.
+you can only choose one of the actions per day.
+given the integer n, return the minimum number of days to eat n oranges.

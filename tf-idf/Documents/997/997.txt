@@ -1,0 +1,4 @@
+you are given a positive integer array grades which represents the grades of students in a university. you would like to enter all these students into a competition in ordered non-empty groups, such that the ordering meets the following conditions:
+the sum of the grades of students in the ith group is less than the sum of the grades of students in the (i + 1)th group, for all groups (except the last).
+the total number of students in the ith group is less than the total number of students in the (i + 1)th group, for all groups (except the last).
+return the maximum number of groups that can be formed.

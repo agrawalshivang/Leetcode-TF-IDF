@@ -1,0 +1,6 @@
+given a 2d grid of size m x n and an integer k. you need to shift the grid k times.
+in one shift operation:
+element at grid[i][j] moves to grid[i][j + 1].
+element at grid[i][n - 1] moves to grid[i + 1][0].
+element at grid[m - 1][n - 1] moves to grid[0][0].
+return the 2d grid after applying shift operation k times.

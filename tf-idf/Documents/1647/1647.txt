@@ -1,0 +1,5 @@
+there is an m x n grid, where (0, 0) is the top-left cell and (m - 1, n - 1) is the bottom-right cell. you are given an integer array startpos where startpos = [startrow, startcol] indicates that initially, a robot is at the cell (startrow, startcol). you are also given an integer array homepos where homepos = [homerow, homecol] indicates that its home is at the cell (homerow, homecol).
+the robot needs to go to its home. it can move one cell in four directions: left, right, up, or down, and it can not move outside the boundary. every move incurs some cost. you are further given two 0-indexed integer arrays: rowcosts of length m and colcosts of length n.
+if the robot moves up or down into a cell whose row is r, then this move costs rowcosts[r].
+if the robot moves left or right into a cell whose column is c, then this move costs colcosts[c].
+return the minimum total cost for this robot to return home.

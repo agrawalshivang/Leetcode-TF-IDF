@@ -1,0 +1,5 @@
+there exists an infinitely large two-dimensional grid of uncolored unit cells. you are given a positive integer n, indicating that you must do the following routine for n minutes:
+at the first minute, color any arbitrary unit cell blue.
+every minute thereafter, color blue every uncolored cell that touches a blue cell.
+below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.
+return the number of colored cells at the end of n minutes.

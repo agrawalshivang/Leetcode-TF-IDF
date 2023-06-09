@@ -1,0 +1,3 @@
+given two integer arrays starttime and endtime and given an integer querytime.
+the ith student started doing their homework at the time starttime[i] and finished it at time endtime[i].
+return the number of students doing their homework at time querytime. more formally, return the number of students where querytime lays in the interval [starttime[i], endtime[i]] inclusive.

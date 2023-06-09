@@ -1,0 +1,8 @@
+you are given a string s, which contains stars *.
+in one operation, you can:
+choose a star in s.
+remove the closest non-star character to its left, as well as remove the star itself.
+return the string after all stars have been removed.
+note:
+the input will be generated such that the operation is always possible.
+it can be shown that the resulting string will always be unique.

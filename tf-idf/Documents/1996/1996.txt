@@ -1,0 +1,3 @@
+you are given an alphanumeric string s. (alphanumeric string is a string consisting of lowercase english letters and digits).
+you have to find a permutation of the string where no letter is followed by another letter and no digit is followed by another digit. that is, no two adjacent characters have the same type.
+return the reformatted string or return an empty string if it is impossible to reformat the string.

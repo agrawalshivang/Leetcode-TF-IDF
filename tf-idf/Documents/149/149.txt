@@ -1,0 +1,15 @@
+sql schema
+table: products
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| product_id  | int     |
+| low_fats    | enum    |
+| recyclable  | enum    |
++-------------+---------+
+product_id is the primary key for this table.
+low_fats is an enum of type ('y', 'n') where 'y' means this product is low fat and 'n' means it is not.
+recyclable is an enum of types ('y', 'n') where 'y' means this product is recyclable and 'n' means it is not.
+write an sql query to find the ids of products that are both low fat and recyclable.
+return the result table in any order.
+the query result format is in the following example.

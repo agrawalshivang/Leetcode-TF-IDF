@@ -1,0 +1,5 @@
+you are given a 0-indexed array nums of length n, consisting of non-negative integers. for each index i from 0 to n - 1, you must determine the size of the minimum sized non-empty subarray of nums starting at i (inclusive) that has the maximum possible bitwise or.
+in other words, let bij be the bitwise or of the subarray nums[i...j]. you need to find the smallest subarray starting at i, such that bitwise or of this subarray is equal to max(bik) where i <= k <= n - 1.
+the bitwise or of an array is the bitwise or of all the numbers in it.
+return an integer array answer of size n where answer[i] is the length of the minimum sized subarray starting at i with maximum bitwise or.
+a subarray is a contiguous non-empty sequence of elements within an array.

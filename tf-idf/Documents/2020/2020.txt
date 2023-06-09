@@ -1,0 +1,5 @@
+you are given the head of a singly linked-list. the list can be represented as:
+l0 → l1 → … → ln - 1 → ln
+reorder the list to be on the following form:
+l0 → ln → l1 → ln - 1 → l2 → ln - 2 → …
+you may not modify the values in the list's nodes. only nodes themselves may be changed.

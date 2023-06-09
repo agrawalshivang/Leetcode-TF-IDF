@@ -1,0 +1,4 @@
+a virus is spreading rapidly, and your task is to quarantine the infected area by installing walls.
+the world is modeled as an m x n binary grid isinfected, where isinfected[i][j] == 0 represents uninfected cells, and isinfected[i][j] == 1 represents cells contaminated with the virus. a wall (and only one wall) can be installed between any two 4-directionally adjacent cells, on the shared boundary.
+every night, the virus spreads to all neighboring cells in all four directions unless blocked by a wall. resources are limited. each day, you can install walls around only one region (i.e., the affected area (continuous block of infected cells) that threatens the most uninfected cells the following night). there will never be a tie.
+return the number of walls used to quarantine all the infected regions. if the world will become fully infected, return the number of walls used.

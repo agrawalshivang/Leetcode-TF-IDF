@@ -1,0 +1,7 @@
+you are given a (0-indexed) array of positive integers candiescount where candiescount[i] represents the number of candies of the ith type you have. you are also given a 2d array queries where queries[i] = [favoritetypei, favoritedayi, dailycapi].
+you play a game with the following rules:
+you start eating candies on day 0.
+you cannot eat any candy of type i unless you have eaten all candies of type i - 1.
+you must eat at least one candy per day until you have eaten all the candies.
+construct a boolean array answer such that answer.length == queries.length and answer[i] is true if you can eat a candy of type favoritetypei on day favoritedayi without eating more than dailycapi candies on any day, and false otherwise. note that you can eat different types of candy on the same day, provided that you follow rule 2.
+return the constructed array answer.

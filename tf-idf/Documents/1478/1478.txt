@@ -1,0 +1,5 @@
+you are given a 0-indexed integer array nums of length n.
+you can perform the following operation as many times as you want:
+pick an index i that you haven’t picked before, and pick a prime p strictly less than nums[i], then subtract p from nums[i].
+return true if you can make nums a strictly increasing array using the above operation and false otherwise.
+a strictly increasing array is an array whose each element is strictly greater than its preceding element.

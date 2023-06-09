@@ -1,0 +1,2 @@
+given an asyncronous function fn and a time t in milliseconds, return a new time limited version of the input function.
+a time limited function is a function that is identical to the original unless it takes longer than t milliseconds to fullfill. in that case, it will reject with "time limit exceeded".  note that it should reject with a string, not an error.

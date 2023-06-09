@@ -1,0 +1,8 @@
+given an empty set of intervals, implement a data structure that can:
+add an interval to the set of intervals.
+count the number of integers that are present in at least one interval.
+implement the countintervals class:
+countintervals() initializes the object with an empty set of intervals.
+void add(int left, int right) adds the interval [left, right] to the set of intervals.
+int count() returns the number of integers that are present in at least one interval.
+note that an interval [left, right] denotes all the integers x where left <= x <= right.

@@ -1,0 +1,16 @@
+sql schema
+table: dailysales
++-------------+---------+
+| column name | type    |
++-------------+---------+
+| date_id     | date    |
+| make_name   | varchar |
+| lead_id     | int     |
+| partner_id  | int     |
++-------------+---------+
+this table does not have a primary key.
+this table contains the date and the name of the product sold and the ids of the lead and partner it was sold to.
+the name consists of only lowercase english letters.
+write an sql query that will, for each date_id and make_name, return the number of distinct lead_id's and distinct partner_id's.
+return the result table in any order.
+the query result format is in the following example.

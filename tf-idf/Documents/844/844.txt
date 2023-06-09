@@ -1,0 +1,10 @@
+a parentheses string is a non-empty string consisting only of '(' and ')'. it is valid if any of the following conditions is true:
+it is ().
+it can be written as ab (a concatenated with b), where a and b are valid parentheses strings.
+it can be written as (a), where a is a valid parentheses string.
+you are given an m x n matrix of parentheses grid. a valid parentheses string path in the grid is a path satisfying all of the following conditions:
+the path starts from the upper left cell (0, 0).
+the path ends at the bottom-right cell (m - 1, n - 1).
+the path only ever moves down or right.
+the resulting parentheses string formed by the path is valid.
+return true if there exists a valid parentheses string path in the grid. otherwise, return false.

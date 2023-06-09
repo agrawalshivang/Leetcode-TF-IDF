@@ -1,0 +1,5 @@
+a web developer needs to know how to design a web page's size. so, given a specific rectangular web page’s area, your job by now is to design a rectangular web page, whose length l and width w satisfy the following requirements:
+the area of the rectangular web page you designed must equal to the given target area.
+the width w should not be larger than the length l, which means l >= w.
+the difference between length l and width w should be as small as possible.
+return an array [l, w] where l and w are the length and width of the web page you designed in sequence.

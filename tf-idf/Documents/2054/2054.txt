@@ -1,0 +1,6 @@
+you are given an integer array nums. you need to create a 2d array from nums satisfying the following conditions:
+the 2d array should contain only the elements of the array nums.
+each row in the 2d array contains distinct integers.
+the number of rows in the 2d array should be minimal.
+return the resulting array. if there are multiple answers, return any of them.
+note that the 2d array can have a different number of elements on each row.

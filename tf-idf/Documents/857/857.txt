@@ -1,0 +1,4 @@
+the fibonacci numbers, commonly denoted f(n) form a sequence, called the fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. that is,
+f(0) = 0, f(1) = 1
+f(n) = f(n - 1) + f(n - 2), for n > 1.
+given n, calculate f(n).

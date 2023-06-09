@@ -1,0 +1,4 @@
+you are given a 0-indexed 2d integer array nums. initially, your score is 0. perform the following operations until the matrix becomes empty:
+from each row in the matrix, select the largest number and remove it. in the case of a tie, it does not matter which number is chosen.
+identify the highest number amongst all those removed in step 1. add that number to your score.
+return the final score.

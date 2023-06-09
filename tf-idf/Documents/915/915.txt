@@ -1,0 +1,7 @@
+you are given a positive integer n representing n cities numbered from 1 to n. you are also given a 2d array roads where roads[i] = [ai, bi, distancei] indicates that there is a bidirectional road between cities ai and bi with a distance equal to distancei. the cities graph is not necessarily connected.
+the score of a path between two cities is defined as the minimum distance of a road in this path.
+return the minimum possible score of a path between cities 1 and n.
+note:
+a path is a sequence of roads between two cities.
+it is allowed for a path to contain the same road multiple times, and you can visit cities 1 and n multiple times along the path.
+the test cases are generated such that there is at least one path between 1 and n.

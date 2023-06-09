@@ -1,0 +1,4 @@
+design a parking system for a parking lot. the parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
+implement the parkingsystem class:
+parkingsystem(int big, int medium, int small) initializes object of the parkingsystem class. the number of slots for each parking space are given as part of the constructor.
+bool addcar(int cartype) checks whether there is a parking space of cartype for the car that wants to get into the parking lot. cartype can be of three kinds: big, medium, or small, which are represented by 1, 2, and 3 respectively. a car can only park in a parking space of its cartype. if there is no space available, return false, else park the car in that size space and return true.

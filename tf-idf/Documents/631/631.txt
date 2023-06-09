@@ -1,0 +1,4 @@
+given a string licenseplate and an array of strings words, find the shortest completing word in words.
+a completing word is a word that contains all the letters in licenseplate. ignore numbers and spaces in licenseplate, and treat letters as case insensitive. if a letter appears more than once in licenseplate, then it must appear in the word the same number of times or more.
+for example, if licenseplate = "abc 12c", then it contains letters 'a', 'b' (ignoring case), and 'c' twice. possible completing words are "abccdef", "caaacab", and "cbca".
+return the shortest completing word in words. it is guaranteed an answer exists. if there are multiple shortest completing words, return the first one that occurs in words.

@@ -1,0 +1,5 @@
+there are n cities numbered from 1 to n. you are given an array edges of size n-1, where edges[i] = [ui, vi] represents a bidirectional edge between cities ui and vi. there exists a unique path between each pair of cities. in other words, the cities form a tree.
+a subtree is a subset of cities where every city is reachable from every other city in the subset, where the path between each pair passes through only the cities from the subset. two subtrees are different if there is a city in one subtree that is not present in the other.
+for each d from 1 to n-1, find the number of subtrees in which the maximum distance between any two cities in the subtree is equal to d.
+return an array of size n-1 where the dth element (1-indexed) is the number of subtrees in which the maximum distance between any two cities is equal to d.
+notice that the distance between the two cities is the number of edges in the path between them.

@@ -1,0 +1,5 @@
+you are given an array nums consisting of positive integers.
+you are also given an integer array queries of size m. for the ith query, you want to make all of the elements of nums equal to queries[i]. you can perform the following operation on the array any number of times:
+increase or decrease an element of the array by 1.
+return an array answer of size m where answer[i] is the minimum number of operations to make all elements of nums equal to queries[i].
+note that after each query the array is reset to its original state.

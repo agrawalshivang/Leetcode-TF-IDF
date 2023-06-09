@@ -1,0 +1,15 @@
+sql schema
+table: stadium
++---------------+---------+
+| column name   | type    |
++---------------+---------+
+| id            | int     |
+| visit_date    | date    |
+| people        | int     |
++---------------+---------+
+visit_date is the primary key for this table.
+each row of this table contains the visit date and visit id to the stadium with the number of people during the visit.
+no two rows will have the same visit_date, and as the id increases, the dates increase as well.
+write an sql query to display the records with three or more rows with consecutive id's, and the number of people is greater than or equal to 100 for each.
+return the result table ordered by visit_date in ascending order.
+the query result format is in the following example.

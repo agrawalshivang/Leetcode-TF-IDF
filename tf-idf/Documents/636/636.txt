@@ -1,0 +1,2 @@
+you are given an integer array nums of 2 * n integers. you need to partition nums into two arrays of length n to minimize the absolute difference of the sums of the arrays. to partition nums, put each element of nums into one of the two arrays.
+return the minimum possible absolute difference.

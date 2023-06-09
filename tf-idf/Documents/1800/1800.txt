@@ -1,0 +1,8 @@
+given an array of strings words and a width maxwidth, format the text such that each line has exactly maxwidth characters and is fully (left and right) justified.
+you should pack your words in a greedy approach; that is, pack as many words as you can in each line. pad extra spaces ' ' when necessary so that each line has exactly maxwidth characters.
+extra spaces between words should be distributed as evenly as possible. if the number of spaces on a line does not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
+for the last line of text, it should be left-justified, and no extra space is inserted between words.
+note:
+a word is defined as a character sequence consisting of non-space characters only.
+each word's length is guaranteed to be greater than 0 and not exceed maxwidth.
+the input array words contains at least one word.

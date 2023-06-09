@@ -1,0 +1,1 @@
+given an integer array nums, return the sum of divisors of the integers in that array that have exactly four divisors. if there is no such integer in the array, return 0.

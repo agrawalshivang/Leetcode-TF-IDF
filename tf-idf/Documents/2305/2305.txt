@@ -1,0 +1,2 @@
+you are given an integer array matchsticks where matchsticks[i] is the length of the ith matchstick. you want to use all the matchsticks to make one square. you should not break any stick, but you can link them up, and each matchstick must be used exactly one time.
+return true if you can make this square and false otherwise.

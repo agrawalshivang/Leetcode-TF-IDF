@@ -1,0 +1,4 @@
+you are given a string s and array queries where queries[i] = [lefti, righti, ki]. we may rearrange the substring s[lefti...righti] for each query and then choose up to ki of them to replace with any lowercase english letter.
+if the substring is possible to be a palindrome string after the operations above, the result of the query is true. otherwise, the result is false.
+return a boolean array answer where answer[i] is the result of the ith query queries[i].
+note that each letter is counted individually for replacement, so if, for example s[lefti...righti] = "aaa", and ki = 2, we can only replace two of the letters. also, note that no query modifies the initial string s.

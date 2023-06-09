@@ -1,0 +1,9 @@
+you are given an array of unique strings words where words[i] is six letters long. one word of words was chosen as a secret word.
+you are also given the helper object master. you may call master.guess(word) where word is a six-letter-long string, and it must be from words. master.guess(word) returns:
+-1 if word is not from words, or
+an integer representing the number of exact matches (value and position) of your guess to the secret word.
+there is a parameter allowedguesses for each test case where allowedguesses is the maximum number of times you can call master.guess(word).
+for each test case, you should call master.guess with the secret word without exceeding the maximum number of allowed guesses. you will get:
+"either you took too many guesses, or you did not find the secret word." if you called master.guess more than allowedguesses times or if you did not call master.guess with the secret word, or
+"you guessed the secret word correctly." if you called master.guess with the secret word with the number of calls to master.guess less than or equal to allowedguesses.
+the test cases are generated such that you can guess the secret word with a reasonable strategy (other than using the bruteforce method).

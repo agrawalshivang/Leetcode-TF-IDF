@@ -1,0 +1,3 @@
+you are given an array of strings nums and an integer k. each string in nums represents an integer without leading zeros.
+return the string that represents the kth largest integer in nums.
+note: duplicate numbers should be counted distinctly. for example, if nums is ["1","2","2"], "2" is the first largest integer, "2" is the second-largest integer, and "1" is the third-largest integer.
