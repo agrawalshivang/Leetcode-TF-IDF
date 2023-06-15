@@ -24,7 +24,7 @@ documents_text = []
 
 
 def load_documents():
-    with open("./tf-idf/documents.txt", 'r') as f:
+    with open("./tf-idf/documents.txt", 'r',encoding="utf-8") as f:
         documents = f.readlines()
     documents = [document.strip().split() for document in documents]
 
