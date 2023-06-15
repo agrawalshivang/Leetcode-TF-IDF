@@ -4,13 +4,20 @@ from flask import Flask,render_template,request,redirect
 
 import math
 
-
+import chardet
+def find_encoding(fname):
+    r_file=open(fname,'rb').read()
+    result=chardet.detect(r_file)
+    return result["encoding"]
 def load_vocab():
     vocab = {}
-    with open("./tf-idf/vocab.txt", 'r', encoding="utf-8") as f:
+    my_encoding=find_encoding("./tf-idf/vocab.txt")
+    with open("./tf-idf/vocab.txt", 'r', encoding=my_encoding) as f:
         vocab_terms = f.readlines()
 
-    with open("./tf-idf/idf-values.txt", 'r', encoding="utf-8") as f:
+    my_encoding=find_encoding("./tf-idf/idf-values.txt")
+
+    with open("./tf-idf/idf-values.txt", 'r', encoding=my_encoding) as f:
         idf_terms = f.readlines()
 
     for (i, v) in zip(vocab_terms, idf_terms):
@@ -24,7 +31,8 @@ documents_text = []
 
 
 def load_documents():
-    with open("./tf-idf/documents.txt", 'r',encoding="utf-8") as f:
+    my_encoding=find_encoding("./tf-idf/documents.txt")
+    with open("./tf-idf/documents.txt", 'r',encoding=my_encoding) as f:
         documents = f.readlines()
     documents = [document.strip().split() for document in documents]
 
