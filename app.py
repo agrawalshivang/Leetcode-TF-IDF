@@ -56,7 +56,8 @@ def load_links():
     return link
 
 def load_headings():
-    with open("./Qdata/index.txt") as f:
+    my_enc=find_encoding("./Qdata/index.txt")
+    with open("./Qdata/index.txt",encoding=my_enc) as f:
        head=f.readlines()
     return head
 
