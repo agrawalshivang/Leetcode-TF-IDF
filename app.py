@@ -161,7 +161,15 @@ query=""
 @app.route('/',methods=['GET'])
 def home():
     global all_questions,flag,query,total,quant
-    return render_template("index.html",questions=all_questions,query=query,total=total,quant=quant)
+    questions=all_questions
+    all_questions=[]
+    total_local=total
+    total=0
+    quant_local=quant
+    quant=0
+    query_local=query
+    query=""
+    return render_template("index.html",questions=questions,query=query_local,total=total_local,quant=quant_local)
 
 @app.route('/',methods=['POST'])
 def render_questions():
